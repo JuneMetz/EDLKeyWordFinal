@@ -1,0 +1,26 @@
+/* reading mode */
+body {
+  --embed-background: inherit;
+  --embed-border-left: transparent;
+  --embed-border-start: transparent;
+  --embed-padding: 0 0 0 0;
+  --embed-font-style: inherit;
+}
+/* source view and live preview */
+body {
+  --embed-background: inherit;
+  --embed-border-left: transparent;
+  --embed-border-start: transparent;
+  --embed-padding: 0 0 0 0;
+  --embed-font-style: inherit;
+}
+
+@media print {
+  body {
+    --embed-background: inherit;
+    --embed-border-left: transparent;
+    --embed-border-start: transparent;
+    --embed-padding: 0 0 0 0;
+    --embed-font-style: inherit;
+  }
+}

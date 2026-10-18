@@ -1,0 +1,10 @@
+.markdown-source-view img {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+	margin-inline: auto !important;
+}
+    
+ .markdown-source-view.mod-cm6 .cm-content > * {
+        margin: 0 auto !important;
+}

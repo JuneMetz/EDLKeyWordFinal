@@ -1,0 +1,4 @@
+/* hide path's with __before and ending with__ */
+[class~="nav-folder-title"][data-path^="__"][data-path$="__"] {
+  display: none;
+}

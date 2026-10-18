@@ -1,0 +1,72 @@
+/* @settings
+name: Graph Nodes Tweak
+id: graph-node-tweak
+settings:
+  -
+    id: color-fill
+    title: Fill color
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#f2f3f5ff'
+    default-dark: '#161616ff'
+  -
+    id: color-circle
+    title: Circle color
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#2e3338ff'
+    default-dark: '#dcdddeff'
+  -
+    id: color-line
+    title: Line color
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#ddddddff'
+    default-dark: '#333333ff'
+  -
+    id: color-text
+    title: Text color
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#2e3338ff'
+    default-dark: '#dcdddeff'
+  -
+    id: color-fill-highlight
+    title: Fill highlight color
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#7b6cd9ff'
+    default-dark: '#483699ff'
+  -
+    id: color-line-highlight
+    title: Line highlight color
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#7b6cd9ff'
+    default-dark: '#483699ff'
+*/
+
+.graph-view.color-fill {
+  color: var(--color-fill);
+}
+.graph-view.color-circle {
+  color: var(--color-circle);
+}
+.graph-view.color-line {
+  color: var(--color-line);
+}
+.graph-view.color-text {
+  color: var(--color-text);
+}
+.graph-view.color-fill-highlight {
+  color: var(--color-fill-highlight);
+}
+.graph-view.color-line-highlight {
+  color: var(--color-line-highlight);
+}

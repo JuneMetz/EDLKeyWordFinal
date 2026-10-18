@@ -1,0 +1,53 @@
+/* @settings
+name: Figures Tweak
+id: figures-tweak
+settings:
+  - 
+    id: f-size
+    title: Font size
+    type: variable-number-slider
+    description: Font size of caption in percent
+    default: 90
+    min: 40
+    max: 200
+    step: 1
+    format: "%"
+  -
+    id: ln-height
+    title: Line height
+    type: variable-number-slider
+    description: Caption line height
+    default: 1.4
+    min: 0
+    max: 2.8
+    step: 0.05
+  -
+    id: txt-color
+    title: Text color
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#999999'
+    default-dark: '#666666'
+*/
+
+/* reading mode */
+.image-embed[alt]:after {
+  content: attr(alt);
+  display: block;
+  margin: 0.2rem 1rem 1rem 1rem;
+  font-size: var(--f-size);
+  line-height: var(--ln-height);
+  color: var(--txt-color);
+  text-align: center !important;
+}
+/* source view and live preview */
+.image-embed[alt]:after {
+  content: attr(alt);
+  display: block;
+  margin: 0.2rem 1rem 1rem 1rem;
+  font-size: var(--f-size);
+  line-height: var(--ln-height);
+  color: var(--txt-color);
+  text-align: center !important;
+}

@@ -1,0 +1,10 @@
+/* reading mode */
+.markdown-preview-view .markdown-embed-content, 
+.markdown-preview-view .markdown-embed-content>.markdown-preview-view {
+  max-height: unset;
+}
+/* source view and live preview */
+.markdown-preview-view .markdown-embed-content, 
+.markdown-preview-view .markdown-embed-content>.markdown-preview-view {
+  max-height: unset;
+}

@@ -1,1 +1,16 @@
-{}
+{
+  "enabledCssSnippets": [
+    "__latex_theme",
+    "centered_tables_tweak",
+    "chest_of_drawers_tweak",
+    "clutter_tweak",
+    "dashboard_tweak",
+    "figures_tweak",
+    "graph_nodes_tweak",
+    "image_centering_tweak",
+    "imbed_tweak",
+    "loading_screen_tweak",
+    "PDF_export_tweak",
+    "scrolless_imbeds_tweak"
+  ]
+}
