@@ -1,0 +1,29 @@
+# Ignore volatile UI-related state
+.obsidian/vault-stats.json
+.obsidian/workspace.json
+.obsidian/app.json
+.obsidian/plugins/**/main.js
+.obsidian/plugins/**/data.json
+
+# Ignore system and editor files (more specific to what I do)
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+# Ignore Windows files in Images folder
+__Images__/desktop.ini
+
+# Ignore Smart Environment folder
+.smart-env
+
+
+
+# Ignore Smart Environment folder
+.smart-env
+
+
+
+# Ignore Smart Environment folder
+.smart-env
