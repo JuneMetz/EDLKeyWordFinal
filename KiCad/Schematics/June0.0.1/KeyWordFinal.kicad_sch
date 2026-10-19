@@ -8315,7 +8315,7 @@
 	)
 	(text "ADC input + and -"
 		(exclude_from_sim no)
-		(at 149.86 129.794 0)
+		(at 150.876 122.682 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8325,7 +8325,7 @@
 	)
 	(text "D+ should be left disconnected \nto set current limit to 100mA"
 		(exclude_from_sim no)
-		(at 40.894 24.384 0)
+		(at 41.656 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8335,7 +8335,7 @@
 	)
 	(text "1 extra GPIO, maybe \ndetection LED?"
 		(exclude_from_sim no)
-		(at 186.182 155.448 0)
+		(at 188.722 148.336 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8350,10 +8350,22 @@
 		(uuid "0c82b609-6a1c-4fa5-91f9-bd252f4da371")
 	)
 	(junction
+		(at 29.21 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16180460-581c-4c82-9a37-fa8f8a1ba28b")
+	)
+	(junction
 		(at 205.74 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1988a594-31cf-43b8-8a9c-74471018b136")
+	)
+	(junction
+		(at 142.24 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21d66056-fd6c-4e8a-b99d-b6347607b725")
 	)
 	(junction
 		(at 36.83 127)
@@ -8368,6 +8380,18 @@
 		(uuid "2a2d7773-951a-4e95-bd47-767230e8ec2e")
 	)
 	(junction
+		(at 124.46 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "304572ab-6b99-480d-835f-442dbf7210c9")
+	)
+	(junction
+		(at 85.09 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31ff310b-0364-4149-8325-b5bd76efda79")
+	)
+	(junction
 		(at 201.93 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8378,6 +8402,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3724896b-0dad-4b41-ba1e-2d3b2110e42c")
+	)
+	(junction
+		(at 152.4 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e7cb514-d7e9-4210-815d-6ea750ed1943")
 	)
 	(junction
 		(at 270.51 71.12)
@@ -8506,6 +8536,12 @@
 		(uuid "b3faed32-6ff3-4dc4-9813-4c2cf02534d6")
 	)
 	(junction
+		(at 96.52 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b47e795b-66cc-49dd-8bc4-0dc7ad976ee2")
+	)
+	(junction
 		(at 251.46 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8528,6 +8564,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb6ec091-e74f-4aa2-8b69-b3059c43bf9a")
+	)
+	(junction
+		(at 10.16 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbcec66c-2521-4feb-a7e0-d9764fa99888")
+	)
+	(junction
+		(at 163.83 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0a1b3ce-d438-4717-a9cc-7fd9d718cd7f")
 	)
 	(junction
 		(at 38.1 55.88)
@@ -8572,6 +8620,12 @@
 		(uuid "cb0c162c-6477-4271-8340-010ece7cd381")
 	)
 	(junction
+		(at 114.3 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf184547-f42a-431a-8b25-74991e76213c")
+	)
+	(junction
 		(at 50.8 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8590,6 +8644,12 @@
 		(uuid "d98a8a1e-33d4-4d84-b14f-e498848fcaf8")
 	)
 	(junction
+		(at 143.51 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dffc563c-f1f6-4457-9fac-058e7a1407fd")
+	)
+	(junction
 		(at 209.55 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8602,6 +8662,12 @@
 		(uuid "ead8a1ad-0f1e-4597-b112-20e78af1bf40")
 	)
 	(junction
+		(at 121.92 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbbb57cc-a763-4355-bbe8-e89a0cc19637")
+	)
+	(junction
 		(at 125.73 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8612,8 +8678,20 @@
 		(uuid "256afe64-1e9d-4318-ae54-b77a8624651e")
 	)
 	(no_connect
+		(at 25.4 50.8)
+		(uuid "3f85a92d-0bfc-4c16-be0d-f65094eea8ab")
+	)
+	(no_connect
+		(at 25.4 40.64)
+		(uuid "5928164b-0616-43c5-94de-cfb2ce422d60")
+	)
+	(no_connect
 		(at 254 158.75)
 		(uuid "84a13c95-aeb0-4754-86be-bc62d19d6291")
+	)
+	(no_connect
+		(at 46.99 40.64)
+		(uuid "e82558e6-fc06-4037-9398-dfd641c59c04")
 	)
 	(wire
 		(pts
@@ -8624,6 +8702,26 @@
 			(type default)
 		)
 		(uuid "008e036e-8c01-4b58-89a3-d43975e940ba")
+	)
+	(wire
+		(pts
+			(xy 143.51 140.97) (xy 143.51 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015afeeb-c070-4162-b1de-19d1db1e48fb")
+	)
+	(wire
+		(pts
+			(xy 109.22 168.91) (xy 114.3 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021c5910-5af6-4874-b62c-f91b41d706df")
 	)
 	(wire
 		(pts
@@ -8644,6 +8742,16 @@
 			(type default)
 		)
 		(uuid "06a49b32-3c7b-4f83-9764-76cded25e877")
+	)
+	(wire
+		(pts
+			(xy 163.83 157.48) (xy 163.83 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077da3ab-db36-4a99-b507-574d951c7536")
 	)
 	(wire
 		(pts
@@ -8674,6 +8782,16 @@
 			(type default)
 		)
 		(uuid "0893d3c9-ac30-4ab7-99ef-0958848bae73")
+	)
+	(wire
+		(pts
+			(xy 161.29 140.97) (xy 143.51 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0934b837-3668-44c6-a801-d643aaac2678")
 	)
 	(wire
 		(pts
@@ -8747,6 +8865,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 99.06) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15070ace-ba1b-4489-8b34-5274a6ccea7c")
+	)
+	(wire
+		(pts
 			(xy 39.37 127) (xy 36.83 127)
 		)
 		(stroke
@@ -8757,6 +8885,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 166.37) (xy 142.24 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169fb47c-654e-484c-b6bf-03644f08a7cd")
+	)
+	(wire
+		(pts
 			(xy 196.85 50.8) (xy 193.04 50.8)
 		)
 		(stroke
@@ -8764,6 +8902,16 @@
 			(type default)
 		)
 		(uuid "19100abb-3058-4fd6-96dc-c50bae6122ce")
+	)
+	(wire
+		(pts
+			(xy 114.3 160.02) (xy 115.57 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0692d7-8105-44da-974b-57fbe154a466")
 	)
 	(wire
 		(pts
@@ -8784,6 +8932,16 @@
 			(type default)
 		)
 		(uuid "1b6869a1-6694-4b85-94bb-27a7be3d0468")
+	)
+	(wire
+		(pts
+			(xy 25.4 38.1) (xy 29.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6b1f39-b7fa-4c61-a263-9d579d596374")
 	)
 	(wire
 		(pts
@@ -8834,6 +8992,16 @@
 			(type default)
 		)
 		(uuid "293f8ea2-59cb-4040-9fee-7e097d1d0a9a")
+	)
+	(wire
+		(pts
+			(xy 85.09 162.56) (xy 87.63 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9f62ca-5780-4936-9910-8acd3768880a")
 	)
 	(wire
 		(pts
@@ -8927,6 +9095,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 157.48) (xy 152.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31818580-767e-49e9-9aae-5bf703e7bccc")
+	)
+	(wire
+		(pts
 			(xy 147.32 88.9) (xy 173.99 88.9)
 		)
 		(stroke
@@ -8954,6 +9132,16 @@
 			(type default)
 		)
 		(uuid "39af458c-c4c8-418b-a824-fd1bdc5313ec")
+	)
+	(wire
+		(pts
+			(xy 124.46 160.02) (xy 125.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa20dcb-39cf-4601-90fe-b5d6eb996a46")
 	)
 	(wire
 		(pts
@@ -8997,6 +9185,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 162.56) (xy 85.09 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e09530-3e04-4782-bda6-c55269756d78")
+	)
+	(wire
+		(pts
 			(xy 50.8 83.82) (xy 38.1 83.82)
 		)
 		(stroke
@@ -9014,6 +9212,16 @@
 			(type default)
 		)
 		(uuid "433dbec2-9d2e-4730-9007-5fb2e159f551")
+	)
+	(wire
+		(pts
+			(xy 152.4 157.48) (xy 154.94 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449e0601-ebd6-4392-bc84-548edd1539ae")
 	)
 	(wire
 		(pts
@@ -9087,6 +9295,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 48.26) (xy 29.21 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fda29fb-696f-483f-95a6-c13d3a97a5c2")
+	)
+	(wire
+		(pts
 			(xy 257.81 111.76) (xy 257.81 113.03)
 		)
 		(stroke
@@ -9117,16 +9335,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 138.43) (xy 185.42 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52065d14-b073-49e7-b9b7-d62f2de6525a")
-	)
-	(wire
-		(pts
 			(xy 266.7 71.12) (xy 270.51 71.12)
 		)
 		(stroke
@@ -9137,7 +9345,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 55.88) (xy 22.86 59.69)
+			(xy 26.67 55.88) (xy 26.67 59.69)
 		)
 		(stroke
 			(width 0)
@@ -9257,6 +9465,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 162.56) (xy 97.79 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f83ce53-3659-476f-934a-46eff610dd7b")
+	)
+	(wire
+		(pts
 			(xy 38.1 41.91) (xy 38.1 43.18)
 		)
 		(stroke
@@ -9297,7 +9515,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 124.46) (xy 201.93 138.43)
+			(xy 201.93 124.46) (xy 201.93 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9397,6 +9615,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 168.91) (xy 96.52 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aef99a7-c331-4e91-8678-f6d8f56e5839")
+	)
+	(wire
+		(pts
+			(xy 129.54 166.37) (xy 124.46 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be44326-7729-4f95-ad77-6fb965ccab0e")
+	)
+	(wire
+		(pts
 			(xy 201.93 50.8) (xy 199.39 50.8)
 		)
 		(stroke
@@ -9467,6 +9705,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 148.59) (xy 201.93 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873ca0eb-426e-40e6-8d0a-ff99e9437c8d")
+	)
+	(wire
+		(pts
 			(xy 222.25 173.99) (xy 222.25 156.21)
 		)
 		(stroke
@@ -9494,6 +9742,16 @@
 			(type default)
 		)
 		(uuid "8e6b2ce4-a3f3-47cc-acc0-d6dcb15cea8a")
+	)
+	(wire
+		(pts
+			(xy 143.51 140.97) (xy 121.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4ca4bd-3c0c-4381-a417-2b998cfba49e")
 	)
 	(wire
 		(pts
@@ -9587,6 +9845,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 45.72) (xy 25.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfafcf0-980f-4115-a4aa-9c20d88d3afa")
+	)
+	(wire
+		(pts
 			(xy 50.8 81.28) (xy 50.8 83.82)
 		)
 		(stroke
@@ -9667,6 +9935,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 157.48) (xy 97.79 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f5f7eb-585c-4092-9fa7-70db171f02e5")
+	)
+	(wire
+		(pts
 			(xy 243.84 96.52) (xy 243.84 123.19)
 		)
 		(stroke
@@ -9694,6 +9972,16 @@
 			(type default)
 		)
 		(uuid "aa752a5c-4718-43dd-8c54-0f02db162d91")
+	)
+	(wire
+		(pts
+			(xy 25.4 33.02) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad30d438-4710-4058-8f95-682c5732fe97")
 	)
 	(wire
 		(pts
@@ -9727,6 +10015,36 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 140.97) (xy 93.98 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af162f1a-661c-44bd-a678-b3ab7ce71a23")
+	)
+	(wire
+		(pts
+			(xy 85.09 160.02) (xy 85.09 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b064a800-1596-491a-9c88-c6b59fc5a4f6")
+	)
+	(wire
+		(pts
+			(xy 121.92 154.94) (xy 121.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b262e673-8f19-4316-9eab-57a3442fc037")
+	)
+	(wire
+		(pts
 			(xy 246.38 101.6) (xy 260.35 101.6)
 		)
 		(stroke
@@ -9734,6 +10052,16 @@
 			(type default)
 		)
 		(uuid "b28d3b59-ec81-450d-afb9-ecbfbc38f8f8")
+	)
+	(wire
+		(pts
+			(xy 121.92 140.97) (xy 93.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32e970e-f4b3-46de-bd3a-5f99ba2a82bf")
 	)
 	(wire
 		(pts
@@ -9777,6 +10105,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 160.02) (xy 124.46 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb08249e-2dad-41dc-a912-5b92c89ae034")
+	)
+	(wire
+		(pts
 			(xy 119.38 66.04) (xy 111.76 66.04)
 		)
 		(stroke
@@ -9784,6 +10122,16 @@
 			(type default)
 		)
 		(uuid "bb8b8517-1ce6-4b5b-9d89-3d5c48e067b9")
+	)
+	(wire
+		(pts
+			(xy 152.4 157.48) (xy 152.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0223cfe-ff66-4c22-81a4-73d19aa01c2f")
 	)
 	(wire
 		(pts
@@ -9814,6 +10162,16 @@
 			(type default)
 		)
 		(uuid "c188e58f-7a28-4e7b-adb0-1bfb88b7c40a")
+	)
+	(wire
+		(pts
+			(xy 95.25 162.56) (xy 96.52 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c205f680-6258-4acb-8ddc-41d10b7bdb80")
 	)
 	(wire
 		(pts
@@ -9897,6 +10255,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 157.48) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b9d7ec-a8b6-45ed-a6b5-5446b8ec8bbe")
+	)
+	(wire
+		(pts
 			(xy 119.38 58.42) (xy 111.76 58.42)
 		)
 		(stroke
@@ -9907,6 +10275,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 166.37) (xy 142.24 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce06201d-5906-40cc-a25d-6e36c62f9bb1")
+	)
+	(wire
+		(pts
 			(xy 232.41 88.9) (xy 251.46 88.9)
 		)
 		(stroke
@@ -9914,6 +10292,16 @@
 			(type default)
 		)
 		(uuid "ce7293e6-cf18-4101-97e2-082d6f73d969")
+	)
+	(wire
+		(pts
+			(xy 140.97 157.48) (xy 142.24 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7aed35-af6a-47ad-b06d-034bcc958252")
 	)
 	(wire
 		(pts
@@ -9937,6 +10325,36 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 166.37) (xy 124.46 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d236cc2f-b4ee-4382-8690-7eb4ed941ce9")
+	)
+	(wire
+		(pts
+			(xy 101.6 168.91) (xy 96.52 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b65aca-f3ae-49cf-929a-6d31a6f29dd5")
+	)
+	(wire
+		(pts
+			(xy 142.24 157.48) (xy 143.51 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4bedcfe-af61-405f-8807-726006175be3")
+	)
+	(wire
+		(pts
 			(xy 27.94 116.84) (xy 27.94 121.92)
 		)
 		(stroke
@@ -9957,13 +10375,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 138.43) (xy 185.42 151.13)
+			(xy 125.73 154.94) (xy 121.92 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d704d4a0-40e2-4a6e-9f42-f943a1a12104")
+		(uuid "d6c9f477-6e94-4a5c-aa85-d5cada3cce28")
 	)
 	(wire
 		(pts
@@ -10077,6 +10495,26 @@
 	)
 	(wire
 		(pts
+			(xy 2.54 71.12) (xy 10.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e74505-e7eb-4236-81e8-5100a11db096")
+	)
+	(wire
+		(pts
+			(xy 114.3 168.91) (xy 114.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f0c8b1-d1da-4f1f-8acc-28ffe2297748")
+	)
+	(wire
+		(pts
 			(xy 171.45 60.96) (xy 171.45 86.36)
 		)
 		(stroke
@@ -10094,6 +10532,16 @@
 			(type default)
 		)
 		(uuid "ede122d3-ddad-4818-8f9a-8b83aaa7e175")
+	)
+	(wire
+		(pts
+			(xy 76.2 162.56) (xy 77.47 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec6ebdb-781c-4a6f-95a9-2b6cfa928c3e")
 	)
 	(wire
 		(pts
@@ -10167,7 +10615,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 96.52) (xy 161.29 151.13)
+			(xy 161.29 96.52) (xy 161.29 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10184,6 +10632,16 @@
 			(type default)
 		)
 		(uuid "f700a38a-af50-47a4-9f47-8328640ad14b")
+	)
+	(wire
+		(pts
+			(xy 113.03 160.02) (xy 114.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7213391-9c4e-44a1-908a-e2535a25da71")
 	)
 	(wire
 		(pts
@@ -10224,16 +10682,6 @@
 			(type default)
 		)
 		(uuid "f9c59394-74ca-4bf8-a9a8-edd66edf267e")
-	)
-	(wire
-		(pts
-			(xy 163.83 99.06) (xy 163.83 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb8ba4b9-9390-4793-9fb6-e370ec8386e2")
 	)
 	(wire
 		(pts
@@ -10297,7 +10745,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 55.88) (xy 22.86 55.88)
+			(xy 38.1 55.88) (xy 26.67 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10314,6 +10762,16 @@
 			(type default)
 		)
 		(uuid "feb95265-2368-4c84-bf45-df7dc8d4fb0e")
+	)
+	(wire
+		(pts
+			(xy 143.51 140.97) (xy 143.51 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5096ea-0ed5-4c42-b9b8-05ff5f11e9de")
 	)
 	(image
 		(at 81.28 55.154)
@@ -51403,6 +51861,158 @@
 		)
 	)
 	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 143.51 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c11efef-f5cb-4e25-a547-4e9a13dc3301")
+		(property "Reference" "R8"
+			(at 144.526 146.812 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 144.526 149.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 143.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 143.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 142.24 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 142.24 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 144.526 151.892 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 142.24 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 142.24 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 142.24 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "d77e005e-78e5-456a-b62d-dae2300f6aa0")
+		)
+		(pin "2"
+			(uuid "68012f39-17e0-4fb6-8a3b-bba8bcb1af2e")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KeyWordFinal-altium-import:VBUS_BAR")
 		(at 38.1 33.02 180)
 		(unit 1)
@@ -51478,7 +52088,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:Opamp_Dual")
-		(at 129.54 157.48 0)
+		(at 133.35 157.48 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -51489,7 +52099,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ee54ee5-05dc-4027-81ec-6e0620e888b2")
 		(property "Reference" "U5"
-			(at 129.54 147.32 0)
+			(at 133.35 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51499,7 +52109,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 129.54 149.86 0)
+			(at 133.35 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51509,7 +52119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 157.48 0)
+			(at 133.35 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51520,7 +52130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 157.48 0)
+			(at 133.35 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51531,7 +52141,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 129.54 166.37 0)
+			(at 133.35 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51542,7 +52152,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 116.84 171.45 0)
+			(at 120.65 171.45 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -51554,7 +52164,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 116.84 179.07 0)
+			(at 120.65 179.07 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -51566,7 +52176,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 116.84 176.53 0)
+			(at 120.65 176.53 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -51578,7 +52188,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 116.84 173.99 0)
+			(at 120.65 173.99 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -51590,7 +52200,7 @@
 			)
 		)
 		(property private "KLC_S3.1" "Units A+B are centered, UnitC has a offset so it fits nicely on A or B."
-			(at 116.84 182.88 0)
+			(at 120.65 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -51602,7 +52212,7 @@
 			)
 		)
 		(property private "KLC_S4.1" "Pin1 and Pin7 are the output, adding a name would look ugly and does not add a benefit."
-			(at 116.84 185.42 0)
+			(at 120.65 185.42 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -51614,7 +52224,7 @@
 			)
 		)
 		(property private "KLC_S6.2" "This is a generic symbol and thus has no datasheet."
-			(at 116.84 187.96 0)
+			(at 120.65 187.96 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -51660,7 +52270,7 @@
 	)
 	(symbol
 		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
-		(at 25.4 67.31 0)
+		(at 29.21 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -51670,7 +52280,7 @@
 		(dnp no)
 		(uuid "1f8242e2-00e8-4bfb-86c1-8e4fc2e8e75a")
 		(property "Reference" "#PWR01"
-			(at 25.4 67.31 0)
+			(at 29.21 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51681,7 +52291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 73.66 0)
+			(at 29.21 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51692,7 +52302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 67.31 0)
+			(at 29.21 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51702,7 +52312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 67.31 0)
+			(at 29.21 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51712,7 +52322,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 67.31 0)
+			(at 29.21 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52003,6 +52613,81 @@
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
+		(at 85.09 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2547c847-3716-4a15-8646-489a9a1a7301")
+		(property "Reference" "#PWR049"
+			(at 85.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "7f8048de-cea6-400b-8608-f3347354e1e6")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -52648,6 +53333,385 @@
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 201.93 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3983d583-e4ab-43bd-8eb7-8b8e197b6531")
+		(property "Reference" "R9"
+			(at 202.946 154.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 202.946 156.972 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 201.93 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 201.93 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 200.66 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 200.66 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 202.946 159.512 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 200.66 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 200.66 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 200.66 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a4f16c5b-4473-49b0-a960-44b92082d2c3")
+		)
+		(pin "2"
+			(uuid "ce90a1ce-a062-4cd9-ba39-df8251741ba4")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 95.25 162.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c3ed0f7-2d84-4ac5-8e9f-75fa657aa0c7")
+		(property "Reference" "R3"
+			(at 90.17 159.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 93.472 161.544 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 95.25 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 95.25 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 88.9 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 88.9 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 96.012 161.544 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 91.44 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 91.44 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 91.44 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9c7690d5-c420-4014-88aa-bdf6281d9df7")
+		)
+		(pin "2"
+			(uuid "1fac7552-75db-44ec-99a6-725db0a0295a")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
+		(at 10.16 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c54df73-02d7-4371-be9c-b8039f081e9b")
+		(property "Reference" "#PWR046"
+			(at 10.16 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 10.16 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 10.16 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10.16 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 10.16 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "7daaed89-c066-4596-833d-5bd5ea8f8c02")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -53311,6 +54375,158 @@
 		)
 	)
 	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 29.21 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c1710ce-cec7-46bf-b622-5a978cd33d90")
+		(property "Reference" "R_CC"
+			(at 30.226 41.402 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 30.226 43.942 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 29.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 29.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 27.94 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "5k1"
+			(at 27.94 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 30.226 46.482 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 27.94 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 27.94 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 27.94 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "43a89867-0f5e-4821-8876-918af1b51b59")
+		)
+		(pin "2"
+			(uuid "7814fe33-35e3-4262-8a9c-423cd774eff0")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R_CC")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
 		(at 111.76 45.72 0)
 		(unit 1)
@@ -53455,6 +54671,158 @@
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 85.09 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55b7e56a-08d0-4fc3-bcb6-524204c582e7")
+		(property "Reference" "R1"
+			(at 86.106 155.702 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 86.106 158.242 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 83.82 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 83.82 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 86.106 160.782 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 83.82 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 83.82 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 83.82 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "445ed3be-7731-4a2f-98bc-4830c9a5ee2b")
+		)
+		(pin "2"
+			(uuid "f8aa8631-5b9a-43df-bd6c-42f399cc4cd1")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -53815,8 +55183,162 @@
 		)
 	)
 	(symbol
+		(lib_name "CAP_2")
+		(lib_id "AltiumLib:CAP")
+		(at 152.4 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5843f889-6e32-4e90-b849-d25104b1de0f")
+		(property "Reference" "C19"
+			(at 154.432 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 154.432 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "CAPC1608X06L"
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, X5R, ±20%, 25V"
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0603"
+			(at 150.368 158.242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 150.368 158.242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Capacitors"
+			(at 151.13 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 151.13 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 151.13 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 151.13 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "2b61b2a8-5f24-4e2a-afd5-7da34b153b64")
+		)
+		(pin "2"
+			(uuid "977ef4ff-5058-44d7-86c7-6bded8189e5e")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 10.16 40.64 0)
+		(at 10.16 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -53827,7 +55349,7 @@
 		(fields_autoplaced yes)
 		(uuid "590ec02e-6de4-4071-9632-b18166c16da7")
 		(property "Reference" "P1"
-			(at 10.16 17.78 0)
+			(at 10.16 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53837,7 +55359,7 @@
 			)
 		)
 		(property "Value" "USB_C_Plug_USB2.0"
-			(at 10.16 20.32 0)
+			(at 10.16 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53847,7 +55369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 13.97 40.64 0)
+			(at 13.97 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53858,7 +55380,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 13.97 40.64 0)
+			(at 13.97 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53869,7 +55391,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 10.16 40.64 0)
+			(at 10.16 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53922,6 +55444,81 @@
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
+		(at 152.4 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ab14823-a69d-434f-bf3a-25816d270f71")
+		(property "Reference" "#PWR051"
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2367c61f-7207-47df-b9a8-711b7c6d1714")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -54077,6 +55674,233 @@
 		)
 	)
 	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 137.16 166.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "682520c5-7fc8-4566-ac04-0f9b49a2520d")
+		(property "Reference" "R6"
+			(at 132.08 163.576 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 135.382 165.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 137.16 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 137.16 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 130.81 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 130.81 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 137.922 165.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 133.35 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 133.35 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 133.35 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3e4751d1-1ca8-45e0-ad9b-4e6320d58e21")
+		)
+		(pin "2"
+			(uuid "74d6e3cd-a67b-4f80-a64d-9bcd702369eb")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
+		(at 143.51 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68b3e274-fc63-4942-8d29-fa878d1c99cc")
+		(property "Reference" "#PWR050"
+			(at 143.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "073ae8d2-00e4-4728-85d7-9e6ca876fb0d")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TPS62743:TPS627431YFPR")
 		(at 39.37 106.68 0)
 		(unit 1)
@@ -54171,6 +55995,158 @@
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 85.09 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7153b283-e83f-48fe-bf4d-5789eda5ab4c")
+		(property "Reference" "R2"
+			(at 86.106 168.402 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 86.106 170.942 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 85.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 85.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 83.82 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 83.82 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 86.106 173.482 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 83.82 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 83.82 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 83.82 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4240cd93-aef9-4ef1-8278-e309c918b762")
+		)
+		(pin "2"
+			(uuid "e82338dc-ae8c-4382-ae1d-3bde8549340c")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -54330,6 +56306,158 @@
 		)
 	)
 	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 143.51 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "749a121e-cc8d-4b6c-935a-01b8746f9c0c")
+		(property "Reference" "R7"
+			(at 144.526 134.112 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 144.526 136.652 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 143.51 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 143.51 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 142.24 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 142.24 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 144.526 139.192 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 142.24 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 142.24 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 142.24 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4e145d2e-2d0e-4054-af83-ed0aa023b5fd")
+		)
+		(pin "2"
+			(uuid "8a477407-6c4e-46dd-8587-a8cf70f6a8e4")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
 		(at 270.51 71.12 0)
 		(unit 1)
@@ -54399,6 +56527,81 @@
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
+		(at 201.93 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "760aa160-1616-4767-a54c-e682bd98b3fa")
+		(property "Reference" "#PWR?"
+			(at 201.93 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "073ae8d2-00e4-4728-85d7-9e6ca876fb0d")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -55230,6 +57433,158 @@
 		)
 	)
 	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 162.56 157.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8340feff-7def-4bef-93b3-729ff78007a8")
+		(property "Reference" "R11"
+			(at 157.48 154.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 160.782 156.464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 162.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 162.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 156.21 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 156.21 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 163.322 156.464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 158.75 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 158.75 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 158.75 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "c3a6e3c7-0245-4365-9b34-7572dbae0b7e")
+		)
+		(pin "2"
+			(uuid "84df659e-03c5-41c0-9953-cc3bc6c3e564")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "3SM123GZB1VE-R:3SM123GZB1VE-R")
 		(at 63.5 162.56 0)
 		(unit 1)
@@ -55366,7 +57721,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:Opamp_Dual")
-		(at 106.68 161.29 0)
+		(at 105.41 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -55377,7 +57732,7 @@
 		(fields_autoplaced yes)
 		(uuid "88d16d67-cf0b-4582-893f-ad15f9ea3176")
 		(property "Reference" "U5"
-			(at 106.68 151.13 0)
+			(at 105.41 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55387,7 +57742,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 106.68 153.67 0)
+			(at 105.41 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55397,7 +57752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 161.29 0)
+			(at 105.41 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55408,7 +57763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 161.29 0)
+			(at 105.41 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55419,7 +57774,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 106.68 170.18 0)
+			(at 105.41 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55430,7 +57785,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 93.98 175.26 0)
+			(at 92.71 173.99 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -55442,7 +57797,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 93.98 182.88 0)
+			(at 92.71 181.61 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -55454,7 +57809,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 93.98 180.34 0)
+			(at 92.71 179.07 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -55466,7 +57821,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 93.98 177.8 0)
+			(at 92.71 176.53 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -55478,7 +57833,7 @@
 			)
 		)
 		(property private "KLC_S3.1" "Units A+B are centered, UnitC has a offset so it fits nicely on A or B."
-			(at 93.98 186.69 0)
+			(at 92.71 185.42 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -55490,7 +57845,7 @@
 			)
 		)
 		(property private "KLC_S4.1" "Pin1 and Pin7 are the output, adding a name would look ugly and does not add a benefit."
-			(at 93.98 189.23 0)
+			(at 92.71 187.96 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -55502,7 +57857,7 @@
 			)
 		)
 		(property private "KLC_S6.2" "This is a generic symbol and thus has no datasheet."
-			(at 93.98 191.77 0)
+			(at 92.71 190.5 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -55514,16 +57869,16 @@
 			)
 		)
 		(pin "5"
-			(uuid "cbccbcd1-ca4a-41cd-a199-13811a2255eb")
+			(uuid "cbccbcd1-ca4a-41cd-a199-13811a2255ec")
 		)
 		(pin "8"
-			(uuid "4d0afbb8-f914-4a9e-9591-b704f3520d7a")
+			(uuid "4d0afbb8-f914-4a9e-9591-b704f3520d7b")
 		)
 		(pin "6"
-			(uuid "cb4ffe35-bfc9-43f9-94af-63e23d6702a9")
+			(uuid "cb4ffe35-bfc9-43f9-94af-63e23d6702aa")
 		)
 		(pin "7"
-			(uuid "8e1333b8-641f-41d5-9af6-4fa18af31e60")
+			(uuid "8e1333b8-641f-41d5-9af6-4fa18af31e61")
 		)
 		(pin "2"
 			(uuid "089d1a7a-3cab-4d1f-8460-ae0165cd0f26")
@@ -55535,12 +57890,166 @@
 			(uuid "277202dd-0033-4caf-b51b-0a58e1e87ab6")
 		)
 		(pin "4"
-			(uuid "0a389454-4ac6-4821-adb0-bf145fc7d989")
+			(uuid "0a389454-4ac6-4821-adb0-bf145fc7d98a")
 		)
 		(instances
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CAP_2")
+		(lib_id "AltiumLib:CAP")
+		(at 85.09 162.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ab107e3-3a7d-4284-91bf-b033c0ea08dd")
+		(property "Reference" "C18"
+			(at 77.724 155.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 77.724 158.496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "CAPC1608X06L"
+			(at 85.09 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, X5R, ±20%, 25V"
+			(at 85.09 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0603"
+			(at 76.962 164.592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "10µF"
+			(at 76.962 164.592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Capacitors"
+			(at 81.28 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 81.28 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 81.28 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 81.28 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "42dfa14b-7731-49e4-a1c4-3dbedc6fc084")
+		)
+		(pin "2"
+			(uuid "351a0581-ca80-4ca7-996a-418b5b3b8179")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -55742,6 +58251,158 @@
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 123.19 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d5c3baa-3a24-436a-b447-2641c21d83fe")
+		(property "Reference" "R5"
+			(at 118.11 157.226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 121.412 159.004 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 123.19 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 123.19 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 116.84 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 116.84 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 123.952 159.004 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 119.38 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 119.38 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 119.38 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8d8ccfc7-85f1-46a3-b942-71314df3d5d1")
+		)
+		(pin "2"
+			(uuid "c52cb624-7918-44ca-a190-e1a4ad00bb79")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -56887,6 +59548,81 @@
 		)
 	)
 	(symbol
+		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
+		(at 163.83 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa69dbbf-c517-4af8-b276-be9f7ce78cdc")
+		(property "Reference" "#PWR053"
+			(at 163.83 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c8a87f03-6e5a-44b9-9a26-fe1c829cc094")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "CAP_3")
 		(lib_id "Nordic Passive DB:CAP")
 		(at 205.74 43.18 90)
@@ -57438,6 +60174,232 @@
 	)
 	(symbol
 		(lib_id "KeyWordFinal-altium-import:VDD_nRF_BAR")
+		(at 85.09 152.4 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7727883-4d75-41dd-abb7-c9f96a48a512")
+		(property "Reference" "#PWR047"
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VLOW"
+			(at 85.09 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c454d6e4-468c-4c43-92b5-7d9c82cf6508")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 151.13 157.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b890dd4d-9afa-4b1d-a73f-19673bbd3df9")
+		(property "Reference" "R10"
+			(at 146.05 154.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 149.352 156.464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 151.13 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 151.13 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 144.78 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 144.78 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 151.892 156.464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 147.32 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 147.32 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 147.32 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "40b5eadf-150d-4b09-9dd9-8c260b6f45a9")
+		)
+		(pin "2"
+			(uuid "e91a9bce-3144-421e-9440-557edc0f914c")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeyWordFinal-altium-import:VDD_nRF_BAR")
 		(at 251.46 142.24 180)
 		(unit 1)
 		(body_style 1)
@@ -57512,7 +60474,7 @@
 	)
 	(symbol
 		(lib_id "KeyWordFinal-altium-import:VDD_nRF_BAR")
-		(at 19.05 144.78 180)
+		(at 38.1 152.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -57522,7 +60484,7 @@
 		(dnp no)
 		(uuid "b9ed9884-be0e-4ad2-822a-09976cbe2ac0")
 		(property "Reference" "#PWR040"
-			(at 19.05 144.78 0)
+			(at 38.1 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57533,7 +60495,7 @@
 			)
 		)
 		(property "Value" "VLOW"
-			(at 19.05 140.97 0)
+			(at 38.1 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57543,7 +60505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 144.78 0)
+			(at 38.1 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57553,7 +60515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 144.78 0)
+			(at 38.1 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57563,7 +60525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 144.78 0)
+			(at 38.1 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57865,6 +60827,158 @@
 		)
 	)
 	(symbol
+		(lib_id "AltiumLib:RES")
+		(at 109.22 168.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6e4b06e-3094-48ab-93c7-1a8d34d51094")
+		(property "Reference" "R4"
+			(at 104.14 166.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 107.442 167.894 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "RESC0603X03L_C"
+			(at 109.22 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, ±1%, 0.05W"
+			(at 109.22 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 102.87 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 102.87 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 109.982 167.894 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Resistors"
+			(at 105.41 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 105.41 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 105.41 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "f8634cbf-b188-447e-af9d-3c931878a11d")
+		)
+		(pin "2"
+			(uuid "6ea6b120-d1ee-4a12-a9c9-58924c644fd5")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
 		(at 33.02 87.63 0)
 		(unit 1)
@@ -57934,6 +61048,160 @@
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CAP_2")
+		(lib_id "AltiumLib:CAP")
+		(at 163.83 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf80e942-56e4-47a2-8ca8-f9d9623e9608")
+		(property "Reference" "C20"
+			(at 165.862 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 165.862 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "CAPC1608X06L"
+			(at 163.83 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, X5R, ±20%, 25V"
+			(at 163.83 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FOOTPRINT DOC" "0603"
+			(at 161.798 158.242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 161.798 158.242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "COMPONENT CLASS" "Capacitors"
+			(at 162.56 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 162.56 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 162.56 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 162.56 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "c16a3f56-aec2-40cb-8305-d4910fb3b0af")
+		)
+		(pin "2"
+			(uuid "1e0fca2f-f244-41fd-97f7-c9d387851926")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -58417,7 +61685,7 @@
 	)
 	(symbol
 		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
-		(at 19.05 160.02 0)
+		(at 38.1 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -58427,7 +61695,7 @@
 		(dnp no)
 		(uuid "d2e14443-d302-4840-9f23-ba133ee1c185")
 		(property "Reference" "#PWR041"
-			(at 19.05 160.02 0)
+			(at 38.1 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58438,7 +61706,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 166.37 0)
+			(at 38.1 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58449,7 +61717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 160.02 0)
+			(at 38.1 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58459,7 +61727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 160.02 0)
+			(at 38.1 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58469,7 +61737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 160.02 0)
+			(at 38.1 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58492,7 +61760,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:Battery_pack_NTC")
-		(at 25.4 59.69 0)
+		(at 29.21 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -58502,7 +61770,7 @@
 		(dnp no)
 		(uuid "d3c18d09-c21b-4d9a-8bab-3db81dbf6776")
 		(property "Reference" "J1"
-			(at 20.32 60.198 0)
+			(at 24.13 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58513,7 +61781,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 12.7 69.088 0)
+			(at 16.51 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58524,7 +61792,7 @@
 			)
 		)
 		(property "Footprint" "TP_3x1mm_TH"
-			(at 25.4 59.69 0)
+			(at 29.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58535,7 +61803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 59.69 0)
+			(at 29.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58546,7 +61814,7 @@
 			)
 		)
 		(property "Description" "Battery pack with NTC"
-			(at 25.4 59.69 0)
+			(at 29.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58557,7 +61825,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "TP_3x1mm_TH"
-			(at 20.066 59.182 0)
+			(at 23.876 59.182 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58569,7 +61837,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "Battery pack"
-			(at 20.066 59.182 0)
+			(at 23.876 59.182 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58581,7 +61849,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Batteries"
-			(at 20.066 55.88 0)
+			(at 23.876 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58593,7 +61861,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 20.066 55.88 0)
+			(at 23.876 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58605,7 +61873,7 @@
 			)
 		)
 		(property "PAD COUNT" "3"
-			(at 20.066 55.88 0)
+			(at 23.876 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58617,7 +61885,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 20.066 55.88 0)
+			(at 23.876 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59650,6 +62918,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 201.93 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0ae90fc-fd3a-4c80-8f49-1e8265e36240")
+		(property "Reference" "D3"
+			(at 205.74 145.0974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 205.74 147.6374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 201.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 201.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c50c0faa-9785-4490-b312-0dfea7192105")
+		)
+		(pin "2"
+			(uuid "5c8043ea-9612-49a7-a5b9-7eed958bedd3")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
 		(at 161.29 68.58 0)
 		(unit 1)
@@ -59719,6 +63080,80 @@
 			(project "KeyWordFinal"
 				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeyWordFinal-altium-import:VDD_nRF_BAR")
+		(at 143.51 130.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3b4e4e2-31f6-4082-825c-68d313d044f9")
+		(property "Reference" "#PWR048"
+			(at 143.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VLOW"
+			(at 143.51 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "da28d071-2ae9-4f79-8ccc-1030e4c54497")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -60525,6 +63960,81 @@
 		)
 	)
 	(symbol
+		(lib_id "KeyWordFinal-altium-import:GND_POWER_GROUND")
+		(at 29.21 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f714c528-0a6e-4f89-b28d-af95af160302")
+		(property "Reference" "#PWR045"
+			(at 29.21 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e6d1a527-d506-43b8-8c24-3aa02b991e16")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/3192956c-71f0-4c31-b83e-06253ea4ba81"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "CAP_1")
 		(lib_id "AltiumLib:CAP")
 		(at 38.1 67.31 90)
@@ -60680,7 +64190,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:Opamp_Dual")
-		(at 21.59 152.4 0)
+		(at 40.64 160.02 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -60691,7 +64201,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbdbd25d-e0aa-4a19-a07c-6048a1ee4249")
 		(property "Reference" "U5"
-			(at 20.32 151.1299 0)
+			(at 39.37 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60702,7 +64212,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 20.32 153.6699 0)
+			(at 39.37 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60713,7 +64223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 152.4 0)
+			(at 40.64 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60724,7 +64234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 152.4 0)
+			(at 40.64 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60735,7 +64245,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 21.59 161.29 0)
+			(at 40.64 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60746,7 +64256,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 8.89 166.37 0)
+			(at 27.94 173.99 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -60758,7 +64268,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 8.89 173.99 0)
+			(at 27.94 181.61 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -60770,7 +64280,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 8.89 171.45 0)
+			(at 27.94 179.07 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -60782,7 +64292,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 8.89 168.91 0)
+			(at 27.94 176.53 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -60794,7 +64304,7 @@
 			)
 		)
 		(property private "KLC_S3.1" "Units A+B are centered, UnitC has a offset so it fits nicely on A or B."
-			(at 8.89 177.8 0)
+			(at 27.94 185.42 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -60806,7 +64316,7 @@
 			)
 		)
 		(property private "KLC_S4.1" "Pin1 and Pin7 are the output, adding a name would look ugly and does not add a benefit."
-			(at 8.89 180.34 0)
+			(at 27.94 187.96 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -60818,7 +64328,7 @@
 			)
 		)
 		(property private "KLC_S6.2" "This is a generic symbol and thus has no datasheet."
-			(at 8.89 182.88 0)
+			(at 27.94 190.5 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -60830,16 +64340,16 @@
 			)
 		)
 		(pin "5"
-			(uuid "cbccbcd1-ca4a-41cd-a199-13811a2255eb")
+			(uuid "cbccbcd1-ca4a-41cd-a199-13811a2255ed")
 		)
 		(pin "8"
-			(uuid "4d0afbb8-f914-4a9e-9591-b704f3520d7a")
+			(uuid "4d0afbb8-f914-4a9e-9591-b704f3520d7c")
 		)
 		(pin "6"
-			(uuid "cb4ffe35-bfc9-43f9-94af-63e23d6702a9")
+			(uuid "cb4ffe35-bfc9-43f9-94af-63e23d6702ab")
 		)
 		(pin "7"
-			(uuid "8e1333b8-641f-41d5-9af6-4fa18af31e60")
+			(uuid "8e1333b8-641f-41d5-9af6-4fa18af31e62")
 		)
 		(pin "2"
 			(uuid "ada6b423-8790-40bf-8916-48f9de1c447b")
@@ -60851,7 +64361,7 @@
 			(uuid "229430df-6dff-4e9f-9801-d748cacae79d")
 		)
 		(pin "4"
-			(uuid "0a389454-4ac6-4821-adb0-bf145fc7d989")
+			(uuid "0a389454-4ac6-4821-adb0-bf145fc7d98b")
 		)
 		(instances
 			(project "KeyWordFinal"
