@@ -1,0 +1,17 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Icterus galbula,Baltimore Oriole,0.2460,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+3.0,6.0,Dumetella carolinensis,Gray Catbird,0.0684,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+3.0,6.0,Icterus galbula,Baltimore Oriole,0.0603,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+12.0,15.0,Icterus galbula,Baltimore Oriole,0.2576,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+15.0,18.0,Icterus galbula,Baltimore Oriole,0.1556,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+18.0,21.0,Turdus migratorius,American Robin,0.2399,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+21.0,24.0,Icterus galbula,Baltimore Oriole,0.5387,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+24.0,27.0,Icterus galbula,Baltimore Oriole,0.0820,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+27.0,30.0,Icterus galbula,Baltimore Oriole,0.1493,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+33.0,36.0,Icterus galbula,Baltimore Oriole,0.3383,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+42.0,45.0,Icterus galbula,Baltimore Oriole,0.8856,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+45.0,48.0,Icterus galbula,Baltimore Oriole,0.8484,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+45.0,48.0,Turdus migratorius,American Robin,0.0647,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+54.0,57.0,Icterus galbula,Baltimore Oriole,0.8357,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+63.0,66.0,Icterus galbula,Baltimore Oriole,0.8092,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav
+69.0,72.0,Icterus galbula,Baltimore Oriole,0.0910,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC991510 - Baltimore Oriole - Icterus galbula.wav

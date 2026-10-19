@@ -1,0 +1,9 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Buteo jamaicensis,Red-tailed Hawk,0.0519,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1139951 - American Robin - Turdus migratorius.wav
+3.0,6.0,Turdus migratorius,American Robin,0.2044,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1139951 - American Robin - Turdus migratorius.wav
+3.0,6.0,Buteo jamaicensis,Red-tailed Hawk,0.0603,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1139951 - American Robin - Turdus migratorius.wav
+6.0,9.0,Turdus migratorius,American Robin,0.6187,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1139951 - American Robin - Turdus migratorius.wav
+6.0,9.0,Buteo jamaicensis,Red-tailed Hawk,0.1234,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1139951 - American Robin - Turdus migratorius.wav
+9.0,12.0,Turdus migratorius,American Robin,0.5188,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1139951 - American Robin - Turdus migratorius.wav
+12.0,15.0,Turdus migratorius,American Robin,0.6990,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1139951 - American Robin - Turdus migratorius.wav
+15.0,16.97,Turdus migratorius,American Robin,0.2748,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1139951 - American Robin - Turdus migratorius.wav

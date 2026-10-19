@@ -1,0 +1,10 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Sericornis citreogularis,Yellow-throated Scrubwren,0.2414,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC951782 - Carolina Wren - Thryothorus ludovicianus.wav
+0.0,3.0,Vireo plumbeus,Plumbeous Vireo,0.1455,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC951782 - Carolina Wren - Thryothorus ludovicianus.wav
+6.0,9.0,Sericornis citreogularis,Yellow-throated Scrubwren,0.1230,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC951782 - Carolina Wren - Thryothorus ludovicianus.wav
+9.0,12.0,Sitta krueperi,Krüper's Nuthatch,0.1637,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC951782 - Carolina Wren - Thryothorus ludovicianus.wav
+9.0,12.0,Vireo atricapilla,Black-capped Vireo,0.1022,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC951782 - Carolina Wren - Thryothorus ludovicianus.wav
+15.0,18.0,Vireo plumbeus,Plumbeous Vireo,0.1277,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC951782 - Carolina Wren - Thryothorus ludovicianus.wav
+18.0,21.0,Thryothorus ludovicianus,Carolina Wren,0.1570,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC951782 - Carolina Wren - Thryothorus ludovicianus.wav
+30.0,33.0,Vireo plumbeus,Plumbeous Vireo,0.2235,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC951782 - Carolina Wren - Thryothorus ludovicianus.wav
+33.0,36.0,Thryothorus ludovicianus,Carolina Wren,0.1309,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC951782 - Carolina Wren - Thryothorus ludovicianus.wav

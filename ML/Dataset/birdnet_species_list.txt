@@ -1,0 +1,18 @@
+Turdus migratorius_American Robin
+Icterus galbula_Baltimore Oriole
+Cyanocitta cristata_Blue Jay
+Thryothorus ludovicianus_Carolina Wren
+Sayornis phoebe_Eastern Phoebe
+Dumetella carolinensis_Gray Catbird
+Buteo jamaicensis_Red-tailed Hawk
+Dog_Dog
+Engine_Engine
+Environmental_Environmental
+Fireworks_Fireworks
+Gun_Gun
+Human non-vocal_Human non-vocal
+Human vocal_Human vocal
+Human whistle_Human whistle
+Noise_Noise
+Power tools_Power tools
+Siren_Siren

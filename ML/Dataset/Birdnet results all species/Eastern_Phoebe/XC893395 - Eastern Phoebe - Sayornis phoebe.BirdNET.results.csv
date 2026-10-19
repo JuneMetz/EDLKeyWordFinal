@@ -1,0 +1,12 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Sayornis phoebe,Eastern Phoebe,0.9814,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+6.0,9.0,Sayornis phoebe,Eastern Phoebe,0.9901,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+9.0,12.0,Sayornis phoebe,Eastern Phoebe,0.7425,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+9.0,12.0,Contopus sordidulus,Western Wood-Pewee,0.2738,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+9.0,12.0,Cercotrichas galactotes,Rufous-tailed Scrub-Robin,0.1501,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+12.0,15.0,Cercotrichas galactotes,Rufous-tailed Scrub-Robin,0.5091,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+15.0,18.0,Contopus sordidulus,Western Wood-Pewee,0.6768,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+15.0,18.0,Pyrocephalus rubinus,Vermilion Flycatcher,0.1066,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+21.0,24.0,Contopus sordidulus,Western Wood-Pewee,0.7608,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+30.0,33.0,Contopus sordidulus,Western Wood-Pewee,0.9097,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
+33.0,36.0,Delichon dasypus,Asian House-Martin,0.1455,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC893395 - Eastern Phoebe - Sayornis phoebe.wav
