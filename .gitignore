@@ -15,6 +15,7 @@ Thumbs.db
 # Ignore bird audio (too big for git, kept on Google Drive)
 ML/Dataset/raw/
 ML/Dataset/Segments/
+ML/Dataset/clips_1s/
 
 # Ignore Windows files in Images folder
 __Images__/desktop.ini
