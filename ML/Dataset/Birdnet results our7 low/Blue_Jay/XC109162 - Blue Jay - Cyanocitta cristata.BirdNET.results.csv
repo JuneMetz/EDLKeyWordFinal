@@ -1,0 +1,14 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Engine,Engine,0.1068,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+3.0,6.0,Human vocal,Human vocal,0.0648,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+6.0,9.0,Engine,Engine,0.0695,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+24.0,27.0,Engine,Engine,0.2600,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+30.0,33.0,Human vocal,Human vocal,0.1537,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+30.0,33.0,Engine,Engine,0.1287,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Engine,Engine,0.2122,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Human vocal,Human vocal,0.1757,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+36.0,39.0,Human vocal,Human vocal,0.1033,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+51.0,54.0,Engine,Engine,0.2253,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+51.0,54.0,Human vocal,Human vocal,0.1088,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+72.0,75.0,Engine,Engine,0.0667,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3
+72.0,75.0,Human vocal,Human vocal,0.0600,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC109162 - Blue Jay - Cyanocitta cristata.mp3

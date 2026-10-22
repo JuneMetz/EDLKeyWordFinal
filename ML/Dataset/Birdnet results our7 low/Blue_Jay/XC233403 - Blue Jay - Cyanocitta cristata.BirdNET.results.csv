@@ -1,0 +1,25 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Cyanocitta cristata,Blue Jay,0.9467,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+3.0,6.0,Cyanocitta cristata,Blue Jay,0.9518,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+6.0,9.0,Cyanocitta cristata,Blue Jay,0.6265,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+9.0,12.0,Cyanocitta cristata,Blue Jay,0.9159,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+12.0,15.0,Cyanocitta cristata,Blue Jay,0.9658,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+15.0,18.0,Cyanocitta cristata,Blue Jay,0.9585,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+18.0,21.0,Cyanocitta cristata,Blue Jay,0.9715,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+21.0,24.0,Cyanocitta cristata,Blue Jay,0.9558,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+24.0,27.0,Cyanocitta cristata,Blue Jay,0.9609,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+27.0,30.0,Cyanocitta cristata,Blue Jay,0.9779,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Cyanocitta cristata,Blue Jay,0.4791,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+36.0,39.0,Cyanocitta cristata,Blue Jay,0.9629,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+39.0,42.0,Cyanocitta cristata,Blue Jay,0.8940,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+42.0,45.0,Cyanocitta cristata,Blue Jay,0.8833,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+48.0,51.0,Cyanocitta cristata,Blue Jay,0.9100,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+51.0,54.0,Cyanocitta cristata,Blue Jay,0.8634,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+54.0,57.0,Cyanocitta cristata,Blue Jay,0.6852,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+57.0,60.0,Cyanocitta cristata,Blue Jay,0.8864,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+63.0,66.0,Cyanocitta cristata,Blue Jay,0.9328,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+66.0,69.0,Cyanocitta cristata,Blue Jay,0.9116,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+69.0,72.0,Cyanocitta cristata,Blue Jay,0.8260,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+75.0,78.0,Cyanocitta cristata,Blue Jay,0.9648,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+78.0,81.0,Cyanocitta cristata,Blue Jay,0.9079,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3
+81.0,83.33,Cyanocitta cristata,Blue Jay,0.7739,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233403 - Blue Jay - Cyanocitta cristata.mp3

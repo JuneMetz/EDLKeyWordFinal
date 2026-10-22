@@ -1,0 +1,13 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Icterus galbula,Baltimore Oriole,0.5763,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+3.0,6.0,Icterus galbula,Baltimore Oriole,0.8021,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+6.0,9.0,Icterus galbula,Baltimore Oriole,0.6337,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+6.0,9.0,Dumetella carolinensis,Gray Catbird,0.1580,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+9.0,12.0,Dumetella carolinensis,Gray Catbird,0.2556,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+9.0,12.0,Icterus galbula,Baltimore Oriole,0.1933,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Icterus galbula,Baltimore Oriole,0.1719,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+18.0,21.0,Icterus galbula,Baltimore Oriole,0.4772,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+21.0,24.0,Icterus galbula,Baltimore Oriole,0.3271,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+33.0,36.0,Icterus galbula,Baltimore Oriole,0.2697,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+36.0,39.0,Icterus galbula,Baltimore Oriole,0.5240,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3
+42.0,45.0,Icterus galbula,Baltimore Oriole,0.5104,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC178046 - Baltimore Oriole - Icterus galbula.mp3

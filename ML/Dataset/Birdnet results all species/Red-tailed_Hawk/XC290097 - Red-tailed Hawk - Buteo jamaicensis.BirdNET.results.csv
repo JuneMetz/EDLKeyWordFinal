@@ -1,0 +1,13 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Melospiza melodia,Song Sparrow,0.3366,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+3.0,6.0,Buteo jamaicensis,Red-tailed Hawk,0.9971,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+6.0,9.0,Tyrannus couchii,Couch's Kingbird,0.3218,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+6.0,9.0,Melozone fusca,Canyon Towhee,0.2043,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+12.0,15.0,Tyrannus couchii,Couch's Kingbird,0.3037,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+12.0,15.0,Horornis acanthizoides,Yellowish-bellied Bush Warbler,0.2133,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+12.0,15.0,Tyrannus verticalis,Western Kingbird,0.1020,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+18.0,21.0,Buteo jamaicensis,Red-tailed Hawk,0.8832,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+27.0,30.0,Cyanocitta cristata,Blue Jay,0.1666,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+30.0,33.0,Buteo jamaicensis,Red-tailed Hawk,0.8077,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+30.0,33.0,Milvago chimachima,Yellow-headed Caracara,0.2607,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
+30.0,33.0,Cyanocitta cristata,Blue Jay,0.1378,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC290097 - Red-tailed Hawk - Buteo jamaicensis.mp3
