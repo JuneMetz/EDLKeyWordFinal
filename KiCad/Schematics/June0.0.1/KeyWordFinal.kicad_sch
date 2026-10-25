@@ -55346,7 +55346,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "590ec02e-6de4-4071-9632-b18166c16da7")
 		(property "Reference" "P1"
 			(at 10.16 25.4 0)
@@ -56596,7 +56595,7 @@
 			)
 		)
 		(pin ""
-			(uuid "073ae8d2-00e4-4728-85d7-9e6ca876fb0d")
+			(uuid "073ae8d2-00e4-4728-85d7-9e6ca876fb0e")
 		)
 		(instances
 			(project "KeyWordFinal"
