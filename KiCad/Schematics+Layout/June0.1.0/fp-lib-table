@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "projFootprints") (type "KiCad") (uri "C:/EDLKeyWordFinal/KiCad/External/Footprint") (options "") (descr ""))
+)
