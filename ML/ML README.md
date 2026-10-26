@@ -1,3 +1,3 @@
 ###### Authors
-- Jamin Kadiwal
+- Jaimin Kadiwal
 - Phuris Soontrapornchai
