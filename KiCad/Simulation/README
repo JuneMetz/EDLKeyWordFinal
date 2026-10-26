@@ -1,0 +1,1 @@
+This folder contains LTSpice model and import file for the TVL op amp. Only a single op amp is needed in this setup, and it is run off of a single supply.
