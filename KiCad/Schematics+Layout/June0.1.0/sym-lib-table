@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "projSyms") (type "KiCad") (uri "C:/EDLKeyWordFinal/KiCad/External/Schematic") (options "") (descr ""))
+	(lib (name "projSyms") (type "KiCad") (uri "C:/EDLKeyWordFinal/KiCad/External/Schematic/TXB0104.kicad_sym") (options "") (descr ""))
 )
