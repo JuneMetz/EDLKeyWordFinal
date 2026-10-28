@@ -6693,6 +6693,12 @@
 		(uuid "f84f9d71-541a-4669-a2b0-f0957af64a04")
 	)
 	(junction
+		(at 220.98 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d6be3b-4785-444a-9b1a-ceea3fbdc5ba")
+	)
+	(junction
 		(at 262.89 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6775,12 +6781,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "204593f4-5df4-419a-b2aa-3c4672e1b776")
-	)
-	(junction
-		(at 220.98 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27b98928-fb68-4938-b065-81659b61d1e8")
 	)
 	(junction
 		(at 229.87 22.86)
@@ -11080,84 +11080,6 @@
 			(project "KeyWordFinal"
 				(path "/f9fa5162-c43b-4303-9827-e483132d8026"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VINT")
-		(at 220.98 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c3b4138-b8b1-411e-b2e2-73daf08085df")
-		(property "Reference" "#PWR042"
-			(at 220.98 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V_{INT}"
-			(at 220.98 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VINT\""
-			(at 220.98 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d8f7e04c-2999-476d-b006-280dd0b8fbbb")
-		)
-		(instances
-			(project "KeyWordFinal"
-				(path "/f9fa5162-c43b-4303-9827-e483132d8026"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -16197,6 +16119,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 220.98 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad08e271-c3b8-438a-837b-53a7266725cb")
+		(property "Reference" "#PWR057"
+			(at 220.98 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 220.98 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6620dc45-009d-49a6-a9ce-6beb721d5d88")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/f9fa5162-c43b-4303-9827-e483132d8026"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 132.08 99.06 0)
 		(unit 1)
@@ -17038,7 +17038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 229.362 54.61 90)
 			(hide yes)
 			(show_name no)
