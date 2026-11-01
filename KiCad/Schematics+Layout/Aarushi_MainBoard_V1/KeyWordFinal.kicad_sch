@@ -11640,7 +11640,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.27u"
 			(at 265.43 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12479,7 +12479,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 257.81 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13144,7 +13144,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "120p"
 			(at 257.81 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13623,7 +13623,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 274.32 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14360,7 +14360,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.27u"
 			(at 265.43 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14676,7 +14676,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 274.32 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17439,7 +17439,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150k"
 			(at 255.27 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19051,7 +19051,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "82p"
 			(at 255.27 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
