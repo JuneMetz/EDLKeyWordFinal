@@ -1,0 +1,10 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Turdus migratorius,American Robin,0.5380,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC16916 - American Robin - Turdus migratorius.mp3
+0.0,3.0,Charadrius vociferus,Killdeer,0.1631,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC16916 - American Robin - Turdus migratorius.mp3
+3.0,6.0,Turdus fulviventris,Chestnut-bellied Thrush,0.1588,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC16916 - American Robin - Turdus migratorius.mp3
+3.0,6.0,Paroaria coronata,Red-crested Cardinal,0.1490,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC16916 - American Robin - Turdus migratorius.mp3
+6.0,9.0,Turdus migratorius,American Robin,0.8734,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC16916 - American Robin - Turdus migratorius.mp3
+9.0,12.0,Turdus migratorius,American Robin,0.5788,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC16916 - American Robin - Turdus migratorius.mp3
+12.0,15.0,Turdus migratorius,American Robin,0.6308,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC16916 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Turdus migratorius,American Robin,0.7895,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC16916 - American Robin - Turdus migratorius.mp3
+18.0,20.3,Turdus migratorius,American Robin,0.4233,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC16916 - American Robin - Turdus migratorius.mp3

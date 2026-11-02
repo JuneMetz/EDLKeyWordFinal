@@ -1,0 +1,12 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Dumetella carolinensis,Gray Catbird,0.7564,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+3.0,6.0,Toxostoma rufum,Brown Thrasher,0.3094,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+6.0,9.0,Dumetella carolinensis,Gray Catbird,0.1702,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+6.0,9.0,Toxostoma rufum,Brown Thrasher,0.1535,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+9.0,12.0,Sialia mexicana,Western Bluebird,0.7234,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+15.0,18.0,Cossypha caffra,Cape Robin-Chat,0.1575,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+15.0,18.0,Dumetella carolinensis,Gray Catbird,0.1424,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+18.0,21.0,Pycnonotus xanthopygos,White-spectacled Bulbul,0.2510,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+24.0,27.0,Dumetella carolinensis,Gray Catbird,0.5439,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+24.0,27.0,Cossypha caffra,Cape Robin-Chat,0.1285,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3
+27.0,28.54,Sialia mexicana,Western Bluebird,0.1611,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC322293 - Grey Catbird - Dumetella carolinensis.mp3

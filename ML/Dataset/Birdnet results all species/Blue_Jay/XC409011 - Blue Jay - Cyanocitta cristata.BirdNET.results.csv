@@ -1,0 +1,10 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Cyanocitta cristata,Blue Jay,0.9778,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC409011 - Blue Jay - Cyanocitta cristata.mp3
+3.0,6.0,Cyanocitta cristata,Blue Jay,0.9333,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC409011 - Blue Jay - Cyanocitta cristata.mp3
+6.0,9.0,Aphelocoma unicolor,Unicolored Jay,0.1317,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC409011 - Blue Jay - Cyanocitta cristata.mp3
+9.0,12.0,Cyanocitta cristata,Blue Jay,0.8715,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC409011 - Blue Jay - Cyanocitta cristata.mp3
+12.0,15.0,Cyanocitta cristata,Blue Jay,0.5821,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC409011 - Blue Jay - Cyanocitta cristata.mp3
+15.0,18.0,Cyanocitta cristata,Blue Jay,0.6522,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC409011 - Blue Jay - Cyanocitta cristata.mp3
+18.0,21.0,Cyanocitta cristata,Blue Jay,0.1699,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC409011 - Blue Jay - Cyanocitta cristata.mp3
+21.0,22.61,Zonotrichia albicollis,White-throated Sparrow,0.1347,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC409011 - Blue Jay - Cyanocitta cristata.mp3
+21.0,22.61,Cyanocitta cristata,Blue Jay,0.1271,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC409011 - Blue Jay - Cyanocitta cristata.mp3

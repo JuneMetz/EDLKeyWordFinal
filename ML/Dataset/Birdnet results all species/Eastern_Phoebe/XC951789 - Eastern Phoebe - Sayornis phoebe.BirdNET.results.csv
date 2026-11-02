@@ -1,0 +1,13 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Troglodytes hiemalis,Winter Wren,0.2691,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+3.0,6.0,Corvus brachyrhynchos,American Crow,0.1092,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+6.0,9.0,Junco hyemalis,Dark-eyed Junco,0.2233,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+9.0,12.0,Melanerpes carolinus,Red-bellied Woodpecker,0.1209,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+12.0,15.0,Sayornis phoebe,Eastern Phoebe,0.9484,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+18.0,21.0,Sayornis phoebe,Eastern Phoebe,0.9105,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+21.0,24.0,Sayornis phoebe,Eastern Phoebe,0.9887,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+24.0,27.0,Corvus brachyrhynchos,American Crow,0.1752,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+27.0,30.0,Catharus guttatus,Hermit Thrush,0.7651,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+27.0,30.0,Troglodytes hiemalis,Winter Wren,0.6040,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+30.0,33.0,Troglodytes hiemalis,Winter Wren,0.8883,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav
+33.0,34.7,Sayornis phoebe,Eastern Phoebe,0.4960,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC951789 - Eastern Phoebe - Sayornis phoebe.wav

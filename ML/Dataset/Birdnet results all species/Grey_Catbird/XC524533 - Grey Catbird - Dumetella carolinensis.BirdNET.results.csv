@@ -1,0 +1,8 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+6.0,9.0,Euphonia laniirostris,Thick-billed Euphonia,0.1675,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC524533 - Grey Catbird - Dumetella carolinensis.mp3
+9.0,12.0,Euphonia laniirostris,Thick-billed Euphonia,0.1937,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC524533 - Grey Catbird - Dumetella carolinensis.mp3
+12.0,15.0,Empidonax traillii,Willow Flycatcher,0.5309,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC524533 - Grey Catbird - Dumetella carolinensis.mp3
+12.0,15.0,Saltator striatipectus,Streaked Saltator,0.1639,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC524533 - Grey Catbird - Dumetella carolinensis.mp3
+21.0,24.0,Dumetella carolinensis,Gray Catbird,0.4447,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC524533 - Grey Catbird - Dumetella carolinensis.mp3
+24.0,27.0,Zosterops lateralis,Silvereye,0.1381,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC524533 - Grey Catbird - Dumetella carolinensis.mp3
+27.0,30.0,Corvus brachyrhynchos,American Crow,0.1038,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC524533 - Grey Catbird - Dumetella carolinensis.mp3

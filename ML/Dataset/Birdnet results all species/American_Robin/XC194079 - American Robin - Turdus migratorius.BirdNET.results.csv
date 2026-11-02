@@ -1,0 +1,10 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Turdus migratorius,American Robin,0.8012,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC194079 - American Robin - Turdus migratorius.mp3
+3.0,6.0,Turdus migratorius,American Robin,0.8562,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC194079 - American Robin - Turdus migratorius.mp3
+9.0,12.0,Turdus migratorius,American Robin,0.8747,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC194079 - American Robin - Turdus migratorius.mp3
+12.0,15.0,Turdus migratorius,American Robin,0.9250,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC194079 - American Robin - Turdus migratorius.mp3
+12.0,15.0,Turdus infuscatus,Black Thrush,0.1031,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC194079 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Turdus viscivorus,Mistle Thrush,0.2495,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC194079 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Geokichla gurneyi,Orange Ground-Thrush,0.1350,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC194079 - American Robin - Turdus migratorius.mp3
+18.0,20.79,Turdus migratorius,American Robin,0.8047,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC194079 - American Robin - Turdus migratorius.mp3
+18.0,20.79,Turdus chiguanco,Chiguanco Thrush,0.1174,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC194079 - American Robin - Turdus migratorius.mp3

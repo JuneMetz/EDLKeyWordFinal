@@ -1,0 +1,16 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Turdus migratorius,American Robin,0.5664,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+9.0,12.0,Turdus migratorius,American Robin,0.8524,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+12.0,15.0,Turdus migratorius,American Robin,0.2289,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Turdus migratorius,American Robin,0.1024,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+21.0,24.0,Turdus migratorius,American Robin,0.5945,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+24.0,27.0,Turdus migratorius,American Robin,0.4747,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+30.0,33.0,Icterus galbula,Baltimore Oriole,0.0743,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+33.0,36.0,Turdus migratorius,American Robin,0.1239,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+36.0,39.0,Turdus migratorius,American Robin,0.5593,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+45.0,48.0,Turdus migratorius,American Robin,0.0600,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+45.0,48.0,Icterus galbula,Baltimore Oriole,0.0509,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+48.0,51.0,Turdus migratorius,American Robin,0.2959,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+54.0,57.0,Turdus migratorius,American Robin,0.5763,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+57.0,60.0,Turdus migratorius,American Robin,0.7325,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3
+60.0,63.0,Turdus migratorius,American Robin,0.2853,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC375274 - American Robin - Turdus migratorius.mp3

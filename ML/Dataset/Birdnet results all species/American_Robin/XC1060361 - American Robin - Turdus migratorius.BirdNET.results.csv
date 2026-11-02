@@ -1,0 +1,9 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Regulus regulus,Goldcrest,0.4460,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1060361 - American Robin - Turdus migratorius.wav
+0.0,3.0,Erithacus rubecula,European Robin,0.2525,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1060361 - American Robin - Turdus migratorius.wav
+0.0,3.0,Poecile montanus,Willow Tit,0.1764,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1060361 - American Robin - Turdus migratorius.wav
+9.0,12.0,Turdus merula,Eurasian Blackbird,0.1029,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1060361 - American Robin - Turdus migratorius.wav
+21.0,24.0,Melanitta nigra,Common Scoter,0.2054,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1060361 - American Robin - Turdus migratorius.wav
+24.0,27.0,Regulus regulus,Goldcrest,0.1234,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1060361 - American Robin - Turdus migratorius.wav
+27.0,30.0,Regulus regulus,Goldcrest,0.1556,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1060361 - American Robin - Turdus migratorius.wav
+42.0,45.0,Turdus merula,Eurasian Blackbird,0.1390,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC1060361 - American Robin - Turdus migratorius.wav

@@ -1,0 +1,14 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+6.0,9.0,Icterus galbula,Baltimore Oriole,0.3854,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+6.0,9.0,Pheucticus ludovicianus,Rose-breasted Grosbeak,0.2383,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+9.0,12.0,Melanerpes carolinus,Red-bellied Woodpecker,0.1720,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Icterus galbula,Baltimore Oriole,0.4026,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Pyrrhula pyrrhula,Eurasian Bullfinch,0.1245,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+15.0,18.0,Icterus galbula,Baltimore Oriole,0.6605,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+15.0,18.0,Pheucticus ludovicianus,Rose-breasted Grosbeak,0.1306,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+18.0,21.0,Icterus galbula,Baltimore Oriole,0.7724,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+21.0,24.0,Icterus galbula,Baltimore Oriole,0.9305,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+27.0,30.0,Onychognathus walleri,Waller's Starling,0.6175,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+27.0,30.0,Icterus galbula,Baltimore Oriole,0.4790,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+30.0,33.0,Pheucticus ludovicianus,Rose-breasted Grosbeak,0.5920,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3
+30.0,33.0,Icterus galbula,Baltimore Oriole,0.2825,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC367190 - Baltimore Oriole - Icterus galbula.mp3

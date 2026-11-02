@@ -1,0 +1,31 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Cyanocitta cristata,Blue Jay,0.5629,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+0.0,3.0,Thryothorus ludovicianus,Carolina Wren,0.1867,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+0.0,3.0,Formicarius analis,Black-faced Antthrush,0.1061,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+3.0,6.0,Cyanocitta cristata,Blue Jay,0.1195,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+9.0,12.0,Cyanocitta cristata,Blue Jay,0.1640,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+15.0,18.0,Cyanocitta cristata,Blue Jay,0.7910,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+21.0,24.0,Cyanocitta cristata,Blue Jay,0.1574,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+24.0,27.0,Cyanocitta cristata,Blue Jay,0.2002,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Buteo platypterus,Broad-winged Hawk,0.3262,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Cyanocitta cristata,Blue Jay,0.2353,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+42.0,45.0,Cyanocitta cristata,Blue Jay,0.3609,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+48.0,51.0,Cyanocitta cristata,Blue Jay,0.4732,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+54.0,57.0,Accipiter striatus,Sharp-shinned Hawk,0.1140,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+57.0,60.0,Ocyceros birostris,Indian Gray Hornbill,0.7037,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+57.0,60.0,Cyanocitta cristata,Blue Jay,0.2760,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+60.0,63.0,Cyanocitta cristata,Blue Jay,0.1615,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+60.0,63.0,Buteo platypterus,Broad-winged Hawk,0.1029,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+63.0,66.0,Cyanocitta cristata,Blue Jay,0.4015,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+63.0,66.0,Haliaeetus leucocephalus,Bald Eagle,0.1586,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+66.0,69.0,Cyanocitta cristata,Blue Jay,0.2116,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+66.0,69.0,Haliaeetus leucocephalus,Bald Eagle,0.1839,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+69.0,72.0,Buteo platypterus,Broad-winged Hawk,0.3097,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+72.0,75.0,Cyanocitta cristata,Blue Jay,0.4228,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+75.0,78.0,Cardinalis cardinalis,Northern Cardinal,0.2127,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+78.0,81.0,Haliaeetus leucocephalus,Bald Eagle,0.4330,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+78.0,81.0,Cyanocitta cristata,Blue Jay,0.2439,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+81.0,84.0,Cyanocitta cristata,Blue Jay,0.1658,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+90.0,93.0,Cyanocitta cristata,Blue Jay,0.1866,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+90.0,93.0,Euphagus carolinus,Rusty Blackbird,0.1398,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3
+93.0,95.76,Cyanocitta cristata,Blue Jay,0.3938,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC370941 - Blue Jay - Cyanocitta cristata.mp3

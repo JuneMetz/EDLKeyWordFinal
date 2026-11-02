@@ -1,0 +1,10 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Hirundo rustica,Barn Swallow,0.1045,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC483875 - American Robin - Turdus migratorius.mp3
+6.0,9.0,Turdus migratorius,American Robin,0.8526,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC483875 - American Robin - Turdus migratorius.mp3
+9.0,12.0,Turdus migratorius,American Robin,0.8247,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC483875 - American Robin - Turdus migratorius.mp3
+12.0,15.0,Turdus migratorius,American Robin,0.7406,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC483875 - American Robin - Turdus migratorius.mp3
+12.0,15.0,Turdus ignobilis,Black-billed Thrush,0.1578,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC483875 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Turdus migratorius,American Robin,0.6919,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC483875 - American Robin - Turdus migratorius.mp3
+18.0,21.0,Turdus migratorius,American Robin,0.9136,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC483875 - American Robin - Turdus migratorius.mp3
+21.0,24.0,Turdus migratorius,American Robin,0.9735,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC483875 - American Robin - Turdus migratorius.mp3
+24.0,27.0,Turdus migratorius,American Robin,0.4338,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC483875 - American Robin - Turdus migratorius.mp3

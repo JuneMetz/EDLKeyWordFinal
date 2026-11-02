@@ -1,0 +1,12 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+6.0,9.0,Icterus pustulatus,Streak-backed Oriole,0.1597,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+9.0,12.0,Sporophila morelleti,Morelet's Seedeater,0.1397,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+9.0,12.0,Conirostrum bicolor,Bicolored Conebill,0.1251,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+18.0,21.0,Anthreptes malacensis,Brown-throated Sunbird,0.1170,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+21.0,24.0,Anthreptes malacensis,Brown-throated Sunbird,0.2845,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+24.0,27.0,Chloroceryle americana,Green Kingfisher,0.2436,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+24.0,27.0,Tityra inquisitor,Black-crowned Tityra,0.1528,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+27.0,30.0,Curaeus curaeus,Austral Blackbird,0.2833,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+36.0,39.0,Curaeus curaeus,Austral Blackbird,0.2188,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+36.0,39.0,Icterus pustulatus,Streak-backed Oriole,0.1862,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav
+45.0,47.3,Fluvicola pica,Pied Water-Tyrant,0.1766,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC864040 - Baltimore Oriole - Icterus galbula.wav

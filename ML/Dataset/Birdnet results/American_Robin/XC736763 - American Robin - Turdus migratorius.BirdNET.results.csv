@@ -1,0 +1,10 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Turdus migratorius,American Robin,0.9678,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC736763 - American Robin - Turdus migratorius.mp3
+3.0,6.0,Turdus migratorius,American Robin,0.2496,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC736763 - American Robin - Turdus migratorius.mp3
+9.0,12.0,Turdus migratorius,American Robin,0.9516,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC736763 - American Robin - Turdus migratorius.mp3
+12.0,15.0,Turdus migratorius,American Robin,0.9790,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC736763 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Turdus migratorius,American Robin,0.7233,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC736763 - American Robin - Turdus migratorius.mp3
+21.0,24.0,Turdus migratorius,American Robin,0.8957,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC736763 - American Robin - Turdus migratorius.mp3
+24.0,27.0,Turdus migratorius,American Robin,0.8542,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC736763 - American Robin - Turdus migratorius.mp3
+27.0,30.0,Turdus migratorius,American Robin,0.6136,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC736763 - American Robin - Turdus migratorius.mp3
+33.0,35.02,Turdus migratorius,American Robin,0.8156,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC736763 - American Robin - Turdus migratorius.mp3

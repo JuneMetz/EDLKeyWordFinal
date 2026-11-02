@@ -1,0 +1,8 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+18.0,21.0,Polyerata decora,Charming Hummingbird,0.1163,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC252719 - Grey Catbird - Dumetella carolinensis.mp3
+24.0,27.0,Amazilia tzacatl,Rufous-tailed Hummingbird,0.1153,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC252719 - Grey Catbird - Dumetella carolinensis.mp3
+30.0,33.0,Basileuterus belli,Golden-browed Warbler,0.1513,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC252719 - Grey Catbird - Dumetella carolinensis.mp3
+30.0,33.0,Empidonax flavescens,Yellowish Flycatcher,0.1087,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC252719 - Grey Catbird - Dumetella carolinensis.mp3
+33.0,36.0,Empidonax flavescens,Yellowish Flycatcher,0.2549,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC252719 - Grey Catbird - Dumetella carolinensis.mp3
+42.0,45.0,Regulus satrapa,Golden-crowned Kinglet,0.2262,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC252719 - Grey Catbird - Dumetella carolinensis.mp3
+48.0,51.0,Muscicapa striata,Spotted Flycatcher,0.2042,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC252719 - Grey Catbird - Dumetella carolinensis.mp3

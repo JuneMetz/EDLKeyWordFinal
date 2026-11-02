@@ -1,0 +1,16 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Cyanocitta cristata,Blue Jay,0.5897,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+3.0,6.0,Dumetella carolinensis,Gray Catbird,0.1022,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+15.0,18.0,Psilorhinus morio,Brown Jay,0.2047,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+18.0,21.0,Psilorhinus morio,Brown Jay,0.4292,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+21.0,24.0,Psilorhinus morio,Brown Jay,0.1790,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+24.0,27.0,Dumetella carolinensis,Gray Catbird,0.1527,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+33.0,36.0,Psilorhinus morio,Brown Jay,0.1477,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+33.0,36.0,Dumetella carolinensis,Gray Catbird,0.1096,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+42.0,45.0,Dumetella carolinensis,Gray Catbird,0.1515,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+42.0,45.0,Cyanocitta cristata,Blue Jay,0.1242,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+48.0,51.0,Psilorhinus morio,Brown Jay,0.1739,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+48.0,51.0,Dumetella carolinensis,Gray Catbird,0.1064,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+51.0,54.0,Dumetella carolinensis,Gray Catbird,0.1627,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+54.0,56.11,Psilorhinus morio,Brown Jay,0.4044,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav
+54.0,56.11,Cyanocitta cristata,Blue Jay,0.1506,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC843606 - Grey Catbird - Dumetella carolinensis.wav

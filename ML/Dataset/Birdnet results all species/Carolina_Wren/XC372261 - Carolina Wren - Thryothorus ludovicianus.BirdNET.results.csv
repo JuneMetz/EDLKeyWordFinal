@@ -1,0 +1,9 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Polioptila caerulea,Blue-gray Gnatcatcher,0.2785,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC372261 - Carolina Wren - Thryothorus ludovicianus.mp3
+6.0,9.0,Thryothorus ludovicianus,Carolina Wren,0.1586,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC372261 - Carolina Wren - Thryothorus ludovicianus.mp3
+6.0,9.0,Baeolophus bicolor,Tufted Titmouse,0.1147,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC372261 - Carolina Wren - Thryothorus ludovicianus.mp3
+6.0,9.0,Helmitheros vermivorum,Worm-eating Warbler,0.1032,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC372261 - Carolina Wren - Thryothorus ludovicianus.mp3
+9.0,12.0,Polioptila caerulea,Blue-gray Gnatcatcher,0.1360,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC372261 - Carolina Wren - Thryothorus ludovicianus.mp3
+12.0,15.0,Polioptila caerulea,Blue-gray Gnatcatcher,0.5187,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC372261 - Carolina Wren - Thryothorus ludovicianus.mp3
+15.0,18.0,Polioptila caerulea,Blue-gray Gnatcatcher,0.7424,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC372261 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,21.0,Baeolophus bicolor,Tufted Titmouse,0.6790,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC372261 - Carolina Wren - Thryothorus ludovicianus.mp3

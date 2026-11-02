@@ -1,0 +1,7 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+15.0,18.0,Setophaga striata,Blackpoll Warbler,0.8516,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC567343 - Grey Catbird - Dumetella carolinensis.mp3
+21.0,24.0,Cardinalis cardinalis,Northern Cardinal,0.2484,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC567343 - Grey Catbird - Dumetella carolinensis.mp3
+21.0,24.0,Dendrocolaptes platyrostris,Planalto Woodcreeper,0.1035,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC567343 - Grey Catbird - Dumetella carolinensis.mp3
+24.0,27.0,Setophaga striata,Blackpoll Warbler,0.1071,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC567343 - Grey Catbird - Dumetella carolinensis.mp3
+27.0,30.0,Empidonax minimus,Least Flycatcher,0.2651,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC567343 - Grey Catbird - Dumetella carolinensis.mp3
+33.0,36.0,Cardinalis cardinalis,Northern Cardinal,0.1271,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC567343 - Grey Catbird - Dumetella carolinensis.mp3

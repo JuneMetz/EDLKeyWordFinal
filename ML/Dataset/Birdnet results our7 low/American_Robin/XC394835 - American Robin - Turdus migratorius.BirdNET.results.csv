@@ -1,0 +1,17 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Turdus migratorius,American Robin,0.8184,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+3.0,6.0,Turdus migratorius,American Robin,0.5546,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+6.0,9.0,Turdus migratorius,American Robin,0.8739,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+9.0,12.0,Cyanocitta cristata,Blue Jay,0.7440,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+9.0,12.0,Buteo jamaicensis,Red-tailed Hawk,0.1353,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+12.0,15.0,Turdus migratorius,American Robin,0.4711,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Cyanocitta cristata,Blue Jay,0.1456,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Icterus galbula,Baltimore Oriole,0.1240,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Turdus migratorius,American Robin,0.0736,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+18.0,21.0,Turdus migratorius,American Robin,0.8929,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+21.0,24.0,Turdus migratorius,American Robin,0.6287,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+24.0,27.0,Turdus migratorius,American Robin,0.4772,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+27.0,30.0,Turdus migratorius,American Robin,0.1719,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+33.0,36.0,Turdus migratorius,American Robin,0.1792,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+36.0,39.0,Turdus migratorius,American Robin,0.2454,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3
+39.0,40.95,Turdus migratorius,American Robin,0.5073,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC394835 - American Robin - Turdus migratorius.mp3

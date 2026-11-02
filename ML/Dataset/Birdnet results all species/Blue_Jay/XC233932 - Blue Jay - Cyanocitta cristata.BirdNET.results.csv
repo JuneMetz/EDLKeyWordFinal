@@ -1,0 +1,20 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Passer domesticus,House Sparrow,0.1879,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+6.0,9.0,Ortygornis pondicerianus,Gray Francolin,0.3338,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+6.0,9.0,Passer domesticus,House Sparrow,0.2457,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+9.0,12.0,Buteo jamaicensis,Red-tailed Hawk,0.1997,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+12.0,15.0,Manorina melanophrys,Bell Miner,0.1784,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+15.0,18.0,Copsychus fulicatus,Indian Robin,0.2623,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+18.0,21.0,Passer domesticus,House Sparrow,0.2420,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+21.0,24.0,Buteo jamaicensis,Red-tailed Hawk,0.2750,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+27.0,30.0,Passer domesticus,House Sparrow,0.1993,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+30.0,33.0,Passer domesticus,House Sparrow,0.4856,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+30.0,33.0,Passer montanus,Eurasian Tree Sparrow,0.1362,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Cyanocorax cyanopogon,White-naped Jay,0.1055,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+36.0,39.0,Copsychus fulicatus,Indian Robin,0.3183,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+39.0,42.0,Milvus migrans,Black Kite,0.1788,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+39.0,42.0,Manorina melanophrys,Bell Miner,0.1612,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+60.0,63.0,Ortygornis pondicerianus,Gray Francolin,0.2125,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+60.0,63.0,Ocyceros birostris,Indian Gray Hornbill,0.1261,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+63.0,66.0,Passer domesticus,House Sparrow,0.1401,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3
+66.0,69.0,Coccothraustes vespertinus,Evening Grosbeak,0.1086,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC233932 - Blue Jay - Cyanocitta cristata.mp3

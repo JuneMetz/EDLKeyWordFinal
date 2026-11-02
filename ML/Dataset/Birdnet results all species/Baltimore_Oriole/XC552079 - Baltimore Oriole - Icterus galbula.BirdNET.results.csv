@@ -1,0 +1,14 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Icterus spurius,Orchard Oriole,0.2083,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+0.0,3.0,Icterus galbula,Baltimore Oriole,0.1589,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+9.0,12.0,Icterus galbula,Baltimore Oriole,0.2118,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Dryobates pubescens,Downy Woodpecker,0.5346,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Myadestes townsendi,Townsend's Solitaire,0.2305,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Icterus galbula,Baltimore Oriole,0.1344,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+15.0,18.0,Dryobates pubescens,Downy Woodpecker,0.4367,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+18.0,21.0,Icterus galbula,Baltimore Oriole,0.3781,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+18.0,21.0,Dryobates pubescens,Downy Woodpecker,0.1458,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+21.0,24.0,Spinus tristis,American Goldfinch,0.1088,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+27.0,30.0,Spinus tristis,American Goldfinch,0.1344,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+33.0,36.0,Icterus galbula,Baltimore Oriole,0.1551,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3
+33.0,36.0,Zonotrichia albicollis,White-throated Sparrow,0.1038,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC552079 - Baltimore Oriole - Icterus galbula.mp3

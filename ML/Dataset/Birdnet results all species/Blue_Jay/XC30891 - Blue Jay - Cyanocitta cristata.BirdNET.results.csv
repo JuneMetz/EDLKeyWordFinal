@@ -1,0 +1,7 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+12.0,15.0,Dryobates pubescens,Downy Woodpecker,0.2499,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC30891 - Blue Jay - Cyanocitta cristata.mp3
+15.0,18.0,Cardinalis cardinalis,Northern Cardinal,0.2056,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC30891 - Blue Jay - Cyanocitta cristata.mp3
+18.0,21.0,Corvus brachyrhynchos,American Crow,0.1483,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC30891 - Blue Jay - Cyanocitta cristata.mp3
+18.0,21.0,Haliaeetus leucocephalus,Bald Eagle,0.1072,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC30891 - Blue Jay - Cyanocitta cristata.mp3
+24.0,27.0,Cyanocitta cristata,Blue Jay,0.1037,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC30891 - Blue Jay - Cyanocitta cristata.mp3
+27.0,29.75,Cyanocitta cristata,Blue Jay,0.1722,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC30891 - Blue Jay - Cyanocitta cristata.mp3

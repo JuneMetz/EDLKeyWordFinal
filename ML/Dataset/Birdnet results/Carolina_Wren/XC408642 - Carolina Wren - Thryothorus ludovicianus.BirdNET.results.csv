@@ -1,0 +1,5 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Thryothorus ludovicianus,Carolina Wren,0.1487,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC408642 - Carolina Wren - Thryothorus ludovicianus.mp3
+15.0,18.0,Dumetella carolinensis,Gray Catbird,0.1122,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC408642 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,21.0,Thryothorus ludovicianus,Carolina Wren,0.1533,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC408642 - Carolina Wren - Thryothorus ludovicianus.mp3
+30.0,33.0,Turdus migratorius,American Robin,0.1302,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC408642 - Carolina Wren - Thryothorus ludovicianus.mp3

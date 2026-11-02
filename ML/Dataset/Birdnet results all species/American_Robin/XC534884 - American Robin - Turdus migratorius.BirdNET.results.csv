@@ -1,0 +1,11 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Anairetes parulus,Tufted Tit-Tyrant,0.1035,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3
+6.0,9.0,Sicalis auriventris,Greater Yellow-Finch,0.1104,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3
+9.0,12.0,Myadestes townsendi,Townsend's Solitaire,0.9074,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3
+12.0,15.0,Myadestes townsendi,Townsend's Solitaire,0.9650,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3
+18.0,21.0,Myadestes townsendi,Townsend's Solitaire,0.1188,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3
+18.0,21.0,Mirafra cheniana,Latakoo Lark,0.1065,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3
+21.0,24.0,Myadestes townsendi,Townsend's Solitaire,0.9988,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3
+24.0,27.0,Myadestes townsendi,Townsend's Solitaire,0.8361,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3
+24.0,27.0,Haemorhous cassinii,Cassin's Finch,0.1220,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3
+24.0,27.0,Monticola saxatilis,Rufous-tailed Rock-Thrush,0.1175,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC534884 - American Robin - Turdus migratorius.mp3

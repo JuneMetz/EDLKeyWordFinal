@@ -1,0 +1,5 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Sitta carolinensis,White-breasted Nuthatch,0.5900,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC870688 - Carolina Wren - Thryothorus ludovicianus.wav
+12.0,15.0,Thryothorus ludovicianus,Carolina Wren,0.4480,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC870688 - Carolina Wren - Thryothorus ludovicianus.wav
+15.0,18.0,Thryothorus ludovicianus,Carolina Wren,0.6485,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC870688 - Carolina Wren - Thryothorus ludovicianus.wav
+21.0,24.0,Thryothorus ludovicianus,Carolina Wren,0.2578,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC870688 - Carolina Wren - Thryothorus ludovicianus.wav

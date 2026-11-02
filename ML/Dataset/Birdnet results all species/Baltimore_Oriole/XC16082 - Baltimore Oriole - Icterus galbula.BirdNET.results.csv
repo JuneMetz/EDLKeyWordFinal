@@ -1,0 +1,15 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Icterus galbula,Baltimore Oriole,0.3094,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+6.0,9.0,Icterus galbula,Baltimore Oriole,0.6186,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+6.0,9.0,Turdus mandarinus,Chinese Blackbird,0.1351,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+9.0,12.0,Baeolophus bicolor,Tufted Titmouse,0.2370,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+9.0,12.0,Icterus galbula,Baltimore Oriole,0.1210,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+9.0,12.0,Vireolanius pulchellus,Green Shrike-Vireo,0.1077,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Icterus galbula,Baltimore Oriole,0.6560,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Gerygone levigaster,Mangrove Gerygone,0.1174,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Icterus chrysater,Yellow-backed Oriole,0.1099,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Eophona personata,Japanese Grosbeak,0.1066,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+15.0,18.0,Engine,Engine,0.1080,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+18.0,21.0,Icterus galbula,Baltimore Oriole,0.8173,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+24.0,27.0,Icterus galbula,Baltimore Oriole,0.9848,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3
+24.0,27.0,Icterus spurius,Orchard Oriole,0.1015,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC16082 - Baltimore Oriole - Icterus galbula.mp3

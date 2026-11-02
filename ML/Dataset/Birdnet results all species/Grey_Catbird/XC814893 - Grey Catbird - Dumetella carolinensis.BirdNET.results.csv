@@ -1,0 +1,10 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+6.0,9.0,Dumetella carolinensis,Gray Catbird,0.7460,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC814893 - Grey Catbird - Dumetella carolinensis.wav
+9.0,12.0,Dumetella carolinensis,Gray Catbird,0.9968,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC814893 - Grey Catbird - Dumetella carolinensis.wav
+12.0,15.0,Dumetella carolinensis,Gray Catbird,0.4271,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC814893 - Grey Catbird - Dumetella carolinensis.wav
+15.0,18.0,Dumetella carolinensis,Gray Catbird,0.3836,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC814893 - Grey Catbird - Dumetella carolinensis.wav
+18.0,21.0,Dumetella carolinensis,Gray Catbird,0.9559,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC814893 - Grey Catbird - Dumetella carolinensis.wav
+21.0,24.0,Dumetella carolinensis,Gray Catbird,0.9726,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC814893 - Grey Catbird - Dumetella carolinensis.wav
+24.0,27.0,Icterus abeillei,Black-backed Oriole,0.8158,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC814893 - Grey Catbird - Dumetella carolinensis.wav
+24.0,27.0,Dumetella carolinensis,Gray Catbird,0.2237,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC814893 - Grey Catbird - Dumetella carolinensis.wav
+27.0,29.45,Dumetella carolinensis,Gray Catbird,0.5875,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC814893 - Grey Catbird - Dumetella carolinensis.wav

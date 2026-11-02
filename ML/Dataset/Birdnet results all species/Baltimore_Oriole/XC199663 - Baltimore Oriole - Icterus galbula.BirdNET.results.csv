@@ -1,0 +1,11 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Icterus bullockii,Bullock's Oriole,0.2297,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3
+0.0,3.0,Icterus pustulatus,Streak-backed Oriole,0.1142,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3
+3.0,6.0,Icterus pustulatus,Streak-backed Oriole,0.2675,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3
+6.0,9.0,Icterus pustulatus,Streak-backed Oriole,0.2811,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Icterus pustulatus,Streak-backed Oriole,0.1908,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3
+15.0,18.0,Icterus pustulatus,Streak-backed Oriole,0.3289,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3
+18.0,21.0,Icterus pustulatus,Streak-backed Oriole,0.7882,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3
+21.0,24.0,Icterus pustulatus,Streak-backed Oriole,0.6590,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3
+24.0,25.03,Icterus pustulatus,Streak-backed Oriole,0.4910,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3
+24.0,25.03,Todus angustirostris,Narrow-billed Tody,0.1029,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC199663 - Baltimore Oriole - Icterus galbula.mp3

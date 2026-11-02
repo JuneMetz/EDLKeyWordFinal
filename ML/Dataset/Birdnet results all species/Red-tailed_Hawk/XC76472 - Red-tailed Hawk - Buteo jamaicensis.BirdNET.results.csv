@@ -1,0 +1,13 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Buteo jamaicensis,Red-tailed Hawk,0.9983,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+3.0,6.0,Setophaga coronata,Yellow-rumped Warbler,0.2808,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+6.0,9.0,Buteo jamaicensis,Red-tailed Hawk,0.8860,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+6.0,9.0,Buteo buteo,Common Buzzard,0.2488,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+6.0,9.0,Buteo lineatus,Red-shouldered Hawk,0.1486,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+9.0,12.0,Buteo jamaicensis,Red-tailed Hawk,0.9890,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+12.0,15.0,Buteo jamaicensis,Red-tailed Hawk,0.9444,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+15.0,18.0,Buteo jamaicensis,Red-tailed Hawk,0.9644,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+18.0,21.0,Buteo jamaicensis,Red-tailed Hawk,0.9909,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+21.0,24.0,Himantopus himantopus,Black-winged Stilt,0.1412,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+24.0,25.75,Buteo jamaicensis,Red-tailed Hawk,0.8968,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3
+24.0,25.75,Buteo lineatus,Red-shouldered Hawk,0.2097,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC76472 - Red-tailed Hawk - Buteo jamaicensis.mp3

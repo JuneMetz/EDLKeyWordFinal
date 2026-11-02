@@ -1,0 +1,11 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Thryothorus ludovicianus,Carolina Wren,0.9522,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav
+6.0,9.0,Thryothorus ludovicianus,Carolina Wren,0.3706,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav
+6.0,9.0,Poecile carolinensis,Carolina Chickadee,0.1211,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav
+9.0,12.0,Thryothorus ludovicianus,Carolina Wren,0.2226,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav
+9.0,12.0,Sericornis frontalis,White-browed Scrubwren,0.1056,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav
+12.0,15.0,Thryothorus ludovicianus,Carolina Wren,0.1814,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav
+18.0,21.0,Sericornis frontalis,White-browed Scrubwren,0.2125,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav
+27.0,30.0,Sericornis frontalis,White-browed Scrubwren,0.1225,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav
+27.0,30.0,Troglodytes aedon,House Wren,0.1016,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav
+33.0,35.0,Regulus satrapa,Golden-crowned Kinglet,0.3696,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC947224 - Carolina Wren - Thryothorus ludovicianus.wav

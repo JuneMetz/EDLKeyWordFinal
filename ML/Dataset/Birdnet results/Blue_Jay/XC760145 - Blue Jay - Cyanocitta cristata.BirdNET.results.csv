@@ -1,0 +1,9 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Cyanocitta cristata,Blue Jay,0.9858,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC760145 - Blue Jay - Cyanocitta cristata.wav
+3.0,6.0,Cyanocitta cristata,Blue Jay,0.9700,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC760145 - Blue Jay - Cyanocitta cristata.wav
+6.0,9.0,Cyanocitta cristata,Blue Jay,0.8845,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC760145 - Blue Jay - Cyanocitta cristata.wav
+9.0,12.0,Cyanocitta cristata,Blue Jay,0.9276,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC760145 - Blue Jay - Cyanocitta cristata.wav
+12.0,15.0,Cyanocitta cristata,Blue Jay,0.8996,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC760145 - Blue Jay - Cyanocitta cristata.wav
+15.0,18.0,Cyanocitta cristata,Blue Jay,0.7371,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC760145 - Blue Jay - Cyanocitta cristata.wav
+18.0,21.0,Cyanocitta cristata,Blue Jay,0.6575,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC760145 - Blue Jay - Cyanocitta cristata.wav
+21.0,24.0,Cyanocitta cristata,Blue Jay,0.8856,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC760145 - Blue Jay - Cyanocitta cristata.wav

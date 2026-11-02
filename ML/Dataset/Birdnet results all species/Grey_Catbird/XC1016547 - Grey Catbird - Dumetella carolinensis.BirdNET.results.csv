@@ -1,0 +1,9 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+9.0,12.0,Pycnonotus jocosus,Red-whiskered Bulbul,0.1259,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC1016547 - Grey Catbird - Dumetella carolinensis.mp3
+12.0,15.0,Sylvia borin,Garden Warbler,0.1270,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC1016547 - Grey Catbird - Dumetella carolinensis.mp3
+15.0,18.0,Coccothraustes vespertinus,Evening Grosbeak,0.5582,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC1016547 - Grey Catbird - Dumetella carolinensis.mp3
+15.0,18.0,Catharus minimus,Gray-cheeked Thrush,0.1477,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC1016547 - Grey Catbird - Dumetella carolinensis.mp3
+18.0,21.0,Haemorhous mexicanus,House Finch,0.5392,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC1016547 - Grey Catbird - Dumetella carolinensis.mp3
+27.0,30.0,Pheucticus melanocephalus,Black-headed Grosbeak,0.4342,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC1016547 - Grey Catbird - Dumetella carolinensis.mp3
+27.0,30.0,Turdus smithi,Karoo Thrush,0.1219,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC1016547 - Grey Catbird - Dumetella carolinensis.mp3
+30.0,32.78,Dumetella carolinensis,Gray Catbird,0.1053,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC1016547 - Grey Catbird - Dumetella carolinensis.mp3

@@ -1,0 +1,12 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Thryothorus ludovicianus,Carolina Wren,0.9891,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+3.0,6.0,Ficedula hypoleuca,European Pied Flycatcher,0.1283,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+6.0,9.0,Thryothorus ludovicianus,Carolina Wren,0.9811,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+9.0,12.0,Myioborus pictus,Painted Redstart,0.3596,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+12.0,15.0,Thryothorus ludovicianus,Carolina Wren,0.8912,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+15.0,18.0,Myioborus pictus,Painted Redstart,0.3515,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,21.0,Thryothorus ludovicianus,Carolina Wren,0.8248,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+21.0,24.0,Myioborus pictus,Painted Redstart,0.9296,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+21.0,24.0,Pachysylvia decurtata,Lesser Greenlet,0.1027,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+24.0,27.0,Thryothorus ludovicianus,Carolina Wren,0.8060,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3
+24.0,27.0,Geothlypis formosa,Kentucky Warbler,0.4096,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC5940 - Carolina Wren - Thryothorus ludovicianus.mp3

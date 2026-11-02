@@ -1,0 +1,14 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Buteo jamaicensis,Red-tailed Hawk,0.7917,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+3.0,6.0,Pluvialis squatarola,Black-bellied Plover,0.1930,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+3.0,6.0,Milvus migrans,Black Kite,0.1120,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+6.0,9.0,Buteo jamaicensis,Red-tailed Hawk,0.9353,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+15.0,18.0,Buteo jamaicensis,Red-tailed Hawk,0.8025,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+15.0,18.0,Milvus migrans,Black Kite,0.1596,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+36.0,39.0,Buteo jamaicensis,Red-tailed Hawk,0.2355,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+36.0,39.0,Rallus aquaticus,Water Rail,0.2009,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+42.0,45.0,Anas platyrhynchos,Mallard,0.2577,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+42.0,45.0,Anas rubripes,American Black Duck,0.1630,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+48.0,50.03,Pluvialis squatarola,Black-bellied Plover,0.8618,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+48.0,50.03,Sayornis saya,Say's Phoebe,0.3844,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3
+48.0,50.03,Buteo jamaicensis,Red-tailed Hawk,0.1402,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Red-tailed_Hawk\XC666549 - Red-tailed Hawk - Buteo jamaicensis.mp3

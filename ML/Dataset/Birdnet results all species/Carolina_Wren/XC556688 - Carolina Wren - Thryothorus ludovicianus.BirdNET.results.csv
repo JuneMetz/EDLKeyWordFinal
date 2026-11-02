@@ -1,0 +1,4 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Geothlypis trichas,Common Yellowthroat,0.1906,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC556688 - Carolina Wren - Thryothorus ludovicianus.mp3
+6.0,9.0,Molothrus ater,Brown-headed Cowbird,0.7548,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC556688 - Carolina Wren - Thryothorus ludovicianus.mp3
+39.0,42.0,Sitta europaea,Eurasian Nuthatch,0.1239,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC556688 - Carolina Wren - Thryothorus ludovicianus.mp3

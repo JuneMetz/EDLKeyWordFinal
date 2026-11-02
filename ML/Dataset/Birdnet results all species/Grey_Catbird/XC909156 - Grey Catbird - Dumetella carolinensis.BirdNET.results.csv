@@ -1,0 +1,4 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+15.0,18.0,Vireo griseus,White-eyed Vireo,0.3748,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC909156 - Grey Catbird - Dumetella carolinensis.wav
+15.0,18.0,Vireo philadelphicus,Philadelphia Vireo,0.1251,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC909156 - Grey Catbird - Dumetella carolinensis.wav
+33.0,36.0,Turdus fuscater,Great Thrush,0.1853,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC909156 - Grey Catbird - Dumetella carolinensis.wav

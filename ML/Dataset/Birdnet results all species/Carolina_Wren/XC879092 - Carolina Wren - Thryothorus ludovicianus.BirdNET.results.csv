@@ -1,0 +1,10 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Thryothorus ludovicianus,Carolina Wren,0.2547,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC879092 - Carolina Wren - Thryothorus ludovicianus.wav
+3.0,6.0,Pipilo erythrophthalmus,Eastern Towhee,0.1971,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC879092 - Carolina Wren - Thryothorus ludovicianus.wav
+6.0,9.0,Thryothorus ludovicianus,Carolina Wren,0.6412,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC879092 - Carolina Wren - Thryothorus ludovicianus.wav
+15.0,18.0,Limnothlypis swainsonii,Swainson's Warbler,0.1541,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC879092 - Carolina Wren - Thryothorus ludovicianus.wav
+15.0,18.0,Protonotaria citrea,Prothonotary Warbler,0.1059,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC879092 - Carolina Wren - Thryothorus ludovicianus.wav
+18.0,21.0,Thryothorus ludovicianus,Carolina Wren,0.1621,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC879092 - Carolina Wren - Thryothorus ludovicianus.wav
+21.0,24.0,Spinus tristis,American Goldfinch,0.3100,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC879092 - Carolina Wren - Thryothorus ludovicianus.wav
+24.0,27.0,Thryothorus ludovicianus,Carolina Wren,0.1634,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC879092 - Carolina Wren - Thryothorus ludovicianus.wav
+33.0,35.62,Limnothlypis swainsonii,Swainson's Warbler,0.1763,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC879092 - Carolina Wren - Thryothorus ludovicianus.wav

@@ -1,0 +1,6 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Icterus galbula,Baltimore Oriole,0.0537,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC421278 - American Robin - Turdus migratorius.mp3
+3.0,6.0,Turdus migratorius,American Robin,0.0665,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC421278 - American Robin - Turdus migratorius.mp3
+15.0,18.0,Turdus migratorius,American Robin,0.0719,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC421278 - American Robin - Turdus migratorius.mp3
+21.0,24.0,Turdus migratorius,American Robin,0.2790,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC421278 - American Robin - Turdus migratorius.mp3
+21.0,24.0,Icterus galbula,Baltimore Oriole,0.0631,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\American_Robin\XC421278 - American Robin - Turdus migratorius.mp3

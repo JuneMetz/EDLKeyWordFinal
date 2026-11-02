@@ -1,0 +1,15 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+6.0,9.0,Vireo griseus,White-eyed Vireo,0.5947,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+9.0,12.0,Sayornis phoebe,Eastern Phoebe,0.7534,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+12.0,15.0,Sayornis phoebe,Eastern Phoebe,0.6387,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+15.0,18.0,Vireo griseus,White-eyed Vireo,0.5799,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+15.0,18.0,Thryothorus ludovicianus,Carolina Wren,0.1661,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+15.0,18.0,Limnothlypis swainsonii,Swainson's Warbler,0.1528,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+18.0,21.0,Poecile carolinensis,Carolina Chickadee,0.1219,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+18.0,21.0,Vireo griseus,White-eyed Vireo,0.1134,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+21.0,24.0,Vireo griseus,White-eyed Vireo,0.2343,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+21.0,24.0,Sayornis phoebe,Eastern Phoebe,0.1288,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+24.0,27.0,Poecile carolinensis,Carolina Chickadee,0.3426,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+24.0,27.0,Vireo griseus,White-eyed Vireo,0.1355,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+27.0,28.27,Vireo griseus,White-eyed Vireo,0.1544,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav
+27.0,28.27,Vireo flavifrons,Yellow-throated Vireo,0.1209,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1187479 - Eastern Phoebe - Sayornis phoebe.wav

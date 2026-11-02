@@ -1,0 +1,11 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Rallus aquaticus,Water Rail,0.2054,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3
+0.0,3.0,Empidonax alnorum,Alder Flycatcher,0.1496,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3
+6.0,9.0,Tyrannus verticalis,Western Kingbird,0.2528,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3
+9.0,12.0,Tyrannus verticalis,Western Kingbird,0.4610,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3
+12.0,15.0,Troglodytes hiemalis,Winter Wren,0.9635,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3
+15.0,18.0,Tyrannus verticalis,Western Kingbird,0.4815,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,21.0,Empidonax alnorum,Alder Flycatcher,0.2644,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,21.0,Thryothorus ludovicianus,Carolina Wren,0.2136,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,21.0,Troglodytes hiemalis,Winter Wren,0.1511,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3
+21.0,24.0,Troglodytes hiemalis,Winter Wren,0.3128,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC295854 - Carolina Wren - Thryothorus ludovicianus.mp3

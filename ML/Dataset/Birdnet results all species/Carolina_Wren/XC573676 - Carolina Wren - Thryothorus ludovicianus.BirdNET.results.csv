@@ -1,0 +1,12 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Thryothorus ludovicianus,Carolina Wren,0.9997,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+6.0,9.0,Troglodytes aedon,House Wren,0.6581,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+9.0,12.0,Thryothorus ludovicianus,Carolina Wren,0.9261,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+12.0,15.0,Troglodytes aedon,House Wren,0.7851,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+15.0,18.0,Thryothorus ludovicianus,Carolina Wren,0.9196,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,21.0,Troglodytes aedon,House Wren,0.2983,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+21.0,24.0,Thryothorus ludovicianus,Carolina Wren,0.3696,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+21.0,24.0,Troglodytes aedon,House Wren,0.1292,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+24.0,27.0,Thryothorus ludovicianus,Carolina Wren,0.9681,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+27.0,30.0,Troglodytes aedon,House Wren,0.7455,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3
+30.0,33.0,Thryothorus ludovicianus,Carolina Wren,0.8945,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC573676 - Carolina Wren - Thryothorus ludovicianus.mp3

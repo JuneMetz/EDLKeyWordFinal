@@ -1,0 +1,7 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Thryothorus ludovicianus,Carolina Wren,0.1291,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC1051613 - Carolina Wren - Thryothorus ludovicianus.mp3
+6.0,9.0,Sitta europaea,Eurasian Nuthatch,0.4229,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC1051613 - Carolina Wren - Thryothorus ludovicianus.mp3
+9.0,12.0,Sitta europaea,Eurasian Nuthatch,0.2448,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC1051613 - Carolina Wren - Thryothorus ludovicianus.mp3
+12.0,15.0,Sitta europaea,Eurasian Nuthatch,0.1671,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC1051613 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,21.0,Melanerpes erythrocephalus,Red-headed Woodpecker,0.2057,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC1051613 - Carolina Wren - Thryothorus ludovicianus.mp3
+21.0,22.26,Melanerpes erythrocephalus,Red-headed Woodpecker,0.2382,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC1051613 - Carolina Wren - Thryothorus ludovicianus.mp3

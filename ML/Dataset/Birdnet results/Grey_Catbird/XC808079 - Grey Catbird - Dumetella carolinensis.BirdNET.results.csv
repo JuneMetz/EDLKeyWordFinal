@@ -1,0 +1,13 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Turdus migratorius,American Robin,0.1833,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+9.0,12.0,Turdus migratorius,American Robin,0.1258,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+9.0,12.0,Dumetella carolinensis,Gray Catbird,0.1214,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+12.0,15.0,Dumetella carolinensis,Gray Catbird,0.5794,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+15.0,18.0,Dumetella carolinensis,Gray Catbird,0.3952,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+18.0,21.0,Dumetella carolinensis,Gray Catbird,0.2612,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+21.0,24.0,Dumetella carolinensis,Gray Catbird,0.2488,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+24.0,27.0,Dumetella carolinensis,Gray Catbird,0.4836,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+27.0,30.0,Dumetella carolinensis,Gray Catbird,0.3906,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+30.0,33.0,Dumetella carolinensis,Gray Catbird,0.1044,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+33.0,36.0,Dumetella carolinensis,Gray Catbird,0.5773,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav
+36.0,39.0,Dumetella carolinensis,Gray Catbird,0.4316,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC808079 - Grey Catbird - Dumetella carolinensis.wav

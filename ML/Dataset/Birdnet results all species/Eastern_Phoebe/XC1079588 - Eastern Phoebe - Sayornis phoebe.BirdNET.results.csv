@@ -1,0 +1,11 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Accipiter gentilis,Northern Goshawk,0.9157,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3
+3.0,6.0,Regulus satrapa,Golden-crowned Kinglet,0.2904,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3
+6.0,9.0,Accipiter gentilis,Northern Goshawk,0.9453,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3
+9.0,12.0,Sayornis phoebe,Eastern Phoebe,0.7623,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3
+12.0,15.0,Sayornis phoebe,Eastern Phoebe,0.6990,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3
+15.0,18.0,Setophaga fusca,Blackburnian Warbler,0.8524,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3
+18.0,21.0,Setophaga fusca,Blackburnian Warbler,0.6067,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3
+18.0,21.0,Sayornis phoebe,Eastern Phoebe,0.2177,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3
+21.0,24.0,Sayornis phoebe,Eastern Phoebe,0.9606,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3
+24.0,27.0,Sayornis phoebe,Eastern Phoebe,0.1324,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC1079588 - Eastern Phoebe - Sayornis phoebe.mp3

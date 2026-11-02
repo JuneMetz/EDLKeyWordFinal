@@ -1,0 +1,6 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+6.0,9.0,Setophaga tigrina,Cape May Warbler,0.1144,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC726631 - Carolina Wren - Thryothorus ludovicianus.mp3
+9.0,12.0,Leiothlypis ruficapilla,Nashville Warbler,0.1036,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC726631 - Carolina Wren - Thryothorus ludovicianus.mp3
+15.0,18.0,Thryothorus ludovicianus,Carolina Wren,0.2447,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC726631 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,20.95,Leiothlypis ruficapilla,Nashville Warbler,0.4830,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC726631 - Carolina Wren - Thryothorus ludovicianus.mp3
+18.0,20.95,Setophaga tigrina,Cape May Warbler,0.1158,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Carolina_Wren\XC726631 - Carolina Wren - Thryothorus ludovicianus.mp3

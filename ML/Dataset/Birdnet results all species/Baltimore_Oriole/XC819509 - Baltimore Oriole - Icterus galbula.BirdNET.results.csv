@@ -1,0 +1,14 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Bombycilla cedrorum,Cedar Waxwing,0.4381,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+3.0,6.0,Icterus spurius,Orchard Oriole,0.4233,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+6.0,9.0,Icterus spurius,Orchard Oriole,0.5485,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+6.0,9.0,Vireo gilvus,Warbling Vireo,0.1104,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+9.0,12.0,Icterus spurius,Orchard Oriole,0.9802,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+9.0,12.0,Passerella iliaca,Fox Sparrow,0.1374,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Icterus spurius,Orchard Oriole,0.7130,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+12.0,15.0,Bombycilla cedrorum,Cedar Waxwing,0.5411,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+18.0,21.0,Icterus spurius,Orchard Oriole,0.6598,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+18.0,21.0,Bombycilla cedrorum,Cedar Waxwing,0.1313,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+24.0,27.0,Icterus spurius,Orchard Oriole,0.9629,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+24.0,27.0,Haemorhous mexicanus,House Finch,0.1202,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3
+27.0,29.07,Bombycilla cedrorum,Cedar Waxwing,0.1029,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Baltimore_Oriole\XC819509 - Baltimore Oriole - Icterus galbula.mp3

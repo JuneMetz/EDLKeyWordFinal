@@ -1,0 +1,9 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Cyanocitta cristata,Blue Jay,0.8516,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC861979 - Blue Jay - Cyanocitta cristata.wav
+3.0,6.0,Cyanocitta cristata,Blue Jay,0.8931,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC861979 - Blue Jay - Cyanocitta cristata.wav
+3.0,6.0,Cardinalis cardinalis,Northern Cardinal,0.1230,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC861979 - Blue Jay - Cyanocitta cristata.wav
+9.0,12.0,Cardinalis cardinalis,Northern Cardinal,0.5854,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC861979 - Blue Jay - Cyanocitta cristata.wav
+12.0,15.0,Apus melba,Alpine Swift,0.1227,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC861979 - Blue Jay - Cyanocitta cristata.wav
+18.0,21.0,Cardinalis cardinalis,Northern Cardinal,0.3289,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC861979 - Blue Jay - Cyanocitta cristata.wav
+21.0,24.0,Cyanocitta cristata,Blue Jay,0.8657,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC861979 - Blue Jay - Cyanocitta cristata.wav
+24.0,27.0,Cyanocitta cristata,Blue Jay,0.9391,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC861979 - Blue Jay - Cyanocitta cristata.wav

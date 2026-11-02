@@ -1,0 +1,13 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+6.0,9.0,Dumetella carolinensis,Gray Catbird,0.5431,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+9.0,12.0,Dumetella carolinensis,Gray Catbird,0.5806,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+9.0,12.0,Pinicola enucleator,Pine Grosbeak,0.1309,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+15.0,18.0,Dumetella carolinensis,Gray Catbird,0.9476,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+18.0,21.0,Dumetella carolinensis,Gray Catbird,0.9184,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+21.0,24.0,Dumetella carolinensis,Gray Catbird,0.7425,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+24.0,27.0,Dumetella carolinensis,Gray Catbird,0.9915,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+24.0,27.0,Thamnolaea cinnamomeiventris,Mocking Cliff-Chat,0.1483,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+30.0,33.0,Dumetella carolinensis,Gray Catbird,0.9384,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+33.0,36.0,Dumetella carolinensis,Gray Catbird,0.8915,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+36.0,39.0,Chloropicus griseocephalus,Olive Woodpecker,0.1108,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav
+39.0,40.71,Setophaga petechia,Yellow Warbler,0.1092,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC796714 - Grey Catbird - Dumetella carolinensis.wav

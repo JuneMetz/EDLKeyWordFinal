@@ -1,0 +1,15 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Sayornis phoebe,Eastern Phoebe,0.7386,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+6.0,9.0,Sayornis phoebe,Eastern Phoebe,0.6783,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+6.0,9.0,Sitta carolinensis,White-breasted Nuthatch,0.3889,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+9.0,12.0,Sayornis phoebe,Eastern Phoebe,0.1207,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+12.0,15.0,Setophaga pinus,Pine Warbler,0.6566,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+15.0,18.0,Sayornis phoebe,Eastern Phoebe,0.7860,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+18.0,21.0,Sitta carolinensis,White-breasted Nuthatch,0.6726,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+18.0,21.0,Setophaga pinus,Pine Warbler,0.2902,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+18.0,21.0,Sayornis phoebe,Eastern Phoebe,0.2371,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+21.0,24.0,Sayornis phoebe,Eastern Phoebe,0.9081,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+24.0,27.0,Sayornis phoebe,Eastern Phoebe,0.9895,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+27.0,30.0,Sayornis phoebe,Eastern Phoebe,0.5566,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+27.0,30.0,Empidonax virescens,Acadian Flycatcher,0.2785,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3
+27.0,30.0,Sphyrapicus varius,Yellow-bellied Sapsucker,0.1053,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Eastern_Phoebe\XC354815 - Eastern Phoebe - Sayornis phoebe.mp3

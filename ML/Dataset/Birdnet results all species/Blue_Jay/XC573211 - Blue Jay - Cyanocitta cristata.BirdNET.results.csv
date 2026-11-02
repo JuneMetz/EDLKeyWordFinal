@@ -1,0 +1,17 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+3.0,6.0,Buteo jamaicensis,Red-tailed Hawk,0.6094,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+3.0,6.0,Parabuteo unicinctus,Harris's Hawk,0.1257,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+6.0,9.0,Haliaeetus leucocephalus,Bald Eagle,0.6040,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+6.0,9.0,Buteo jamaicensis,Red-tailed Hawk,0.4522,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+12.0,15.0,Hemitriccus griseipectus,White-bellied Tody-Tyrant,0.4224,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Haliaeetus leucocephalus,Bald Eagle,0.3395,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Buteo jamaicensis,Red-tailed Hawk,0.1022,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+42.0,45.0,Ocyceros birostris,Indian Gray Hornbill,0.4371,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+42.0,45.0,Buteo jamaicensis,Red-tailed Hawk,0.3381,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+42.0,45.0,Lophoceros nasutus,African Gray Hornbill,0.1373,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+45.0,48.0,Lepidocolaptes affinis,Spot-crowned Woodcreeper,0.1330,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+51.0,54.0,Buteo jamaicensis,Red-tailed Hawk,0.7771,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+51.0,54.0,Milvus migrans,Black Kite,0.4334,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+57.0,59.45,Milvus milvus,Red Kite,0.6647,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+57.0,59.45,Buteo jamaicensis,Red-tailed Hawk,0.2632,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3
+57.0,59.45,Milvus migrans,Black Kite,0.1622,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC573211 - Blue Jay - Cyanocitta cristata.mp3

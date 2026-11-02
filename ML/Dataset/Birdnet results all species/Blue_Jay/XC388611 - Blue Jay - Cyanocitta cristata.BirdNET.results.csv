@@ -1,0 +1,15 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+6.0,9.0,Formicarius analis,Black-faced Antthrush,0.4110,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+6.0,9.0,Cyanocitta cristata,Blue Jay,0.1234,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+12.0,15.0,Dromococcyx phasianellus,Pheasant Cuckoo,0.2537,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+12.0,15.0,Cyanocitta cristata,Blue Jay,0.1717,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+15.0,18.0,Cyanocitta cristata,Blue Jay,0.2291,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+18.0,21.0,Poecile carolinensis,Carolina Chickadee,0.2692,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+21.0,24.0,Microcerculus marginatus,Scaly-breasted Wren,0.6364,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+24.0,27.0,Microcerculus marginatus,Scaly-breasted Wren,0.1391,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+30.0,33.0,Crypturellus bartletti,Bartlett's Tinamou,0.1582,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+30.0,33.0,Microcerculus marginatus,Scaly-breasted Wren,0.1499,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Microcerculus marginatus,Scaly-breasted Wren,0.3548,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+33.0,36.0,Icterus graduacauda,Audubon's Oriole,0.2408,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+39.0,42.0,Icterus graduacauda,Audubon's Oriole,0.1240,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3
+42.0,43.99,Microcerculus marginatus,Scaly-breasted Wren,0.1389,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC388611 - Blue Jay - Cyanocitta cristata.mp3

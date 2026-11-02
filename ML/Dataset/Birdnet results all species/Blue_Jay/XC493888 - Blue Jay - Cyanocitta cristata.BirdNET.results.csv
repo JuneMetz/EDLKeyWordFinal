@@ -1,0 +1,9 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Buteo jamaicensis,Red-tailed Hawk,0.7933,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC493888 - Blue Jay - Cyanocitta cristata.mp3
+0.0,3.0,Systellura decussata,Tschudi's Nightjar,0.1119,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC493888 - Blue Jay - Cyanocitta cristata.mp3
+6.0,9.0,Buteo jamaicensis,Red-tailed Hawk,0.7522,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC493888 - Blue Jay - Cyanocitta cristata.mp3
+18.0,21.0,Buteo jamaicensis,Red-tailed Hawk,0.6612,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC493888 - Blue Jay - Cyanocitta cristata.mp3
+18.0,21.0,Pandion haliaetus,Osprey,0.1760,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC493888 - Blue Jay - Cyanocitta cristata.mp3
+30.0,33.0,Buteo jamaicensis,Red-tailed Hawk,0.4463,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC493888 - Blue Jay - Cyanocitta cristata.mp3
+36.0,39.0,Buteo jamaicensis,Red-tailed Hawk,0.6503,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC493888 - Blue Jay - Cyanocitta cristata.mp3
+36.0,39.0,Pandion haliaetus,Osprey,0.5124,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Blue_Jay\XC493888 - Blue Jay - Cyanocitta cristata.mp3

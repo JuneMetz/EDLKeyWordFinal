@@ -1,0 +1,12 @@
+Start (s),End (s),Scientific name,Common name,Confidence,File
+0.0,3.0,Dumetella carolinensis,Gray Catbird,0.8612,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+3.0,6.0,Dumetella carolinensis,Gray Catbird,0.9650,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+6.0,9.0,Dumetella carolinensis,Gray Catbird,0.9378,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+9.0,12.0,Dumetella carolinensis,Gray Catbird,0.3455,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+12.0,15.0,Dumetella carolinensis,Gray Catbird,0.9178,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+15.0,18.0,Polioptila nigriceps,Black-capped Gnatcatcher,0.2630,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+15.0,18.0,Polioptila plumbea,Tropical Gnatcatcher,0.2401,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+15.0,18.0,Dumetella carolinensis,Gray Catbird,0.1345,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+18.0,21.0,Polioptila nigriceps,Black-capped Gnatcatcher,0.8026,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+18.0,21.0,Polioptila californica,California Gnatcatcher,0.1158,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
+21.0,23.82,Dumetella carolinensis,Gray Catbird,0.9628,C:\Users\jjaim\Desktop\Fall 2026\Advanced Electronics Lab\KWS Capstone\EDLKeyWordFinal\ML\Dataset\raw\Grey_Catbird\XC342383 - Grey Catbird - Dumetella carolinensis.mp3
