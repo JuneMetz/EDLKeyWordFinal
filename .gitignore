@@ -32,3 +32,6 @@ __Images__/desktop.ini
 
 # Ignore Smart Environment folder
 .smart-env
+
+# Python cache
+__pycache__/
