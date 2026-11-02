@@ -10,7 +10,8 @@ Steps for every 3 s clip:
   5. write the slice and one manifest row (label, split, source recording)
 
 Before cutting, each recording is capped at MAX_CLIPS_PER_REC 3 s clips per class, and every recording
-is put in exactly one split (train / val / test), so no recording is seen in two splits.
+is put in exactly one split (train / val / test), so no recording is seen in two splits. Recordings of the same
+bird by the same recordist (recordists.csv) always go to the same split.
 
 Run from the repo root or anywhere:
   python ML/Dataset/make_clips_1s.py            # writes clips_1s/ and manifest_1s.csv
@@ -33,6 +34,7 @@ SEGMENTS = HERE / "Segments"                    # input: 3 s clips, one folder p
 RAW = HERE / "raw"                              # used only to know which bird each recording belongs to
 OUT = HERE / "clips_1s"                         # output: clips_1s/<split>/<label>/*.wav
 MANIFEST = HERE / "manifest_1s.csv"
+RECORDISTS = HERE / "recordists.csv"           # XC id -> recordist (xeno-canto), keeps each recordist in one split
 
 SR = 16000                  # target sample rate (Nyquist 8 kHz)
 SLICE_S = 1.0               # slice length
@@ -123,38 +125,52 @@ def recording_owner():
     return owner
 
 
+def recordist_groups(owner):
+    """XC id -> group key. Recordings by the same recordist of the same bird form one group, so one person's
+    microphone and site never sits in two splits. Unknown recordist: the recording is its own group."""
+    who = {}
+    if RECORDISTS.exists():
+        with open(RECORDISTS, newline="", encoding="utf-8") as f:
+            who = {r["recording"]: r["recordist"] for r in csv.DictReader(f) if r["recordist"]}
+    return {rec: f"{owner[rec]}|{who[rec]}" if rec in who else rec for rec in owner}
+
+
 def assign_splits(owner, weight):
     """Put every recording in one split so each bird gets ~15 % of its clips in val and ~15 % in test.
 
     Recordings give very different numbers of clips, so picking recordings at random makes lopsided
-    splits. Instead, per bird: shuffle its recordings, then hand each one to the split that is furthest
-    below its share of clips. Afterwards make sure val and test hold at least 2 recordings each.
+    splits. Instead, per bird: shuffle its recordist groups, then hand each one to the split that is furthest
+    below its share of clips. Afterwards make sure val and test hold at least 2 groups each.
     weight[rec] = how many clips the recording gives (its own bird's clips, after the cap)."""
     shares = {"train": 1 - VAL_SHARE - TEST_SHARE, "val": VAL_SHARE, "test": TEST_SHARE}
-    by_bird = defaultdict(list)
+    group = recordist_groups(owner)
+    by_bird = defaultdict(lambda: defaultdict(list))        # bird -> group -> recordings
     for rec, bird in owner.items():
-        by_bird[bird].append(rec)
+        by_bird[bird][group[rec]].append(rec)
     rng = random.Random(SEED)
     split = {}
     for bird in sorted(by_bird):
-        recs = sorted(by_bird[bird])
-        rng.shuffle(recs)
-        recs.sort(key=lambda r: -weight.get(r, 0))      # big recordings first, ties stay shuffled
-        total = sum(weight.get(r, 0) for r in recs) or 1
+        groups = by_bird[bird]
+        gw = {g: sum(weight.get(r, 0) for r in rs) for g, rs in groups.items()}
+        keys = sorted(groups)
+        rng.shuffle(keys)
+        keys.sort(key=lambda g: -gw[g])                     # big groups first, ties stay shuffled
+        total = sum(gw.values()) or 1
         got = {s: 0 for s in shares}
         members = {s: [] for s in shares}
-        for rec in recs:
+        for g in keys:
             s = max(shares, key=lambda s: shares[s] * total - got[s])
-            got[s] += weight.get(rec, 0)
-            members[s].append(rec)
+            got[s] += gw[g]
+            members[s].append(g)
         for s, need in (("test", MIN_TEST_RECS), ("val", MIN_VAL_RECS)):
-            while len(members[s]) < need:                 # borrow the smallest train recording
-                rec = min(members["train"], key=lambda r: weight.get(r, 0))
-                members["train"].remove(rec)
-                members[s].append(rec)
-        for s, rs in members.items():
-            for rec in rs:
-                split[rec] = s
+            while len(members[s]) < need:                   # borrow the smallest train group
+                g = min(members["train"], key=lambda g: gw[g])
+                members["train"].remove(g)
+                members[s].append(g)
+        for s, gs in members.items():
+            for g in gs:
+                for rec in groups[g]:
+                    split[rec] = s
     return split
 
 
