@@ -6693,12 +6693,6 @@
 		(uuid "f84f9d71-541a-4669-a2b0-f0957af64a04")
 	)
 	(junction
-		(at 220.98 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00d6be3b-4785-444a-9b1a-ceea3fbdc5ba")
-	)
-	(junction
 		(at 262.89 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6853,6 +6847,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e63eeff-b1ba-47d2-b70b-17240aff00fc")
+	)
+	(junction
+		(at 220.98 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e65a5c4-d365-4516-b087-2c6df1eaea9b")
 	)
 	(junction
 		(at 46.99 130.81)
@@ -13682,6 +13682,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 220.98 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "806584ef-06a5-4495-9574-4fe336f8f89f")
+		(property "Reference" "#PWR042"
+			(at 220.98 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 220.98 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ce955c8-1601-4b86-8bd7-74633c00d684")
+		)
+		(instances
+			(project "KeyWordFinal"
+				(path "/f9fa5162-c43b-4303-9827-e483132d8026"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjSyms:NRF52805-CAAA-R")
 		(at 76.2 135.89 0)
 		(unit 1)
@@ -16113,84 +16191,6 @@
 			(project "KeyWordFinal"
 				(path "/f9fa5162-c43b-4303-9827-e483132d8026"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 220.98 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad08e271-c3b8-438a-837b-53a7266725cb")
-		(property "Reference" "#PWR057"
-			(at 220.98 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 220.98 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 220.98 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6620dc45-009d-49a6-a9ce-6beb721d5d88")
-		)
-		(instances
-			(project "KeyWordFinal"
-				(path "/f9fa5162-c43b-4303-9827-e483132d8026"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
