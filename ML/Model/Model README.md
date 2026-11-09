@@ -8,6 +8,42 @@
   see `Firmware/Features/`), normalized with the train std and with **each clip's own mean removed** (see below).
 - **Output:** 8 raw scores (logits): 7 birds + no bird. The device averages the softmax over 3 s before deciding.
 
+## How it works, in plain words
+Picture a team of 64 "listeners" reading a table that describes 1 second of sound.
+
+1. **The sheet (input).** 1 s of audio becomes a table: 98 columns (moments, 10 ms apart) x 13 rows (how the
+   sound looks at that moment: loud or quiet, bass or treble, ...). Each row's average over the clip is subtracted,
+   so the microphone's colouring disappears and only the changes are left.
+2. **First look: what is happening right now?** Each listener has a stencil 9 columns wide (about 0.1 s, a design
+   choice: 9 scored better than 5) covering all 13 rows. Laid on the table, it multiplies and adds up everything
+   under it and writes one number: "how much does this look like my sound?" (e.g. a rising whistle, a buzzy noise).
+   The stencil jumps 2 columns at a time, so 98 columns give 49 numbers per listener: a notebook of 49 numbers.
+3. **Four blocks: what is the pattern over time?** Each block has two steps:
+   - *Look back* (depthwise): each listener re-reads only their own notebook, at points further apart in each block
+     (1, 2, 4, 8 moments apart; this spacing is called dilation). Block 1 notices a single note, block 4 the rhythm
+     of the whole second.
+   - *Team meeting* (pointwise): at each moment, the 64 listeners combine what they found
+     (e.g. "rising whistle" + "repeated 3 times" = "looks like a Robin phrase").
+   After each step a batch norm (an automatic volume knob per listener, merged into the weights on the chip) and a
+   ReLU (negative becomes 0: the listener either fires or stays quiet).
+4. **Attention: which moments matter?** A second is mostly silence with a call somewhere. The model gives each
+   moment an importance score and takes a weighted average, so the moments with a call count most. Each notebook
+   shrinks to one number: 64 numbers describe the whole second.
+5. **Vote: which bird?** Each of the 8 classes (7 birds + no bird) weighs the 64 numbers into a score; softmax turns
+   the scores into percentages that add up to 100 %.
+6. **Decision.** The device does this for 3 seconds in a row, averages the percentages and logs the winner.
+
+**How it learned this:** nobody told the listeners what to look for. Training showed them thousands of labelled
+clips, and after each wrong guess their stencils were nudged a little toward the right answer.
+
+**Why it fits the chip:** the old model's listeners wrote 7 rows of notes per moment (a 3 x 3 window sliding along
+time and across the 13 rows); BirdTCN's listeners read all 13 rows at once and write 1 number per moment. Notebooks
+7 times thinner leave room for 64 listeners instead of 24 and still use 6.1 KB of RAM instead of 16.1 KB. Reading all
+13 rows together also makes more sense, because the rows are 13 different descriptions, not neighbours.
+
+**In one sentence:** listeners spot short sounds, the blocks connect them into song patterns, attention focuses on
+the moments with calls, and a vote over 3 seconds picks the bird.
+
 ## Layers (current best)
 The 13 coefficients are the input channels. Every filter slides along time only.
 
