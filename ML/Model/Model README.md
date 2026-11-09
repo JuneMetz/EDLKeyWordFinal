@@ -2,43 +2,52 @@
 - Jaimin Kadiwal
 - Phuris Soontrapornchai
 
-# Model: small DS-CNN (`model.py`)
-
-A depthwise-separable CNN after ARM's "Hello Edge" keyword-spotting design, sized for the nRF52805 (24 KB RAM).
+# Model: BirdTCN, a time-only separable CNN (`model.py`)
 
 - **Input:** one MFCC grid per 1 s clip, shape `(batch, 1, 98, 13)` (June's MFCC: 98 frames x 13 coefficients,
-  see `Firmware/Features/`).
+  see `Firmware/Features/`), normalized with the train std and with **each clip's own mean removed** (see below).
 - **Output:** 8 raw scores (logits): 7 birds + no bird. The device averages the softmax over 3 s before deciding.
 
-| Layer | Output shape | Weights |
-|---|---|---|
-| Input | 1 x 98 x 13 | 0 |
-| Conv 3x3, stride 2, + batch norm + ReLU | 24 x 49 x 7 | 264 |
-| 4 x [depthwise 3x3 (dilation 1, 2, 4, 8 in time) + pointwise 1x1], each + batch norm + ReLU | 24 x 49 x 7 | 3,552 |
-| Attention pooling over time (one learned weight per frame) | 24 | 25 |
-| Dropout 0.2 + fully connected | 8 | 200 |
-| **Total** | | **4,041** |
+## Layers (current best)
+The 13 coefficients are the input channels. Every filter slides along time only.
 
-Numbers for the **current best model** (24 channels, attention pooling, dilated). Weights include batch-norm scale
-and shift, which can be folded into the conv weights before export.
+| Layer | Output (channels x frames) | Weights |
+|---|---|---|
+| Input | 13 x 98 | 0 |
+| Conv over time, kernel 9, stride 2, + batch norm + ReLU | 64 x 49 | 7,616 |
+| 4 x [depthwise conv over time, kernel 9, dilation 1, 2, 4, 8 + pointwise 1x1], each + batch norm + ReLU | 64 x 49 | 19,712 |
+| Attention pooling over time (one learned weight per frame) | 64 | 65 |
+| Dropout 0.2 + fully connected | 8 | 520 |
+| **Total** | | **27,913** |
+
+Chip cost: about 28 KB of the 192 KB flash as int8, 1.29 M multiply-adds per 1 s clip, **peak RAM 6.1 KB** int8
+(the largest input map + output map of one layer). Weights include batch-norm scale and shift, which are folded into
+the conv weights before export.
 
 ## Why these choices
-- **Depthwise + pointwise** convs: at 24 channels a layer needs 792 weights instead of 5,184 for a normal 3x3 conv.
-- **Dilation in time** lets the 4 blocks hear about 0.6 s of song instead of 0.2 s; it was the biggest model-side gain
-  (+0.05 macro accuracy) at no extra weights or RAM.
-- **Attention pooling** lets the frames that hold a call count more than the silence around them (+0.01).
-- **24 channels**: the two largest feature maps take 16.1 KB as int8, leaving room in 24 KB RAM for audio and MFCC.
-  32 channels needs 21.4 KB and 48 channels 32.2 KB; neither was clearly better.
+- **Time-only filters.** MFCC coefficients come out of a DCT, so coefficient 4 is not a "neighbour" of coefficient 5
+  the way two frequency bins are. The old 2D model slid a 3x3 filter across them anyway and its maps (24 x 49 x 7)
+  took 16.1 KB. Treating the 13 coefficients as channels gives maps of 64 x 49 = 3.1 KB, so the model can be
+  wider and still use less than half the RAM. This alone moved validation from 0.807 to 0.845.
+- **Each clip's own mean removed** (per-clip cepstral mean normalization). A microphone or a site colours the
+  spectrum in a steady way, which shows up as a constant offset on each coefficient for the whole clip. Subtracting
+  the clip's mean removes it, so the model cannot learn "this recording's microphone" instead of the bird. +0.012 on
+  validation. **The chip must do the same:** after June's MFCC for a 1 s clip, subtract each coefficient's mean
+  over the 98 frames, then divide by the train std saved with the weights.
+- **Kernel 9 + dilation 1, 2, 4, 8.** Each block looks further back in time, so the last block covers about 1 s of
+  song. Kernel 9 was +0.005 over kernel 5.
+- **64 channels.** 96, 128 and even 256 channels (290,825 weights) were no better on validation, so size is no longer
+  the limit; the number of recordings is.
+
+## Old model (kept for reproducing old runs)
+`DSCNN`: 2D depthwise separable CNN after ARM's Hello Edge, 24 channels, attention pooling, dilation 1, 2, 4, 8;
+4,041 weights, 16.1 KB peak RAM, test 0.805. Train it with `train.py --arch ds2d ...` (see the Training README).
 
 ## Settings
-Constants at the top of `model.py` (all can also be passed to `DSCNN(...)`):
-`N_FRAMES`, `N_COEFFS` (follow June's MFCC), `N_CLASSES`, `CHANNELS`, `N_BLOCKS`, `DROPOUT`, `FIRST_KERNEL`,
-`FIRST_STRIDE`, `DILATIONS`, `POOL` (`"avg"` or `"attn"`). The file defaults are the plain baseline
-(32 channels, no dilation, average pooling); the best model is built by `train.py` flags
-(see `ML/Training/Training README.md`).
+Constants at the top of `model.py`: `N_FRAMES`, `N_COEFFS` (follow June's MFCC), `N_CLASSES`, `DROPOUT`,
+`TCN_CHANNELS`, `TCN_FIRST_KERNEL`, `TCN_KERNEL`, `TCN_DILATIONS`, and the old DS-CNN ones.
 
-## Check shapes, size and RAM
+## Check shapes, weights, MACs and RAM
 ```
 python ML/Model/model.py
 ```
-prints each layer's output shape, the number of weights and the int8 RAM for the two largest feature maps.
