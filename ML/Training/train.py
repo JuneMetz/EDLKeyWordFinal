@@ -16,7 +16,8 @@ Scores reported:
 "macro" = mean of the 8 per-class accuracies, so the big no-bird class cannot hide a weak bird.
 
 Steps:
-  1. normalize every MFCC coefficient with the TRAIN mean and std (the chip must use the same numbers)
+  1. normalize every MFCC coefficient with the TRAIN mean and std (the chip must use the same numbers), then
+     (default, --arch tcn) subtract each clip's own mean per coefficient ("per-clip mean removal", turn off with --no-cmn)
   2. train with Adam + cosine LR, cross-entropy with class weights 1/count
      augmentation on train only: time shift, optional time masks (--specaug) and mixup (--mixup)
      --wave: augment the AUDIO of each train batch instead (shift, gain, polarity, no-bird background mixed into
@@ -28,8 +29,8 @@ Steps:
 Outputs go to <KWS Capstone>/local_ml/runs/<time>/ (outside the repo): seed<k>.pt (weights + normalization), metrics.json
 
 Run:
-  python ML/Training/train.py
-  python ML/Training/train.py --channels 24 --kernel 10x4 --specaug --mixup --seeds 5
+  python ML/Training/train.py --specaug --mixup                     # current best: BirdTCN, 64 ch, kernel 9, mean removal
+  python ML/Training/train.py --arch ds2d --channels 24 --pool attn --dilated --specaug --mixup --no-cmn   # old best (0.805)
 """
 import argparse
 import csv
@@ -53,7 +54,7 @@ MANIFEST = DATASET / "manifest_1s.csv"
 OUR_BIRDS = {"American Robin", "Baltimore Oriole", "Blue Jay", "Carolina Wren", "Eastern Phoebe", "Gray Catbird",
              "Red-tailed Hawk"}
 sys.path.insert(0, str(REPO / "ML" / "Model"))
-from model import DSCNN, activation_bytes               # noqa: E402
+from model import BirdTCN, DSCNN, chip_cost             # noqa: E402
 
 FEATURES = LOCAL / "features_june_1s.npz"
 RUNS = LOCAL / "runs"
@@ -101,9 +102,16 @@ def trusted_no_bird(rows):
     return np.array(keep)
 
 
-def load(path, device):
+def remove_clip_mean(x):
+    """From every coefficient subtract its own mean over the frames of that clip (x: ..., frames, coeffs).
+    Removes the steady colouring of the microphone and the site; the chip must do the same."""
+    return x - x.mean(axis=-2, keepdims=True)
+
+
+def load(path, device, cmn=False):
     """Features + labels on the device, normalized with train statistics, plus 3 s groups per split.
-    val and test also get a "clean" subset (trusted labels only) for the official score."""
+    cmn: also remove each clip's own mean (BirdTCN default). val and test also get a "clean" subset
+    (trusted labels only) for the official score."""
     d = np.load(path, allow_pickle=False)
     with open(MANIFEST, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
@@ -118,10 +126,13 @@ def load(path, device):
     for s in ("train", "val", "test"):
         m = split == s                                                  # keeps manifest row order
         y = d["label"][m]
+        xs = (x[m] - mean) / std
+        if cmn:
+            xs = remove_clip_mean(xs)
         _, group = np.unique(source[m], return_inverse=True)          # 3 s clip index per 1 s slice
         assert all(len(set(y[group == g])) == 1 for g in range(group.max() + 1)), "3 s group with two labels"
         data[s] = {
-            "x": torch.from_numpy((x[m] - mean) / std).unsqueeze(1).to(device),   # (N, 1, frames, coeffs)
+            "x": torch.from_numpy(xs).unsqueeze(1).to(device),                    # (N, 1, frames, coeffs)
             "y": torch.from_numpy(y).long().to(device),
             "group": torch.from_numpy(group).long().to(device),
             "recording": d["recording"][m],
@@ -135,6 +146,7 @@ def load(path, device):
     names = [str(n) for n in d["label_names"]]
     data["norm"] = (torch.from_numpy(mean).to(device), torch.from_numpy(std).to(device))
     data["names"] = names
+    data["cmn"] = cmn
     return data, names, mean, std
 
 
@@ -184,8 +196,10 @@ def wave_batch(data, idx):
     x = x * ~hit
     fn, consts = data["mfcc"]
     mean, std = data["norm"]
-    feats = fn(x, consts).float()
-    return ((feats - mean) / std).unsqueeze(1)
+    feats = (fn(x, consts).float() - mean) / std
+    if data["cmn"]:
+        feats = feats - feats.mean(dim=1, keepdim=True)
+    return feats.unsqueeze(1)
 
 
 def time_shift(x, max_shift):
@@ -236,13 +250,21 @@ def per_class_acc(cm):
     return cm.diagonal() / np.maximum(cm.sum(1), 1)
 
 
+def build_model(cfg, n_cls, n_coeffs):
+    if cfg.get("arch", "ds2d") == "tcn":
+        k = cfg.get("tcn_kernel", 9)
+        return BirdTCN(n_in=n_coeffs, n_classes=n_cls, channels=cfg["channels"], first_kernel=k, kernel=k,
+                       dropout=cfg["dropout"])
+    return DSCNN(n_classes=n_cls, channels=cfg["channels"], dropout=cfg["dropout"], first_kernel=cfg["kernel"],
+                 first_stride=cfg.get("stride", (2, 2)), pool=cfg.get("pool", "avg"),
+                 dilations=(1, 2, 4, 8) if cfg.get("dilated") else (1, 1, 1, 1))
+
+
 def train_once(data, n_cls, cfg, seed, device, verbose=False):
-    """One training run. cfg keys: channels, kernel, dropout, specaug, mixup, epochs, wave (needs add_waves).
-    Returns results + best state."""
+    """One training run. cfg keys: arch ("tcn" or "ds2d", default ds2d for old sweeps), channels, kernel, dropout,
+    specaug, mixup, epochs, wave (needs add_waves); tcn also tcn_kernel. Returns results + best state."""
     torch.manual_seed(seed)
-    model = DSCNN(n_classes=n_cls, channels=cfg["channels"], dropout=cfg["dropout"], first_kernel=cfg["kernel"],
-                  first_stride=cfg.get("stride", (2, 2)), pool=cfg.get("pool", "avg"),
-                  dilations=(1, 2, 4, 8) if cfg.get("dilated") else (1, 1, 1, 1)).to(device)
+    model = build_model(cfg, n_cls, data["train"]["x"].shape[3]).to(device)
     counts = torch.bincount(data["train"]["y"], minlength=n_cls).float()
     w = (1.0 / counts) / (1.0 / counts).mean()
     loss_fn = nn.CrossEntropyLoss(weight=w)
@@ -304,7 +326,8 @@ def train_once(data, n_cls, cfg, seed, device, verbose=False):
         "test3_confusion": cm3.tolist(), "test3c_confusion": cm3c.tolist(),
         "worst_recordings": sorted((float(np.mean(v)), k[0], k[1], len(v)) for k, v in per_rec.items())[:5],
         "params": sum(q.numel() for q in model.parameters()),
-        "ram_bytes": 2 * activation_bytes(model.cpu(), *data["train"]["x"].shape[2:]),
+        "macs": chip_cost(model.cpu(), *data["train"]["x"].shape[2:])[1],
+        "ram_bytes": chip_cost(model.cpu(), *data["train"]["x"].shape[2:])[2],
         "state": best["state"],
     }
 
@@ -319,8 +342,11 @@ def main():
     ap.add_argument("--features", type=Path, default=FEATURES)
     ap.add_argument("--epochs", type=int, default=EPOCHS)
     ap.add_argument("--seeds", type=int, default=3)
-    ap.add_argument("--channels", type=int, default=32)
-    ap.add_argument("--kernel", type=parse_kernel, default=(3, 3), help="first conv, frames x coeffs, e.g. 10x4")
+    ap.add_argument("--arch", choices=("tcn", "ds2d"), default="tcn", help="tcn = BirdTCN (best), ds2d = old DSCNN")
+    ap.add_argument("--channels", type=int, default=64)
+    ap.add_argument("--tcn-kernel", dest="tcn_kernel", type=int, default=9, help="tcn: frames per conv")
+    ap.add_argument("--no-cmn", dest="cmn", action="store_false", help="do not remove each clip's own mean")
+    ap.add_argument("--kernel", type=parse_kernel, default=(3, 3), help="ds2d first conv, frames x coeffs, e.g. 10x4")
     ap.add_argument("--dropout", type=float, default=0.2)
     ap.add_argument("--specaug", action="store_true")
     ap.add_argument("--mixup", action="store_true")
@@ -332,12 +358,12 @@ def main():
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("device:", torch.cuda.get_device_name(0) if device.type == "cuda" else "cpu")
-    data, names, mean, std = load(args.features, device)
+    data, names, mean, std = load(args.features, device, cmn=args.cmn)
     n_cls = len(names)
     if args.wave:
         add_waves(data, device)
-    cfg = {k: getattr(args, k) for k in ("channels", "kernel", "dropout", "specaug", "mixup", "epochs", "wave",
-                                         "pool", "dilated", "stride")}
+    cfg = {k: getattr(args, k) for k in ("arch", "channels", "tcn_kernel", "cmn", "kernel", "dropout", "specaug",
+                                         "mixup", "epochs", "wave", "pool", "dilated", "stride")}
     splits = ("train", "val", "test")
     print({s: len(data[s]["y"]) for s in splits}, "1 s clips;",
           {s: int(data[s]["group"].max()) + 1 for s in splits}, "3 s clips;",
@@ -352,7 +378,8 @@ def main():
     print("test 3 s clean per class (mean over seeds):")
     for name, a in zip(names, pc):
         print(f"  {name:18s} {a:.3f}")
-    print(f"params {runs[0]['params']:,}, two largest int8 feature maps {runs[0]['ram_bytes'] / 1024:.1f} KB")
+    print(f"params {runs[0]['params']:,}, MACs {runs[0]['macs'] / 1e6:.2f} M per 1 s clip, "
+          f"peak int8 RAM (input + output map) {runs[0]['ram_bytes'] / 1024:.1f} KB")
 
     out = RUNS / time.strftime("%Y%m%d_%H%M%S")
     out.mkdir(parents=True, exist_ok=True)
