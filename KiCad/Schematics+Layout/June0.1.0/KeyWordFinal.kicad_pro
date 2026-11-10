@@ -163,7 +163,7 @@
         "min_track_width": 0.121,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -748,7 +748,11 @@
         "uuid": "f9fa5162-c43b-4303-9827-e483132d8026"
       }
     ],
+<<<<<<< Updated upstream
     "used_designators": "",
+=======
+    "used_designators": "#PWR53-60,AE1,C23-28,TP1-12",
+>>>>>>> Stashed changes
     "variants": []
   },
   "sheets": [
