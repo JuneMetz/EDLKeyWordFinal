@@ -1,36 +1,38 @@
 """
-Train the DS-CNN bird classifier (ML/Model/model.py) on precomputed MFCC features.
+Train the bird classifier (BirdTCN, ML/Model/model.py) on precomputed features. Final model: test 0.901.
 
-Input: a features .npz made OUTSIDE this repo from June's MFCC code (Firmware/Features), one row per
+Input: a features .npz made OUTSIDE this repo (June's MFCC recipe with PCEN in place of the log step), one row per
 1 s clip of ML/Dataset/manifest_1s.csv (same row order), with arrays:
   mfcc (N, 98, 13), label (N,), label_names (8,), split (N,) train/val/test, recording (N,), path (N,)
-Default path: <KWS Capstone>/local_ml/features_june_1s.npz (next to this repo, not in it).
+Default path: <KWS Capstone>/local_ml/features_pcen_fastT15_1s.npz (next to this repo, not in it).
+Extra TRAINING data (iNaturalist recordings, listed in ML/Dataset/manifest_inat.csv and manifest_m4a.csv) comes as
+features files with mfcc + label only; they are never used for validation or test.
+
+Three steps make the final model (commands in ML/Training/Training README.md):
+  1. --model teacher           train the large teacher (laptop only) on train + iNaturalist, best epoch by validation
+  2. --teacher <dir>           check the student recipe on validation: BirdTCN distilled from the teacher, 60 epochs,
+                               best epoch by clean validation
+  3. --teacher <dir> --final   the final weights: train + val + extras, a fixed 38 epochs (the mean best epoch of
+                               step 2), last epoch kept, then ONE test read
 
 Scores reported:
   1 s macro acc  every 1 s clip on its own
   3 s macro acc  the device decision: softmax averaged over the 1 s slices cut from the same 3 s BirdNET clip
-                 (manifest column source_clip). TARGET: 90 % macro on test.
+                 (manifest column source_clip)
   clean          the OFFICIAL score: same, but no-bird val/test clips are kept only when their label can be trusted
-                 (trusted_no_bird below). A label audit (11-01) found many no-bird clips hold our birds that BirdNET
-                 missed. Training still uses every clip. "full" = all val/test clips, reported alongside.
+                 (trusted_no_bird below). Training still uses every clip. "all" = every val/test clip.
 "macro" = mean of the 8 per-class accuracies, so the big no-bird class cannot hide a weak bird.
 
-Steps:
-  1. normalize every MFCC coefficient with the TRAIN mean and std (the chip must use the same numbers), then
-     (default, --arch tcn) subtract each clip's own mean per coefficient ("per-clip mean removal", turn off with --no-cmn)
-  2. train with Adam + cosine LR, cross-entropy with class weights 1/count
-     augmentation on train only: time shift, optional time masks (--specaug) and mixup (--mixup)
-     --wave: augment the AUDIO of each train batch instead (shift, gain, polarity, no-bird background mixed into
-     bird clips, time mask), then compute June's MFCC on the GPU with the LOCAL port
-     <KWS Capstone>/local_ml/june_mfcc/mfcc_torch.py (her recipe stays out of this repo). Val/test use the features file.
-  3. keep the epoch with the best CLEAN validation 3 s macro accuracy
-  4. repeat for --seeds seeds, report mean and std (one run alone is noise: 0.53 vs 0.56 with the same code)
+Training recipe:
+  - normalize every coefficient with the TRAIN mean and std (saved with the weights; the chip must use the same
+    numbers), then subtract each clip's own mean per coefficient over its 98 frames
+  - cross-entropy with class weights 1/count, Adam lr 0.001, weight decay 0.0001, cosine decay, batch 32
+  - augmentation on train only: time shift up to 10 frames, 2 time masks of 2 to 8 frames, mixup (alpha 0.4)
+  - distillation (when --teacher is given): loss = 0.1 x cross-entropy + 0.9 x T^2 x KL(teacher || student) at
+    temperature T = 2; the teacher is the mean of its 3 seeds and sees the same augmented batch
+  - 3 seeds, mean and std reported
 
-Outputs go to <KWS Capstone>/local_ml/runs/<time>/ (outside the repo): seed<k>.pt (weights + normalization), metrics.json
-
-Run:
-  python ML/Training/train.py --specaug --mixup                     # current best: BirdTCN, 64 ch, kernel 9, mean removal
-  python ML/Training/train.py --arch ds2d --channels 24 --pool attn --dilated --specaug --mixup --no-cmn   # old best (0.805)
+Outputs go to <KWS Capstone>/local_ml/runs/<time>_<name>/ (outside the repo): seed<k>.pt + metrics.json
 """
 import argparse
 import csv
@@ -54,26 +56,24 @@ MANIFEST = DATASET / "manifest_1s.csv"
 OUR_BIRDS = {"American Robin", "Baltimore Oriole", "Blue Jay", "Carolina Wren", "Eastern Phoebe", "Gray Catbird",
              "Red-tailed Hawk"}
 sys.path.insert(0, str(REPO / "ML" / "Model"))
-from model import BirdTCN, DSCNN, chip_cost             # noqa: E402
+from model import BirdTCN, TeacherTCN, chip_cost        # noqa: E402
 
-FEATURES = LOCAL / "features_june_1s.npz"
+FEATURES = LOCAL / "features_pcen_fastT15_1s.npz"
+EXTRA = [f"{LOCAL / 'extra_train' / 'features_pcen_fastT15_inat.npz'}",                       # iNaturalist wav/mp3
+         f"{LOCAL / 'extra_train' / 'features_pcen_fastT15_m4a.npz'}:baltimore_oriole"]        # iNaturalist m4a, Oriole only
 RUNS = LOCAL / "runs"
 
-EPOCHS = 60
-BATCH = 64
+EPOCHS = 60             # validation runs (best epoch picked by clean validation)
+FINAL_EPOCHS = 38       # --final: mean best epoch of the validation runs (22, 40, 52)
+BATCH = 32
 LR = 1e-3
 WEIGHT_DECAY = 1e-4
 SHIFT_FRAMES = 10       # random time shift on train clips (frames are 10 ms)
-MASKS = 2               # --specaug: up to this many time masks per clip
-MASK_FRAMES = (2, 8)    # --specaug: each mask hides 2 to 8 frames
-MIXUP_ALPHA = 0.4       # --mixup: Beta(alpha, alpha) mixing weight
-# --wave augmentation (after PolyChirp, IEEE IS2 2026), applied to train audio only
-WAVE_SHIFT = 0.10       # circular shift up to 10 % of the clip
-WAVE_GAIN_DB = 10       # random gain +/- 10 dB
-NOISE_P = 0.5           # chance a bird clip gets a random train no-bird clip mixed in
-NOISE_SNR_DB = (5, 20)  # at this signal-to-noise ratio
-WAVE_MASK_P = 0.25      # chance of zeroing one band of 2 to 8 % of the clip
-WAVE_MASK = (0.02, 0.08)
+MASKS = 2               # up to this many time masks per clip
+MASK_FRAMES = (2, 8)    # each mask hides 2 to 8 frames
+MIXUP_ALPHA = 0.4       # Beta(alpha, alpha) mixing weight
+KD_ALPHA = 0.9          # share of the loss that comes from the teacher
+KD_TEMP = 2.0           # softening temperature for teacher and student
 
 
 def trusted_no_bird(rows):
@@ -108,10 +108,9 @@ def remove_clip_mean(x):
     return x - x.mean(axis=-2, keepdims=True)
 
 
-def load(path, device, cmn=False):
-    """Features + labels on the device, normalized with train statistics, plus 3 s groups per split.
-    cmn: also remove each clip's own mean (BirdTCN default). val and test also get a "clean" subset
-    (trusted labels only) for the official score."""
+def load(path, device):
+    """Features + labels on the device, normalized with train statistics and clip mean removed, plus 3 s groups per
+    split. val and test also get a "clean" subset (trusted labels only) for the official score."""
     d = np.load(path, allow_pickle=False)
     with open(MANIFEST, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
@@ -126,9 +125,7 @@ def load(path, device, cmn=False):
     for s in ("train", "val", "test"):
         m = split == s                                                  # keeps manifest row order
         y = d["label"][m]
-        xs = (x[m] - mean) / std
-        if cmn:
-            xs = remove_clip_mean(xs)
+        xs = remove_clip_mean((x[m] - mean) / std)
         _, group = np.unique(source[m], return_inverse=True)          # 3 s clip index per 1 s slice
         assert all(len(set(y[group == g])) == 1 for g in range(group.max() + 1)), "3 s group with two labels"
         data[s] = {
@@ -144,62 +141,24 @@ def load(path, device, cmn=False):
                                 "group": torch.unique(data[s]["group"][idx], return_inverse=True)[1],
                                 "recording": d["recording"][m][k]}
     names = [str(n) for n in d["label_names"]]
-    data["norm"] = (torch.from_numpy(mean).to(device), torch.from_numpy(std).to(device))
-    data["names"] = names
-    data["cmn"] = cmn
     return data, names, mean, std
 
 
-def add_waves(data, device):
-    """--wave: load the train audio (16 kHz, 1 s) to the device in the same row order as the features."""
-    import soundfile as sf
-    sys.path.insert(0, str(LOCAL / "june_mfcc"))
-    import mfcc_torch                                    # LOCAL port of June's MFCC (golden-checked vs MATLAB)
-    with open(MANIFEST, newline="", encoding="utf-8") as f:
-        rows = [r for r in csv.DictReader(f) if r["split"] == "train"]
-    wav = np.stack([sf.read(REPO / "ML" / "Dataset" / r["path"], dtype="float32")[0] for r in rows])
-    tr = data["train"]
-    tr["wave"] = torch.from_numpy(wav).to(device)
-    tr["noise_pool"] = torch.nonzero(tr["y"] == data["names"].index("no_bird")).squeeze(1)
-    data["mfcc"] = (mfcc_torch.mfcc, mfcc_torch.build(device=device))
+def split_extra(spec):
+    """"path" -> (path, ""); "path:label_name" -> (path, label_name). A drive letter like C: is not a label."""
+    head, sep, tail = spec.rpartition(":")
+    if sep and tail and not any(ch in tail for ch in "\\/."):
+        return head, tail
+    return spec, ""
 
 
-def rms(x):
-    return x.pow(2).mean(1, keepdim=True).sqrt().clamp_min(1e-8)
-
-
-def wave_batch(data, idx):
-    """Augment the audio of train rows idx, then June's MFCC + train normalization -> (b, 1, 98, 13)."""
-    tr = data["train"]
-    x, y = tr["wave"][idx].clone(), tr["y"][idx]
-    b, n = x.shape
-    dev = x.device
-    # background: a random train no-bird clip under bird clips at 5 to 20 dB SNR
-    bird = (y != data["names"].index("no_bird")) & (torch.rand(b, device=dev) < NOISE_P)
-    pool = tr["noise_pool"]
-    noise = tr["wave"][pool[torch.randint(len(pool), (b,), device=dev)]]
-    snr = torch.empty(b, 1, device=dev).uniform_(*NOISE_SNR_DB)
-    noise = noise * rms(x) / rms(noise) / 10 ** (snr / 20)
-    x = x + noise * bird[:, None]
-    # circular shift
-    shift = torch.randint(-int(WAVE_SHIFT * n), int(WAVE_SHIFT * n) + 1, (b, 1), device=dev)
-    x = torch.gather(x, 1, (torch.arange(n, device=dev)[None] - shift) % n)
-    # gain + polarity, then keep inside the ADC range
-    gain = 10 ** (torch.empty(b, 1, device=dev).uniform_(-WAVE_GAIN_DB, WAVE_GAIN_DB) / 20)
-    sign = torch.where(torch.rand(b, 1, device=dev) < 0.5, -1.0, 1.0)
-    x = (x * gain * sign).clamp(-1.0, 1.0)
-    # one zeroed band of 2 to 8 % of the clip
-    w = (torch.empty(b, 1, device=dev).uniform_(*WAVE_MASK) * n).long()
-    start = (torch.rand(b, 1, device=dev) * (n - w)).long()
-    t = torch.arange(n, device=dev)[None]
-    hit = (t >= start) & (t < start + w) & (torch.rand(b, 1, device=dev) < WAVE_MASK_P)
-    x = x * ~hit
-    fn, consts = data["mfcc"]
-    mean, std = data["norm"]
-    feats = (fn(x, consts).float() - mean) / std
-    if data["cmn"]:
-        feats = feats - feats.mean(dim=1, keepdim=True)
-    return feats.unsqueeze(1)
+def load_extra(spec, names, mean, std, device):
+    """Extra training clips: "path" or "path:label_name" (keep only that label). Same normalization as load()."""
+    path, only = split_extra(spec)
+    d = np.load(path)
+    keep = np.ones(len(d["label"]), bool) if not only else d["label"] == names.index(only)
+    x = remove_clip_mean((d["mfcc"][keep].astype(np.float32) - mean) / std)
+    return (torch.from_numpy(x).unsqueeze(1).to(device), torch.from_numpy(d["label"][keep].astype(np.int64)).to(device))
 
 
 def time_shift(x, max_shift):
@@ -250,145 +209,132 @@ def per_class_acc(cm):
     return cm.diagonal() / np.maximum(cm.sum(1), 1)
 
 
-def build_model(cfg, n_cls, n_coeffs):
-    if cfg.get("arch", "ds2d") == "tcn":
-        k = cfg.get("tcn_kernel", 9)
-        return BirdTCN(n_in=n_coeffs, n_classes=n_cls, channels=cfg["channels"], first_kernel=k, kernel=k,
-                       dropout=cfg["dropout"])
-    return DSCNN(n_classes=n_cls, channels=cfg["channels"], dropout=cfg["dropout"], first_kernel=cfg["kernel"],
-                 first_stride=cfg.get("stride", (2, 2)), pool=cfg.get("pool", "avg"),
-                 dilations=(1, 2, 4, 8) if cfg.get("dilated") else (1, 1, 1, 1))
+def clean_val_score(model, val, n_cls):
+    c = val["clean"]
+    _, cm3c = scores(probs(model, val["x"][c["idx"]]), c["y"], c["group"], n_cls)
+    return float(per_class_acc(cm3c).mean())
 
 
-def train_once(data, n_cls, cfg, seed, device, verbose=False):
-    """One training run. cfg keys: arch ("tcn" or "ds2d", default ds2d for old sweeps), channels, kernel, dropout,
-    specaug, mixup, epochs, wave (needs add_waves); tcn also tcn_kernel. Returns results + best state."""
+def load_teachers(run_dir, device):
+    """The teacher run's seed*.pt files, in eval mode. Their softmax is averaged."""
+    teachers = []
+    for f in sorted(Path(run_dir).glob("seed*.pt")):
+        t = TeacherTCN().to(device)
+        t.load_state_dict(torch.load(f, weights_only=False)["state_dict"])
+        teachers.append(t.eval())
+    assert teachers, f"no seed*.pt in {run_dir}"
+    return teachers
+
+
+def train_once(kind, x, y, n_cls, seed, epochs, batch, device, teachers=None, val=None):
+    """One seed. kind "student" (BirdTCN) or "teacher" (TeacherTCN). With val: keep the epoch with the best clean
+    validation 3 s score; without val (--final): keep the last epoch. Returns (model, best epoch)."""
     torch.manual_seed(seed)
-    model = build_model(cfg, n_cls, data["train"]["x"].shape[3]).to(device)
-    counts = torch.bincount(data["train"]["y"], minlength=n_cls).float()
-    w = (1.0 / counts) / (1.0 / counts).mean()
-    loss_fn = nn.CrossEntropyLoss(weight=w)
+    rng = np.random.default_rng(seed)
+    model = (BirdTCN(n_classes=n_cls) if kind == "student" else TeacherTCN(n_classes=n_cls)).to(device)
+    counts = torch.bincount(y, minlength=n_cls).float()
+    ce = nn.CrossEntropyLoss(weight=(1.0 / counts) / (1.0 / counts).mean())
     opt = torch.optim.Adam(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
-    sched = torch.optim.lr_scheduler.CosineAnnealingLR(opt, T_max=cfg["epochs"])
-    xtr, ytr = data["train"]["x"], data["train"]["y"]
-    val = data["val"]
-    best = {"val3c": -1.0}
-
-    for epoch in range(1, cfg["epochs"] + 1):
+    sched = torch.optim.lr_scheduler.CosineAnnealingLR(opt, T_max=epochs)
+    best = (-1.0, None, epochs)
+    for epoch in range(1, epochs + 1):
         model.train()
-        order = torch.randperm(len(ytr), device=device)
-        for i in range(0, len(order), BATCH):
-            idx = order[i:i + BATCH]
-            yb = ytr[idx]
-            xb = wave_batch(data, idx) if cfg.get("wave") else time_shift(xtr[idx], SHIFT_FRAMES)
-            if cfg["specaug"]:
-                xb = time_masks(xb, MASKS, MASK_FRAMES)
+        order = torch.randperm(len(y), device=device)
+        for i in range(0, len(order), batch):
+            b = order[i:i + batch]
+            yb = y[b]
+            xb = time_masks(time_shift(x[b], SHIFT_FRAMES), MASKS, MASK_FRAMES)
+            lam = float(rng.beta(MIXUP_ALPHA, MIXUP_ALPHA))
+            perm = torch.randperm(len(yb), device=device)
+            xmix = lam * xb + (1 - lam) * xb[perm]
+            out = model(xmix)
+            loss = lam * ce(out, yb) + (1 - lam) * ce(out, yb[perm])
+            if teachers:
+                with torch.no_grad():
+                    pt = torch.stack([F.softmax(t(xmix) / KD_TEMP, 1) for t in teachers]).mean(0)
+                kd = F.kl_div(F.log_softmax(out / KD_TEMP, 1), pt, reduction="batchmean") * KD_TEMP * KD_TEMP
+                loss = (1 - KD_ALPHA) * loss + KD_ALPHA * kd
             opt.zero_grad()
-            if cfg["mixup"]:
-                lam = float(np.random.default_rng().beta(MIXUP_ALPHA, MIXUP_ALPHA))
-                perm = torch.randperm(len(yb), device=device)
-                out = model(lam * xb + (1 - lam) * xb[perm])
-                loss = lam * loss_fn(out, yb) + (1 - lam) * loss_fn(out, yb[perm])
-            else:
-                loss = loss_fn(model(xb), yb)
             loss.backward()
             opt.step()
         sched.step()
+        if val is not None:
+            v = clean_val_score(model, val, n_cls)
+            if v > best[0]:
+                best = (v, {k: t.detach().clone() for k, t in model.state_dict().items()}, epoch)
+            if epoch % 10 == 0:
+                print(f"  seed {seed} epoch {epoch:3d}  val 3 s clean {v:.3f}  (best {best[0]:.3f} @ {best[2]})", flush=True)
+    if val is not None:
+        model.load_state_dict(best[1])
+    return model.eval(), best[2]
 
-        p = probs(model, val["x"])
-        cm1, cm3 = scores(p, val["y"], val["group"], n_cls)
-        c = val["clean"]
-        _, cm3c = scores(p[c["idx"]], c["y"], c["group"], n_cls)
-        val3, val3c = per_class_acc(cm3).mean(), per_class_acc(cm3c).mean()
-        if val3c > best["val3c"]:
-            best = {"val3c": float(val3c), "val3": float(val3), "val1": float(per_class_acc(cm1).mean()),
-                    "epoch": epoch, "state": {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}}
-        if verbose and (epoch % 10 == 0 or epoch == 1):
-            print(f"  seed {seed} epoch {epoch:3d}  val 1 s {per_class_acc(cm1).mean():.3f}  val 3 s {val3:.3f}  "
-                  f"val 3 s clean {val3c:.3f}  (best clean {best['val3c']:.3f} @ {best['epoch']})")
 
-    model.load_state_dict(best["state"])
-    test = data["test"]
-    p = probs(model, test["x"])
-    cm1, cm3 = scores(p, test["y"], test["group"], n_cls)
-    c = test["clean"]
+def test_scores(model, data, n_cls):
+    te = data["test"]
+    p = probs(model, te["x"])
+    cm1, cm3 = scores(p, te["y"], te["group"], n_cls)
+    c = te["clean"]
     _, cm3c = scores(p[c["idx"]], c["y"], c["group"], n_cls)
-    per_rec = defaultdict(list)
-    for r, t, q in zip(c["recording"], c["y"].cpu().numpy(), p[c["idx"]].argmax(1).cpu().numpy()):
-        per_rec[(str(r), int(t))].append(t == q)
-    return {
-        "seed": seed, "best_epoch": best["epoch"], "val1": best["val1"], "val3": best["val3"],
-        "val3c": best["val3c"],
-        "test1": float(per_class_acc(cm1).mean()), "test3": float(per_class_acc(cm3).mean()),
-        "test3c": float(per_class_acc(cm3c).mean()),
-        "test3_per_class": per_class_acc(cm3).tolist(), "test1_per_class": per_class_acc(cm1).tolist(),
-        "test3c_per_class": per_class_acc(cm3c).tolist(),
-        "test3_confusion": cm3.tolist(), "test3c_confusion": cm3c.tolist(),
-        "worst_recordings": sorted((float(np.mean(v)), k[0], k[1], len(v)) for k, v in per_rec.items())[:5],
-        "params": sum(q.numel() for q in model.parameters()),
-        "macs": chip_cost(model.cpu(), *data["train"]["x"].shape[2:])[1],
-        "ram_bytes": chip_cost(model.cpu(), *data["train"]["x"].shape[2:])[2],
-        "state": best["state"],
-    }
-
-
-def parse_kernel(s):
-    a, b = s.lower().split("x")
-    return (int(a), int(b))
+    return {"test3c": float(per_class_acc(cm3c).mean()), "test3": float(per_class_acc(cm3).mean()),
+            "test1": float(per_class_acc(cm1).mean()), "test3c_per_class": per_class_acc(cm3c).tolist(),
+            "test3c_confusion": cm3c.tolist(), "test3_confusion": cm3.tolist()}
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--features", type=Path, default=FEATURES)
-    ap.add_argument("--epochs", type=int, default=EPOCHS)
+    ap.add_argument("--extra", nargs="*", default=EXTRA, help='extra train-only features: "path" or "path:label_name"')
+    ap.add_argument("--model", choices=("student", "teacher"), default="student")
+    ap.add_argument("--teacher", type=Path, help="teacher run folder (seed*.pt): distill from it")
+    ap.add_argument("--final", action="store_true", help="train on train + val, fixed epochs, keep the last epoch")
+    ap.add_argument("--epochs", type=int, help=f"default {EPOCHS}, or {FINAL_EPOCHS} with --final")
+    ap.add_argument("--batch", type=int, default=BATCH)
     ap.add_argument("--seeds", type=int, default=3)
-    ap.add_argument("--arch", choices=("tcn", "ds2d"), default="tcn", help="tcn = BirdTCN (best), ds2d = old DSCNN")
-    ap.add_argument("--channels", type=int, default=64)
-    ap.add_argument("--tcn-kernel", dest="tcn_kernel", type=int, default=9, help="tcn: frames per conv")
-    ap.add_argument("--no-cmn", dest="cmn", action="store_false", help="do not remove each clip's own mean")
-    ap.add_argument("--kernel", type=parse_kernel, default=(3, 3), help="ds2d first conv, frames x coeffs, e.g. 10x4")
-    ap.add_argument("--dropout", type=float, default=0.2)
-    ap.add_argument("--specaug", action="store_true")
-    ap.add_argument("--mixup", action="store_true")
-    ap.add_argument("--wave", action="store_true", help="augment train audio, MFCC on the GPU (local port)")
-    ap.add_argument("--pool", choices=("avg", "attn"), default="avg")
-    ap.add_argument("--dilated", action="store_true", help="depthwise blocks dilated 1, 2, 4, 8 in time")
-    ap.add_argument("--stride", type=parse_kernel, default=(2, 2), help="first conv stride, frames x coeffs")
+    ap.add_argument("--name", default="", help="suffix for the run folder")
     args = ap.parse_args()
+    epochs = args.epochs or (FINAL_EPOCHS if args.final else EPOCHS)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("device:", torch.cuda.get_device_name(0) if device.type == "cuda" else "cpu")
-    data, names, mean, std = load(args.features, device, cmn=args.cmn)
+    data, names, mean, std = load(args.features, device)
     n_cls = len(names)
-    if args.wave:
-        add_waves(data, device)
-    cfg = {k: getattr(args, k) for k in ("arch", "channels", "tcn_kernel", "cmn", "kernel", "dropout", "specaug",
-                                         "mixup", "epochs", "wave", "pool", "dilated", "stride")}
-    splits = ("train", "val", "test")
-    print({s: len(data[s]["y"]) for s in splits}, "1 s clips;",
-          {s: int(data[s]["group"].max()) + 1 for s in splits}, "3 s clips;",
-          {s: int(data[s]["clean"]["group"].max()) + 1 for s in ("val", "test")}, "clean 3 s clips;", "config", cfg)
+    parts = [(data["train"]["x"], data["train"]["y"])]
+    if args.final:
+        parts.append((data["val"]["x"], data["val"]["y"]))
+    parts += [load_extra(e, names, mean, std, device) for e in args.extra]
+    x = torch.cat([p[0] for p in parts])
+    y = torch.cat([p[1] for p in parts])
+    teachers = load_teachers(args.teacher, device) if args.teacher else None
+    cfg = {"model": args.model, "final": args.final, "epochs": epochs, "batch": args.batch,
+           "extra": [Path(split_extra(e)[0]).name + (":" + split_extra(e)[1] if split_extra(e)[1] else "") for e in args.extra],
+           "features": args.features.name, "distilled": bool(teachers), "kd_alpha": KD_ALPHA if teachers else 0.0,
+           "kd_temp": KD_TEMP}
+    print(f"training clips: {len(y):,} ({'train + val' if args.final else 'train'} + extras); config {cfg}", flush=True)
 
-    runs = [train_once(data, n_cls, cfg, seed, device, verbose=True) for seed in range(args.seeds)]
-    for key, label in (("val3c", "val 3 s clean"), ("test3c", "TEST 3 s CLEAN (official)"),
-                       ("test3", "test 3 s full"), ("test1", "test 1 s full")):
-        v = [r[key] for r in runs]
-        print(f"{label:26s} macro acc {np.mean(v):.3f} +/- {np.std(v):.3f}   ({', '.join(f'{x:.3f}' for x in v)})")
-    pc = np.mean([r["test3c_per_class"] for r in runs], axis=0)
-    print("test 3 s clean per class (mean over seeds):")
-    for name, a in zip(names, pc):
-        print(f"  {name:18s} {a:.3f}")
-    print(f"params {runs[0]['params']:,}, MACs {runs[0]['macs'] / 1e6:.2f} M per 1 s clip, "
-          f"peak int8 RAM (input + output map) {runs[0]['ram_bytes'] / 1024:.1f} KB")
-
-    out = RUNS / time.strftime("%Y%m%d_%H%M%S")
+    out = RUNS / (time.strftime("%Y%m%d_%H%M%S") + ("_" + args.name if args.name else ""))
     out.mkdir(parents=True, exist_ok=True)
-    for r in runs:
-        torch.save({"state_dict": r["state"], "mean": mean, "std": std, "label_names": names,
-                    "config": cfg, "features": str(args.features)}, out / f"seed{r['seed']}.pt")
-    (out / "metrics.json").write_text(json.dumps(
-        {"config": cfg, "label_names": names, "runs": [{k: v for k, v in r.items() if k != "state"} for r in runs]},
-        indent=1))
+    runs = []
+    for seed in range(args.seeds):
+        model, ep = train_once(args.model, x, y, n_cls, seed, epochs, args.batch, device, teachers,
+                               val=None if args.final else data["val"])
+        r = {"seed": seed, "epoch": ep, **test_scores(model, data, n_cls)}
+        if not args.final:
+            r["val3c"] = clean_val_score(model, data["val"], n_cls)
+        runs.append(r)
+        torch.save({"state_dict": {k: v.cpu() for k, v in model.state_dict().items()}, "mean": mean, "std": std,
+                    "label_names": names, "config": cfg}, out / f"seed{seed}.pt")
+        print(f"seed {seed}: " + (f"val 3 s clean {r['val3c']:.3f} @ epoch {ep} | " if not args.final else "")
+              + f"TEST 3 s clean {r['test3c']:.3f} | 3 s all {r['test3']:.3f} | 1 s {r['test1']:.3f}", flush=True)
+
+    f = lambda k: f"{np.mean([r[k] for r in runs]):.3f} +/- {np.std([r[k] for r in runs]):.3f}"
+    if not args.final:
+        print(f"val 3 s clean (choose settings by this) {f('val3c')}, best epochs {[r['epoch'] for r in runs]}")
+    print(f"TEST 3 s clean (official) {f('test3c')} | 3 s all {f('test3')} | 1 s {f('test1')}")
+    print("per class:", " ".join(f"{n[:7]} {a:.2f}" for n, a in zip(names, np.mean([r["test3c_per_class"] for r in runs], 0))))
+    if args.model == "student":
+        w, macs, ram = chip_cost(BirdTCN(n_classes=n_cls))
+        print(f"chip: {w:,} weights, {macs / 1e6:.2f} M multiply-adds per 1 s clip, peak RAM {ram / 1024:.1f} KB int8")
+    (out / "metrics.json").write_text(json.dumps({"config": cfg, "label_names": names, "runs": runs}, indent=1))
     print(f"saved {out}")
 
 

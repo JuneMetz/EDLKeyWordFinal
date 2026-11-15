@@ -4,8 +4,9 @@
 
 # Model: BirdTCN, a time-only separable CNN (`model.py`)
 
-- **Input:** one MFCC grid per 1 s clip, shape `(batch, 1, 98, 13)` (June's MFCC: 98 frames x 13 coefficients,
-  see `Firmware/Features/`), normalized with the train std and with **each clip's own mean removed** (see below).
+- **Input:** one feature grid per 1 s clip, shape `(batch, 1, 98, 13)`: June's MFCC (98 frames x 13 coefficients,
+  see `Firmware/Features/`) with **PCEN in place of her log step** (see the Training README), normalized with the train
+  mean and std and with **each clip's own mean removed** (see below).
 - **Output:** 8 raw scores (logits): 7 birds + no bird. The device averages the softmax over 3 s before deciding.
 
 ## How it works, in plain words
@@ -44,7 +45,7 @@ time and across the 13 rows); BirdTCN's listeners read all 13 rows at once and w
 **In one sentence:** listeners spot short sounds, the blocks connect them into song patterns, attention focuses on
 the moments with calls, and a vote over 3 seconds picks the bird.
 
-## Layers (current best)
+## Layers (final model)
 The 13 coefficients are the input channels. Every filter slides along time only.
 
 | Layer | Output (channels x frames) | Weights |
@@ -75,13 +76,31 @@ the conv weights before export.
 - **64 channels.** 96, 128 and even 256 channels (290,825 weights) were no better on validation, so size is no longer
   the limit; the number of recordings is.
 
-## Old model (kept for reproducing old runs)
-`DSCNN`: 2D depthwise separable CNN after ARM's Hello Edge, 24 channels, attention pooling, dilation 1, 2, 4, 8;
-4,041 weights, 16.1 KB peak RAM, test 0.805. Train it with `train.py --arch ds2d ...` (see the Training README).
+## Final weights (`weights/`)
+| File | What it is |
+|---|---|
+| `weights/seed0.pt`, `seed1.pt`, `seed2.pt` | the final BirdTCN trained 3 times (3 random starts). Any one goes on the chip; seed 0 is the default. Each file holds `state_dict`, the 13 train `mean` and `std` used to normalize the features, `label_names` and `config` |
+| `weights/metrics.json` | the test scores of the 3 seeds: clean 3 s 0.902 / 0.907 / 0.893 (mean 0.901), per class and confusion matrices |
+
+The files are 128 KB each because PyTorch saves the 27,913 weights as 32-bit floats; on the chip they are 8-bit,
+about 28 KB.
+
+## Teacher (training only, never on the chip)
+`TeacherTCN` is a large version of the same idea: 256 channels, 6 residual blocks (full conv over time, kernel 9,
+dilation 1 to 32), about 3.9 M weights. Its only job is to help train BirdTCN (knowledge distillation): during training
+BirdTCN copies the teacher's softened answers as well as the true labels. Three teachers averaged scored 0.901 on
+validation, BirdTCN alone 0.885, BirdTCN taught by them 0.892. The teacher weights (15.5 MB each) stay on the laptop,
+not in git; `train.py --model teacher` makes them again.
+
+## How we got here
+The first model was a 2D DS-CNN after ARM's Hello Edge (4,041 weights, 16.1 KB peak RAM, test 0.805). BirdTCN
+replaced it on 11-09 (test 0.854); PCEN features, extra iNaturalist recordings, batch 32, distillation and training on
+train + val took it to 0.901. Every model and setting tried is in `ML/Figures/13_all_models.png`.
 
 ## Settings
 Constants at the top of `model.py`: `N_FRAMES`, `N_COEFFS` (follow June's MFCC), `N_CLASSES`, `DROPOUT`,
-`TCN_CHANNELS`, `TCN_FIRST_KERNEL`, `TCN_KERNEL`, `TCN_DILATIONS`, and the old DS-CNN ones.
+`TCN_CHANNELS`, `TCN_FIRST_KERNEL`, `TCN_KERNEL`, `TCN_DILATIONS`, and the teacher's `TEACHER_CHANNELS`,
+`TEACHER_DILATIONS`.
 
 ## Check shapes, weights, MACs and RAM
 ```
