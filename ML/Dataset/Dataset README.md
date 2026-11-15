@@ -25,6 +25,8 @@ are in `.gitignore`. Everything else here (scripts, BirdNET results, manifest, r
 | `make_clips_1s.py` | turns `Segments/` into `clips_1s/` + `manifest_1s.csv` | yes |
 | `clips_1s/<split>/<label>/` | 34,404 one-second clips, 16 kHz mono PCM16 | no |
 | `manifest_1s.csv` | one row per 1 s clip: path, label, split, recording, recording_bird, source_clip, slice, birdnet_conf, margin_db | yes |
+| `inaturalist_recordings.csv` | the 578 extra iNaturalist recordings used for training: observation and sound id, link, licence, observer, date, place | yes |
+| `manifest_inat_1s.csv` | the 2,592 extra 1 s training slices cut from them (same columns as `manifest_1s.csv` + `source`) | yes |
 
 ## How the data was built
 
@@ -76,6 +78,18 @@ From 1,244 recordings (the rest gave no usable clip). No recording and no (bird,
 | Red-tailed Hawk | 589 | 130 | 118 |
 | No bird | 6,939 | 3,577 | 2,949 |
 | **Total** | **21,643** | **6,784** | **5,977** |
+
+## Extra training data: iNaturalist (training only)
+Oriole and Hawk had the fewest clips, so the final model also trains on iNaturalist recordings of those two birds.
+They are **never used for validation or test**, so the comparison with earlier models stays fair.
+- Research-grade observations with sound, US and Canada, open licences (no "no derivatives"), one recording per
+  observer per bird; observers who also recorded our val/test xeno-canto files were skipped.
+- wav and mp3 files for Oriole and Hawk, plus m4a files for Oriole (the m4a Hawk recordings did not help on
+  validation and are not used).
+- Same rules as above: BirdNET own species at >= 0.7, at most 25 clips per recording, 1 s slices at 16 kHz,
+  -20 dBFS.
+- Used: 578 recordings (Oriole 154 wav/mp3 + 194 m4a, Hawk 230), 2,592 slices (Oriole 1,622, Hawk 970).
+  Licences: cc-by-nc 468, cc-by 62, cc0 31, cc-by-nc-sa 12, cc-by-sa 5. The audio is not in git.
 
 ## Known problems
 

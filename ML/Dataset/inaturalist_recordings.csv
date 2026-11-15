@@ -1,0 +1,579 @@
+source,bird,obs_id,sound_id,url,license,login,observed_on,place,seconds,samplerate
+wav_mp3,Baltimore_Oriole,78848876,221829,https://static.inaturalist.org/sounds/221829.wav?1621095302,cc-by-nc,jmole,2021-05-15,"Sandyston, NJ, USA",18.4,44100
+wav_mp3,Red-tailed_Hawk,399708104,2162508,https://static.inaturalist.org/sounds/2162508.wav?1789702210,cc-by-nc,paulrfoth,2026-09-12,"Cariboo, CA-BC, CA",46.6,44100
+wav_mp3,Baltimore_Oriole,216849924,1047618,https://static.inaturalist.org/sounds/1047618.wav?1716141485,cc-by-nc,carissab,2024-05-19,"Minnesota, US",10.7,44100
+wav_mp3,Baltimore_Oriole,160295010,685629,https://static.inaturalist.org/sounds/685629.wav?1683462551,cc-by-nc,ethanlwalker,2023-05-07,"Pleasant Valley, KS, USA",10.4,44100
+wav_mp3,Red-tailed_Hawk,87848851,278928,https://static.inaturalist.org/sounds/278928.wav?1626787246,cc-by,georectified,2021-07-19,"Park, MB R0J, Canada",3.8,44100
+wav_mp3,Red-tailed_Hawk,76662502,205985,https://static.inaturalist.org/sounds/205985.wav?1619983801,cc-by-nc,pisum,2021-05-02,"Memorial Park, Houston, TX, USA",5.3,44100
+wav_mp3,Baltimore_Oriole,213742875,1019758,https://static.inaturalist.org/sounds/1019758.wav?1714929728,cc-by-nc,jedililou,2024-05-05,"Wausau, WI, USA",5.8,44100
+wav_mp3,Red-tailed_Hawk,165374316,724249,https://static.inaturalist.org/sounds/724249.wav?1685823768,cc-by-nc,bacchusrock,2023-06-03,"Edwards County, US-TX, US",12.9,44100
+wav_mp3,Baltimore_Oriole,120186100,461190,https://static.inaturalist.org/sounds/461190.wav?1654362957,cc-by-nc,zhelicarol,2022-05-28,"McLean, VA 22101, USA",3.0,48000
+wav_mp3,Baltimore_Oriole,363914496,1969491,https://static.inaturalist.org/sounds/1969491.mp3?1779444433,cc-by-nc,hankj,2026-05-18,"Guilderland, NY 12084, USA",22.9,48000
+wav_mp3,Red-tailed_Hawk,85818443,268972,https://static.inaturalist.org/sounds/268972.wav?1625516573,cc0,nonbinary-naturalist,2021-07-05,"Windsor Forest, Savannah, GA, USA",37.8,44100
+wav_mp3,Baltimore_Oriole,254464917,1264024,https://static.inaturalist.org/sounds/1264024.wav?1733624493,cc-by-nc,spelikan,2006-04-29,"Hamilton County, OH, USA",36.8,44100
+wav_mp3,Red-tailed_Hawk,118989698,452992,https://static.inaturalist.org/sounds/452992.wav?1653695454,cc0,shanebustapbj,2022-05-23,"South Okanagan Grasslands, CA-BC-OS, CA-BC, CA",9.7,44100
+wav_mp3,Red-tailed_Hawk,230224197,1136468,https://static.inaturalist.org/sounds/1136468.wav?1721358432,cc-by-nc,joseph_l,2024-07-18,"Guelph, ON, Canada",3.1,44100
+wav_mp3,Baltimore_Oriole,25189922,38874,https://static.inaturalist.org/sounds/38874.wav?1557963481,cc-by,tkoffel,2019-05-14,"Kalamazoo County, MI, USA",17.6,48000
+wav_mp3,Red-tailed_Hawk,327451220,1698706,https://static.inaturalist.org/sounds/1698706.wav?1763685732,cc-by-nc,columbidaeperson,2025-11-19,"Evergreen, San Jose, CA, USA",8.5,44100
+wav_mp3,Red-tailed_Hawk,189796525,840533,https://static.inaturalist.org/sounds/840533.wav?1698963134,cc-by-nc,cosmiccat,2023-11-02,"Longview, TX 75605, USA",18.0,44100
+wav_mp3,Red-tailed_Hawk,53503803,122194,https://static.inaturalist.org/sounds/122194.wav?1595096649,cc-by-nc,catkizer,2020-07-18,"Jackson County, US-OR, US",3.7,48000
+wav_mp3,Baltimore_Oriole,29052611,43895,https://static.inaturalist.org/sounds/43895.wav?1563457312,cc-by-nc,astrobirder,2019-05-22,"Setauket- East Setauket, NY, USA",36.3,48000
+wav_mp3,Red-tailed_Hawk,130652982,519864,https://static.inaturalist.org/sounds/519864.wav?1660413398,cc-by-nc,axicus,2022-08-13,"Stuart Ave, Richmond, VA, US",15.6,44100
+wav_mp3,Baltimore_Oriole,77977987,215235,https://static.inaturalist.org/sounds/215235.wav?1620514865,cc-by-nc-sa,jason_miller,2021-05-03,"Hamilton, ON L8E 6A3, Canada",49.7,44100
+wav_mp3,Baltimore_Oriole,81135201,241190,https://static.inaturalist.org/sounds/241190.wav?1622514447,cc-by-nc,m-randall,2021-05-31,"Division No. 6, AB, Canada",13.2,48000
+wav_mp3,Baltimore_Oriole,281131090,1462517,https://static.inaturalist.org/sounds/1462517.wav?1747264134,cc-by-nc,bhiebert,2025-05-14,"Parry Sound, CA-ON, CA",7.0,44100
+wav_mp3,Red-tailed_Hawk,385681579,2091159,https://static.inaturalist.org/sounds/2091159.wav?1785169485,cc-by-nc,artsymominsc,2026-07-27,"Greenville County, SC, USA",35.5,44100
+wav_mp3,Baltimore_Oriole,12521062,21748,https://static.inaturalist.org/sounds/21748.mp3?1526497911,cc-by-nc,rwp84,2018-05-16,"Temple Road, Benson, VT, USA",102.6,44100
+wav_mp3,Red-tailed_Hawk,235894989,1163136,https://static.inaturalist.org/sounds/1163136.wav?1723725800,cc-by-nc,fredatwood,2024-08-15,"South Chatham, MA 02659, USA",11.7,44100
+wav_mp3,Baltimore_Oriole,161918315,699248,https://static.inaturalist.org/sounds/699248.mp3?1684205735,cc-by-nc,k_a_m,2023-05-13,"Division No. 1, CA-MB, CA",11.2,44100
+wav_mp3,Red-tailed_Hawk,392004249,2122510,https://static.inaturalist.org/sounds/2122510.wav?1786943609,cc-by-nc,hagrimes,2026-08-15,"Montague, MA, USA",18.5,48000
+wav_mp3,Red-tailed_Hawk,128661238,510701,https://static.inaturalist.org/sounds/510701.wav?1659208671,cc-by-nc,conmh,2022-07-30,"Bowling Green, OH, USA",17.7,44100
+wav_mp3,Red-tailed_Hawk,112956494,405689,https://static.inaturalist.org/sounds/405689.wav?1650982075,cc0,truthseqr,2022-04-25,"Ed R. Levin County Park, CA, USA",22.8,44100
+wav_mp3,Baltimore_Oriole,215694283,1037953,https://static.inaturalist.org/sounds/1037953.wav?1715690753,cc-by-nc,chuck_williams,2024-05-13,"Clarion County, PA, USA",38.2,44100
+wav_mp3,Red-tailed_Hawk,167250725,737185,https://static.inaturalist.org/sounds/737185.wav?1686687017,cc-by-nc,hitmewithyourmesomphix,2023-06-13,"Menifee County, US-KY, US",3.1,44100
+wav_mp3,Red-tailed_Hawk,332805274,1728659,https://static.inaturalist.org/sounds/1728659.mp3?1767141330,cc-by-nc,zhenx,2025-12-29,"California, US",5.4,44100
+wav_mp3,Red-tailed_Hawk,67408269,156312,https://static.inaturalist.org/sounds/156312.mp3?1609521589,cc-by-nc,wormwellv,2020-07-31,"Thorold, ON, Canada",16.7,44100
+wav_mp3,Red-tailed_Hawk,49910168,108511,https://static.inaturalist.org/sounds/108511.mp3?1592362317,cc-by-nc,treyhughes,2020-06-16,"League City, TX 77573, USA",24.3,48000
+wav_mp3,Red-tailed_Hawk,67729419,157537,https://static.inaturalist.org/sounds/157537.wav?1610066598,cc-by-nc,zhelicarol,2021-01-07,Columbia Gardens Cemetery,10.2,48000
+wav_mp3,Red-tailed_Hawk,235649333,1161594,https://static.inaturalist.org/sounds/1161594.wav?1723600869,cc-by-nc,d_feather,2024-08-12,"Troutdale, OR 97060, USA",15.0,44100
+wav_mp3,Baltimore_Oriole,46722841,92948,https://static.inaturalist.org/sounds/92948.wav?1590070478,cc-by-nc,jeff-in-md,2020-05-21,"1, Sharpsburg, MD, USA",17.4,48000
+wav_mp3,Red-tailed_Hawk,376223853,2047495,https://static.inaturalist.org/sounds/2047495.wav?1782669497,cc-by,lauralovesbirds,2026-06-28,"Butts Road, Chesapeake, VA, US",4.1,44100
+wav_mp3,Red-tailed_Hawk,171050484,759630,https://static.inaturalist.org/sounds/759630.wav?1688489947,cc-by-nc,kbern,2023-07-04,"Porter Ranch, Los Angeles, CA 91326, USA",7.2,44100
+wav_mp3,Baltimore_Oriole,78292346,217764,https://static.inaturalist.org/sounds/217764.mp3?1620691433,cc-by-nc,nickuzhov,2021-05-10,"Mississauga, ON, Canada",2.5,48000
+wav_mp3,Red-tailed_Hawk,382015802,2074868,https://static.inaturalist.org/sounds/2074868.mp3?1784218746,cc-by,luck,2026-07-15,"Thompson-Nicola, CA-BC, CA",18.4,44100
+wav_mp3,Baltimore_Oriole,46528590,91932,https://static.inaturalist.org/sounds/91932.wav?1589938597,cc-by-nc,denisag2,2020-05-19,"Almonte lagoon, Mississippi Mills, ON",3.5,48000
+wav_mp3,Red-tailed_Hawk,314275414,1638186,https://static.inaturalist.org/sounds/1638186.wav?1757997598,cc-by-nc,sc_beetles,2025-09-15,"Chester State Park, SC, USA",2.2,48000
+wav_mp3,Red-tailed_Hawk,348962279,1852623,https://static.inaturalist.org/sounds/1852623.wav?1775917966,cc-by-nc,nomnomdeplume,2026-04-11,"Washington St @ Boston St, Somerville, MA 02143, USA",12.3,44100
+wav_mp3,Red-tailed_Hawk,230825541,1139584,https://static.inaturalist.org/sounds/1139584.wav?1721590288,cc-by-nc,ejgejg,2024-07-16,"Bemus Point, NY 14712, USA",10.2,44100
+wav_mp3,Red-tailed_Hawk,90465138,289252,https://static.inaturalist.org/sounds/289252.mp3?1628463169,cc-by-nc-sa,davidenrique,2021-07-29,"Montgomery County, MD, USA",15.9,44100
+wav_mp3,Baltimore_Oriole,160655626,688707,https://static.inaturalist.org/sounds/688707.wav?1683592119,cc-by-nc,faire1too,2023-05-08,"Warren County, US-NJ, US",82.6,44100
+wav_mp3,Baltimore_Oriole,88889519,283226,https://static.inaturalist.org/sounds/283226.wav?1627433850,cc-by-nc,marvelliott,2021-05-24,"West Haven, VT 05743, USA",31.9,96000
+wav_mp3,Red-tailed_Hawk,162962188,707106,https://static.inaturalist.org/sounds/707106.mp3?1684697479,cc-by,jack_i,2023-05-21,"Salvia St, Golden, CO, US",22.5,44100
+wav_mp3,Baltimore_Oriole,45587285,86814,https://static.inaturalist.org/sounds/86814.wav?1589204500,cc-by-nc,dendroica,2020-05-11,"Highland Park, NJ 08904, USA",16.7,48000
+wav_mp3,Red-tailed_Hawk,96051982,309177,https://static.inaturalist.org/sounds/309177.mp3?1632553168,cc-by-nc,unwisepoppy,2021-05-16,"Washington, US",14.2,44100
+wav_mp3,Red-tailed_Hawk,370903477,2017374,https://static.inaturalist.org/sounds/2017374.wav?1781271792,cc-by-nc,spore-and-lore,2026-06-11,"Q562+R2 Brooke-Alvinston, ON, Canada",70.2,44100
+wav_mp3,Baltimore_Oriole,115457234,425390,https://static.inaturalist.org/sounds/425390.mp3?1651701896,cc-by-nc-sa,davidenrique,2022-05-02,"Redland, MD, USA",70.5,44100
+wav_mp3,Red-tailed_Hawk,238838843,1189321,https://static.inaturalist.org/sounds/1189321.wav?1725049162,cc-by-nc,pluvierdodu,2024-08-30,"Saint-Armand, QC J0J 1T0, Canada",22.4,44100
+wav_mp3,Baltimore_Oriole,308888687,1614958,https://static.inaturalist.org/sounds/1614958.wav?1756083709,cc-by,erincollins1,2025-05-10,"Queenstown, MD 21658, USA",3.0,48000
+wav_mp3,Red-tailed_Hawk,404593012,2178708,https://static.inaturalist.org/sounds/2178708.wav?1790724061,cc-by-nc,narwahl,2026-09-29,"San Antonio, TX 78253, USA",15.0,48000
+wav_mp3,Baltimore_Oriole,362087954,1955030,https://static.inaturalist.org/sounds/1955030.wav?1778955821,cc-by-nc,kburke,2026-05-16,"Virginia, US",21.7,44100
+wav_mp3,Baltimore_Oriole,116321799,432107,https://static.inaturalist.org/sounds/432107.wav?1652124455,cc-by-nc,wildwestnature,2022-05-08,"Pamela Park, Edina, MN, USA",32.5,44100
+wav_mp3,Baltimore_Oriole,156635121,656334,https://static.inaturalist.org/sounds/656334.mp3?1682455421,cc-by-nc,meangreenfan,2023-04-25,"Charleston, IL 61920, USA",5.8,44100
+wav_mp3,Red-tailed_Hawk,378530927,2058495,https://static.inaturalist.org/sounds/2058495.mp3?1783283020,cc-by-nc,aliol,2026-07-02,"Utah, US",42.7,48000
+wav_mp3,Red-tailed_Hawk,226483819,1116837,https://static.inaturalist.org/sounds/1116837.wav?1719854551,cc-by-nc,elhaase,2024-07-01,"Batavia, IL 60510, USA",15.4,44100
+wav_mp3,Red-tailed_Hawk,357335791,1918792,https://static.inaturalist.org/sounds/1918792.wav?1777673083,cc-by-nc,birder0288,2026-04-21,"Teton County, WY, USA",39.1,44100
+wav_mp3,Baltimore_Oriole,115950435,429017,https://static.inaturalist.org/sounds/429017.mp3?1651949429,cc-by-nc,poly-six-tronic,2022-05-01,"Lehigh County, PA, USA",9.4,44100
+wav_mp3,Red-tailed_Hawk,75350646,196046,https://static.inaturalist.org/sounds/196046.wav?1619467995,cc-by-nc,dchernack,2021-03-28,"Stanfordville, NY 12581, USA",15.1,44100
+wav_mp3,Baltimore_Oriole,28527484,43203,https://static.inaturalist.org/sounds/43203.wav?1562716086,cc-by-nc,bmvig,2019-06-01,"Falmouth, MA, USA",14.6,44100
+wav_mp3,Baltimore_Oriole,299507952,1575457,https://static.inaturalist.org/sounds/1575457.wav?1753019404,cc-by-nc,blakeweis,2025-06-07,"Medicine Hat, AB, Canada",20.5,44100
+wav_mp3,Red-tailed_Hawk,153700343,633880,https://static.inaturalist.org/sounds/633880.wav?1680798447,cc-by-nc,vratnica,2023-04-06,"Roseville, MI",2.5,48000
+wav_mp3,Baltimore_Oriole,211871626,1004871,https://static.inaturalist.org/sounds/1004871.wav?1714426192,cc-by-nc,gregkassing,2024-04-29,"Roosevelt Island, Arlington, VA 22209, USA",5.7,44100
+wav_mp3,Red-tailed_Hawk,76601760,205584,https://static.inaturalist.org/sounds/205584.wav?1619975101,cc-by-nc,kimmiepaxton,2021-05-01,"Ouachita Parish, LA, USA",6.2,16000
+wav_mp3,Baltimore_Oriole,81642650,244846,https://static.inaturalist.org/sounds/244846.mp3?1622854117,cc0,cuihenggang,2021-05-16,"Oak Harbor, OH 43449, USA",58.0,44100
+wav_mp3,Red-tailed_Hawk,196024690,872447,https://static.inaturalist.org/sounds/872447.wav?1704637798,cc-by-nc,coleyoptera,2024-01-06,"Carthage, AR 71725, USA",18.6,44100
+wav_mp3,Red-tailed_Hawk,143370158,568771,https://static.inaturalist.org/sounds/568771.mp3?1669835073,cc-by-nc,natstoner,2022-11-09,"Huntsville, AL, USA",14.3,44100
+wav_mp3,Red-tailed_Hawk,233537707,1151676,https://static.inaturalist.org/sounds/1151676.wav?1722709187,cc-by-nc,sarahlaurenmcguire,2024-08-03,"Caistor Centre, ON L0R 1E0, Canada",14.7,44100
+wav_mp3,Red-tailed_Hawk,193069795,855966,https://static.inaturalist.org/sounds/855966.wav?1701726760,cc-by-nc,pthendricks,2023-12-04,"New Baltimore, MI 48047, USA",2.6,44100
+wav_mp3,Baltimore_Oriole,79002060,223090,https://static.inaturalist.org/sounds/223090.wav?1621179364,cc-by-nc,chickadee09,2021-05-16,"Minnesota, US",25.1,44100
+wav_mp3,Baltimore_Oriole,44802725,82813,https://static.inaturalist.org/sounds/82813.wav?1588543368,cc-by-nc,naturalvegan,2020-05-03,Pennsylvania,32.5,44100
+wav_mp3,Red-tailed_Hawk,237292335,1182366,https://static.inaturalist.org/sounds/1182366.wav?1724339761,cc-by-nc,elliottdrinkwater,2024-08-22,"Chittenden County, US-VT, US",37.9,44100
+wav_mp3,Red-tailed_Hawk,14336487,24147,https://static.inaturalist.org/sounds/24147.mp3?1531538193,cc-by-nc-sa,carolblaney,2018-07-13,"San Bernardino County, CA, USA",15.0,44100
+wav_mp3,Red-tailed_Hawk,302714197,1588554,https://static.inaturalist.org/sounds/1588554.wav?1753996200,cc-by-nc,pohoro,2025-07-31,"Clover Hill, Colts Neck, NJ, USA",22.1,44100
+wav_mp3,Red-tailed_Hawk,88716758,282499,https://static.inaturalist.org/sounds/282499.wav?1627321975,cc-by-nc,sally3142,2021-07-23,"17810 35th ave se, bothell, wa",3.3,48000
+wav_mp3,Red-tailed_Hawk,241022325,1198228,https://static.inaturalist.org/sounds/1198228.mp3?1726010488,cc0,dugald,2024-09-09,"Lunenburg, NS, Canada",149.0,44100
+wav_mp3,Baltimore_Oriole,360041959,1941481,https://static.inaturalist.org/sounds/1941481.wav?1778431504,cc0,lupinwhiskers,2026-05-09,"Cherokee Marsh, Madison, WI, USA",11.0,44100
+wav_mp3,Red-tailed_Hawk,88778836,282777,https://static.inaturalist.org/sounds/282777.wav?1627356972,cc0,kenkneidel,2021-07-20,"Cotswold, Charlotte, NC 28211, USA",9.5,32000
+wav_mp3,Red-tailed_Hawk,189175970,837934,https://static.inaturalist.org/sounds/837934.wav?1698454154,cc-by-nc,kspringer,2023-10-27,"Harmony Township, PA, USA",22.8,44100
+wav_mp3,Red-tailed_Hawk,390337003,2114670,https://static.inaturalist.org/sounds/2114670.wav?1786469750,cc-by-nc,agnesmp,2026-08-11,"Belmont, MA 02478, USA",4.0,48000
+wav_mp3,Baltimore_Oriole,161911466,702934,https://static.inaturalist.org/sounds/702934.mp3?1684450696,cc-by-nc,guyanaguy,2023-05-13,"Lac du Bonnet, MB, Canada",8.5,44100
+wav_mp3,Red-tailed_Hawk,135309252,536842,https://static.inaturalist.org/sounds/536842.wav?1663374368,cc-by-nc,margaritanoir,2022-09-16,"Massachusetts Ave NW, Washington, DC, US",33.6,44100
+wav_mp3,Red-tailed_Hawk,369178796,2006823,https://static.inaturalist.org/sounds/2006823.mp3?1780797509,cc-by-nc,dbeadle,2026-06-04,"High Park-Swansea, Toronto, ON, Canada",43.1,44100
+wav_mp3,Baltimore_Oriole,12992110,22465,https://static.inaturalist.org/sounds/22465.mpga?1527800685,cc-by-nc,wincal,2018-05-21,"Hickory Creek, TX 75065, USA",17.2,44100
+wav_mp3,Red-tailed_Hawk,128748323,511092,https://static.inaturalist.org/sounds/511092.wav?1659244649,cc-by-nc,satxmar,2022-07-16,"Mission Burial Park, San Antonio, TX, USA",7.2,44100
+wav_mp3,Red-tailed_Hawk,147838419,591533,https://static.inaturalist.org/sounds/591533.mp3?1675273500,cc-by-nc,leecarvallo,2023-02-01,"Central LA, Los Angeles, CA, USA",5.5,44100
+wav_mp3,Red-tailed_Hawk,45790367,87872,https://static.inaturalist.org/sounds/87872.wav?1589390106,cc-by-nc,lizcubberley,2020-05-13,"Fort Wayne, IN 46809, USA",21.3,44100
+wav_mp3,Baltimore_Oriole,163989732,714318,https://static.inaturalist.org/sounds/714318.wav?1685196446,cc-by-nc,cschneider1,2023-05-27,"Lakeland, WI, USA",18.8,44100
+wav_mp3,Red-tailed_Hawk,385154591,2088998,https://static.inaturalist.org/sounds/2088998.wav?1785042565,cc-by-nc,liminal_leaf_litter,2026-07-25,"272 Overbrook Ave, Dallas, PA 18612, USA",16.5,44100
+wav_mp3,Baltimore_Oriole,287411164,1509059,https://static.inaturalist.org/sounds/1509059.wav?1749243908,cc-by,marykrieger,2025-05-31,"Brokenhead, MB R0E, Canada",3.5,48000
+wav_mp3,Red-tailed_Hawk,123243891,481018,https://static.inaturalist.org/sounds/481018.wav?1656089577,cc-by-nc,rangerfarmer,2022-06-24,"Pescadero, CA 94060, USA",6.7,44100
+wav_mp3,Red-tailed_Hawk,126661530,501406,https://static.inaturalist.org/sounds/501406.wav?1658077535,cc0,augustfrisk,2022-07-17,"Turlock, CA, US",4.4,44100
+wav_mp3,Baltimore_Oriole,122317556,475560,https://static.inaturalist.org/sounds/475560.wav?1655564818,cc-by-nc,srlubkin,2022-06-18,"Minneapolis, MN 55455, USA",101.9,44100
+wav_mp3,Red-tailed_Hawk,105135344,347277,https://static.inaturalist.org/sounds/347277.wav?1642474064,cc-by,lumenal,2022-01-17,"Lane County, US-OR, US",4.1,48000
+wav_mp3,Red-tailed_Hawk,265183902,1333136,https://static.inaturalist.org/sounds/1333136.wav?1741886136,cc-by-nc,mostlyflowers,2025-03-11,"California, US",12.8,44100
+wav_mp3,Red-tailed_Hawk,360427087,1942466,https://static.inaturalist.org/sounds/1942466.wav?1778456862,cc-by,berrybadbotanist,2026-05-08,"Division No. 7, CA-AB, CA",6.9,44100
+wav_mp3,Red-tailed_Hawk,254336736,1263271,https://static.inaturalist.org/sounds/1263271.mp3?1733521157,cc-by-nc,r2d2yoda1,2024-12-06,"Minnesota, US",8.5,44100
+wav_mp3,Red-tailed_Hawk,55918698,128851,https://static.inaturalist.org/sounds/128851.mp3?1596985848,cc-by-nc,bdale1334,2020-07-30,"Brooktondale, NY 14817, USA",25.0,44100
+wav_mp3,Baltimore_Oriole,212023435,1006159,https://static.inaturalist.org/sounds/1006159.wav?1714440838,cc-by-nc,nsferguson,2024-04-29,"South Riverdale, Toronto, ON, Canada",26.0,44100
+wav_mp3,Red-tailed_Hawk,47353105,96430,https://static.inaturalist.org/sounds/96430.wav?1590456048,cc-by-nc,nat_snowe,2020-05-25,"Thurston County, US-WA, US",14.9,44100
+wav_mp3,Baltimore_Oriole,13553800,23183,https://static.inaturalist.org/sounds/23183.wav?1529340523,cc0,lotteryd,2018-06-18,"Hilltop Cir, Baltimore, MD 21250, USA",54.3,44100
+wav_mp3,Baltimore_Oriole,213775121,1020063,https://static.inaturalist.org/sounds/1020063.wav?1714936702,cc-by-nc,tomnatprairie,2024-05-05,"Nearman Hills, Kansas City, KS, USA",15.6,44100
+wav_mp3,Red-tailed_Hawk,160462120,687043,https://static.inaturalist.org/sounds/687043.mp3?1683505031,cc-by-nc,adam_kalab,2023-05-07,"Medicine Hat, AB, Canada",11.5,48000
+wav_mp3,Baltimore_Oriole,330881665,1716737,https://static.inaturalist.org/sounds/1716737.wav?1765828372,cc-by-nc,olaroche,2025-06-06,"St. Laurent, MB R0C, Canada",5.1,44100
+wav_mp3,Red-tailed_Hawk,176443018,784721,https://static.inaturalist.org/sounds/784721.wav?1691075271,cc-by-nc,naturellis,2023-08-02,"King County, US-WA, US",18.8,44100
+wav_mp3,Baltimore_Oriole,287082339,1506893,https://static.inaturalist.org/sounds/1506893.wav?1749141400,cc-by-nc,plantmandrew,2025-06-05,"Greenbrier, Charlottesville, VA, USA",43.5,44100
+wav_mp3,Red-tailed_Hawk,220156008,1074949,https://static.inaturalist.org/sounds/1074949.wav?1717378642,cc-by-nc,philkahler,2024-06-02,"Walla Walla County, WA, USA",13.6,48000
+wav_mp3,Baltimore_Oriole,282866994,1475715,https://static.inaturalist.org/sounds/1475715.mp3?1747829409,cc-by-nc,bert_filemyr,2025-05-10,"Oregon, OH, USA",29.1,48000
+wav_mp3,Red-tailed_Hawk,310852663,1622534,https://static.inaturalist.org/sounds/1622534.mp3?1756757795,cc-by-nc,spuniun,2025-09-01,"Orange, CT 06477, USA",33.1,48000
+wav_mp3,Red-tailed_Hawk,219589560,1070747,https://static.inaturalist.org/sounds/1070747.mp3?1717182817,cc-by,lindsiodendron,2024-05-31,"Clermont County, OH, USA",212.6,44100
+wav_mp3,Baltimore_Oriole,278463169,1440596,https://static.inaturalist.org/sounds/1440596.wav?1746378848,cc-by-nc,ryan3476,2025-05-02,"Springdale, Stamford, CT, USA",24.4,44100
+wav_mp3,Red-tailed_Hawk,51325850,113986,https://static.inaturalist.org/sounds/113986.mp3?1593401601,cc-by-nc,neontetraploid,2020-06-28,"Los Angeles County, CA, USA",9.1,44100
+wav_mp3,Baltimore_Oriole,282074731,1470132,https://static.inaturalist.org/sounds/1470132.wav?1747578940,cc-by-nc,fractalnature,2025-05-18,"Auburn, NY 13021, USA",13.3,44100
+wav_mp3,Red-tailed_Hawk,174127302,774786,https://static.inaturalist.org/sounds/774786.wav?1689959469,cc-by-nc,leelynnmi,2023-07-20,"Stevenson, WA 98648, USA",48.3,44100
+wav_mp3,Baltimore_Oriole,284740536,1489395,https://static.inaturalist.org/sounds/1489395.mp3?1748408392,cc-by-sa,frogspotter,2025-05-02,"Jamaica Plain, Boston, MA, USA",20.6,44100
+wav_mp3,Red-tailed_Hawk,123794049,484440,https://static.inaturalist.org/sounds/484440.wav?1656392555,cc-by-nc,adirado,2022-06-26,"Crystal Lake Recreation Area, California, USA",9.9,44100
+wav_mp3,Red-tailed_Hawk,124690995,490348,https://static.inaturalist.org/sounds/490348.wav?1656918138,cc-by-nc,gilin-trefsby,2022-07-03,"Main St and W 18th St (EB), Cedar Falls, IA 50613, США",29.6,44100
+wav_mp3,Baltimore_Oriole,120937970,466019,https://static.inaturalist.org/sounds/466019.wav?1654771965,cc-by-nc-sa,joncefus,2022-05-08,"7984 Fulton Dr NW, Massillon, OH 44646, USA",42.5,22050
+wav_mp3,Red-tailed_Hawk,223622558,1099812,https://static.inaturalist.org/sounds/1099812.mp3?1718743706,cc-by-nc,mwoods42,2024-06-10,"Verdugo Mountains, Glendale, CA, USA",8.0,44100
+wav_mp3,Baltimore_Oriole,374568294,2038599,https://static.inaturalist.org/sounds/2038599.wav?1782214208,cc-by-nc,trent-massey,2026-06-23,Massey Acres,46.9,44100
+wav_mp3,Red-tailed_Hawk,165926332,727984,https://static.inaturalist.org/sounds/727984.mp3?1686069697,cc-by-nc,lesfreck,2023-05-31,"McKinley, Kelowna, BC, Canada",2.8,44100
+wav_mp3,Red-tailed_Hawk,235928560,1163361,https://static.inaturalist.org/sounds/1163361.wav?1723738348,cc-by,jstraka,2024-08-09,"East Kootenay, CA-BC, CA",16.7,44100
+wav_mp3,Baltimore_Oriole,116110119,430348,https://static.inaturalist.org/sounds/430348.wav?1652025771,cc-by-nc,vratnica,2022-05-06,Kensington Metropark,17.1,48000
+wav_mp3,Red-tailed_Hawk,103836979,341153,https://static.inaturalist.org/sounds/341153.mp3?1640718910,cc-by-nc,stahlmangc,2021-12-28,"19 Calder Park Rd, Bluffton, SC 29910, USA",10.0,48000
+wav_mp3,Baltimore_Oriole,214486749,1026716,https://static.inaturalist.org/sounds/1026716.wav?1715211568,cc-by-nc,jsolfrian,2024-05-08,"New York, US",17.3,44100
+wav_mp3,Red-tailed_Hawk,386605422,2095410,https://static.inaturalist.org/sounds/2095410.wav?1785428116,cc-by-nc,filee14,2026-07-30,"Botts Ranch, Cedar Crest, NM 87008, USA",25.1,44100
+wav_mp3,Baltimore_Oriole,278377439,1439879,https://static.inaturalist.org/sounds/1439879.wav?1746363022,cc-by-nc,sjbradley,2025-04-27,"Northwest Philadelphia, Philadelphia, PA, USA",106.4,44100
+wav_mp3,Red-tailed_Hawk,180848608,802654,https://static.inaturalist.org/sounds/802654.wav?1693353551,cc-by,agujaceratops,2023-08-29,"South Amherst, Amherst, MA 01002, USA",10.8,44100
+wav_mp3,Baltimore_Oriole,164905530,720945,https://static.inaturalist.org/sounds/720945.mp3?1685581172,cc-by-nc,lma82,2023-05-12,"Sharon, MA, USA",71.4,32000
+wav_mp3,Baltimore_Oriole,78720859,220919,https://static.inaturalist.org/sounds/220919.wav?1621013118,cc-by-nc,robbmiller,2021-05-13,"4643 Blackhawk Rd, Rockford, IL 61109, USA",33.9,48000
+wav_mp3,Red-tailed_Hawk,219906669,1073155,https://static.inaturalist.org/sounds/1073155.wav?1717296356,cc-by,peliken,2024-06-01,"Oxon Hill, MD, USA",73.8,44100
+wav_mp3,Baltimore_Oriole,160854294,690317,https://static.inaturalist.org/sounds/690317.wav?1683690513,cc-by-nc,archon,2023-05-09,"Southgate, MI 48195, USA",28.4,44100
+wav_mp3,Red-tailed_Hawk,85723320,268467,https://static.inaturalist.org/sounds/268467.mp3?1625456027,cc-by-nc,bethbinnington,2021-06-21,"St. John's Norway S, Toronto, ON, Canada",13.0,44100
+wav_mp3,Baltimore_Oriole,47863598,99173,https://static.inaturalist.org/sounds/99173.mp3?1590856928,cc0,k2018lena,2020-05-24,"Lena, IL 61048, USA",4.4,48000
+wav_mp3,Red-tailed_Hawk,172039682,764752,https://static.inaturalist.org/sounds/764752.mp3?1688937331,cc-by,tuoichen,2023-07-09,"Discovery Park, Seattle, WA 98199, USA",18.1,48000
+wav_mp3,Baltimore_Oriole,122995664,479500,https://static.inaturalist.org/sounds/479500.mp3?1655929032,cc-by-nc,birderguy,2022-06-19,"Franklin County, VT, USA",45.0,44100
+wav_mp3,Baltimore_Oriole,163368017,709860,https://static.inaturalist.org/sounds/709860.mp3?1684872176,cc-by,yetiuprising,2023-05-23,"Dundee Township, IL 60118, USA",12.6,48000
+wav_mp3,Red-tailed_Hawk,191428957,847892,https://static.inaturalist.org/sounds/847892.wav?1700429883,cc-by-nc,samstrich,2023-11-18,"Arcata Marsh and Wildlife Sanctuary, Arcata, CA, US",2.6,44100
+wav_mp3,Red-tailed_Hawk,283049585,1476917,https://static.inaturalist.org/sounds/1476917.mp3?1747884263,cc-by,aydenburd,2025-05-21,"Larimer County, CO, USA",21.0,48000
+wav_mp3,Red-tailed_Hawk,339059912,1770107,https://static.inaturalist.org/sounds/1770107.wav?1771352253,cc-by,tser,2026-02-15,"Hillsboro, OR, USA",8.1,44100
+wav_mp3,Red-tailed_Hawk,399452178,2155770,https://static.inaturalist.org/sounds/2155770.mp3?1789191030,cc-by-nc,cade_,2026-09-11,"Balboa Park, San Diego, CA, USA",14.3,44100
+wav_mp3,Red-tailed_Hawk,49980752,108784,https://static.inaturalist.org/sounds/108784.mp3?1592425937,cc-by-nc,mccandless4,2020-06-17,"Winston County, AL, USA",4.1,16000
+wav_mp3,Red-tailed_Hawk,304616370,1596986,https://static.inaturalist.org/sounds/1596986.wav?1754616158,cc-by-nc,pam37403,2025-08-06,"Pine Grove Township, MI, USA",15.1,44100
+wav_mp3,Red-tailed_Hawk,378430455,2058124,https://static.inaturalist.org/sounds/2058124.wav?1783266326,cc-by-nc,huertaaj,2026-07-05,"Darrtown, OH 45056, USA",8.7,44100
+wav_mp3,Baltimore_Oriole,76332827,203406,https://static.inaturalist.org/sounds/203406.wav?1619910408,cc-by-nc,activateourgarden,2021-04-30,"Alley Park, Queens, NY, USA",18.7,44100
+wav_mp3,Red-tailed_Hawk,301567536,1583908,https://static.inaturalist.org/sounds/1583908.wav?1753634876,cc-by,rrai_ga,2025-07-27,"Fortson, GA 31808, USA",56.9,44100
+wav_mp3,Red-tailed_Hawk,74243678,189306,https://static.inaturalist.org/sounds/189306.wav?1618672729,cc-by-nc,quincy2c,2021-04-17,"Saginaw, TX, USA",2.4,48000
+wav_mp3,Red-tailed_Hawk,387267442,2099072,https://static.inaturalist.org/sounds/2099072.wav?1785608439,cc-by-nc,randytoad,2026-07-28,"Cobb County, GA, USA",7.7,44100
+wav_mp3,Baltimore_Oriole,54433068,124727,https://static.inaturalist.org/sounds/124727.mpga?1595790245,cc-by-nc,isabelle3005,2020-05-23,"Victoriaville, QC, Canada",5.4,44100
+wav_mp3,Red-tailed_Hawk,202721011,931493,https://static.inaturalist.org/sounds/931493.mp3?1710624849,cc-by-nc,renard_frak,2024-03-15,"Isle La Motte, Vermont 05463, États-Unis",53.9,48000
+wav_mp3,Baltimore_Oriole,116723481,435611,https://static.inaturalist.org/sounds/435611.mp3?1652379107,cc-by-nc,grunesdragon,2022-05-12,"Missouri, US",13.0,44100
+wav_mp3,Baltimore_Oriole,282136285,1477706,https://static.inaturalist.org/sounds/1477706.wav?1747933939,cc-by-nc,ken_ohio,2025-05-17,"Valley View, OH 44125, USA",28.0,44100
+wav_mp3,Red-tailed_Hawk,194941028,865648,https://static.inaturalist.org/sounds/865648.wav?1703640340,cc-by-nc,brianw,2023-09-17,"Cheviot, OH 45211, USA",25.4,44100
+wav_mp3,Baltimore_Oriole,160342704,686071,https://static.inaturalist.org/sounds/686071.wav?1683476081,cc0,angerwhale,2023-05-07,"Bay City, MI, USA",4.3,44100
+wav_mp3,Red-tailed_Hawk,296865657,1563444,https://static.inaturalist.org/sounds/1563444.wav?1752182929,cc-by-sa,chalax91,2025-07-10,"Elk Grove Village, IL, USA",76.0,44100
+wav_mp3,Red-tailed_Hawk,85942895,269674,https://static.inaturalist.org/sounds/269674.wav?1625609985,cc-by-nc,debo1961,2021-07-06,"Wood Lake, NE 69221, USA",50.1,44100
+wav_mp3,Baltimore_Oriole,280993097,1461501,https://static.inaturalist.org/sounds/1461501.wav?1747224843,cc-by-nc,agnesmp,2025-05-09,"Watertown, MA 02472, USA",3.5,48000
+wav_mp3,Baltimore_Oriole,213470730,1017414,https://static.inaturalist.org/sounds/1017414.wav?1714848576,cc-by-nc,dlamont,2024-05-04,"Anthony, PA, USA",16.6,44100
+wav_mp3,Red-tailed_Hawk,407382394,2192220,https://static.inaturalist.org/sounds/2192220.mp3?1791671797,cc-by-nc,avmaki06,2026-10-10,"Bayou La Batre, AL 36509, USA",2.3,44100
+wav_mp3,Red-tailed_Hawk,181129359,803922,https://static.inaturalist.org/sounds/803922.wav?1693525316,cc-by-nc,woodridgejeff,2023-08-31,9 Oak leaf Ct,10.3,44100
+wav_mp3,Baltimore_Oriole,366215371,1986552,https://static.inaturalist.org/sounds/1986552.wav?1780018384,cc-by-nc,sttpgh,2023-05-11,"Butler County, PA, USA",10.0,96000
+wav_mp3,Red-tailed_Hawk,220604825,1078499,https://static.inaturalist.org/sounds/1078499.wav?1717555427,cc-by-nc,kimponz,2024-06-04,"Gainesville, FL 32607, USA",16.5,44100
+wav_mp3,Baltimore_Oriole,371578779,2021337,https://static.inaturalist.org/sounds/2021337.mp3?1781441982,cc-by-nc,nickrswood,2026-05-17,"Beaverhill BO, Beaver County, AB, Canada",9.6,44100
+wav_mp3,Red-tailed_Hawk,45557430,86631,https://static.inaturalist.org/sounds/86631.wav?1589163948,cc-by-nc,overseeing-owl,2020-05-10,"100 Campus Center, Seaside, CA 93955, USA",6.6,44100
+wav_mp3,Red-tailed_Hawk,265196940,1333234,https://static.inaturalist.org/sounds/1333234.wav?1741893637,cc0,kzoebel,2025-03-13,"Redmont Park, Birmingham, AL, USA",32.1,44100
+wav_mp3,Red-tailed_Hawk,378890586,2060173,https://static.inaturalist.org/sounds/2060173.mpga?1783373876,cc-by-nc,birderguy,2026-07-05,"Stephenson County, IL, USA",45.9,44100
+wav_mp3,Baltimore_Oriole,273823653,1405528,https://static.inaturalist.org/sounds/1405528.wav?1745675505,cc0,mduffy,2025-04-25,"Abingdon, VA 24211, USA",10.3,44100
+wav_mp3,Red-tailed_Hawk,69088514,162312,https://static.inaturalist.org/sounds/162312.wav?1612538090,cc-by-nc,giacoffel,2021-01-28,"McDonald County, MO, USA",12.6,24000
+wav_mp3,Baltimore_Oriole,220374243,1076707,https://static.inaturalist.org/sounds/1076707.wav?1717461774,cc-by-nc,sebfau8,2024-06-03,"Centre-du-Québec, QC, Canada",13.2,44100
+wav_mp3,Red-tailed_Hawk,142384844,564981,https://static.inaturalist.org/sounds/564981.wav?1668883183,cc-by-nc,seanhh,2021-10-21,St. John's Norway Cemetery & Crematorium,5.2,48000
+wav_mp3,Baltimore_Oriole,12375259,21525,https://static.inaturalist.org/sounds/21525.mp3?1526119520,cc-by-nc,kens18,2018-05-11,"Leslie Spit, Port Lands, Toronto, ON, Canada",120.5,48000
+wav_mp3,Red-tailed_Hawk,20086131,30893,https://static.inaturalist.org/sounds/30893.wav?1549318279,cc-by-nc,sylbird,2019-02-04,"Old Mill, Oxford, KS 67119, USA",9.7,48000
+wav_mp3,Baltimore_Oriole,361867085,1953049,https://static.inaturalist.org/sounds/1953049.wav?1778887910,cc-by-nc,akleiner,2026-05-09,"Mosser Village, Allentown, PA 18109, USA",16.4,44100
+wav_mp3,Red-tailed_Hawk,68593377,160483,https://static.inaturalist.org/sounds/160483.mp3?1611571496,cc-by,rynxs,2020-05-19,"Illinois, US",63.8,48000
+wav_mp3,Baltimore_Oriole,215889922,1039488,https://static.inaturalist.org/sounds/1039488.wav?1715774343,cc-by,bennett_grappone,2024-05-15,"Beaver County, AB, Canada",9.9,44100
+wav_mp3,Red-tailed_Hawk,151878544,620368,https://static.inaturalist.org/sounds/620368.mp3?1679441014,cc-by-nc,shmugrizzle,2023-03-21,"Wind Gap, PA 18091, USA",20.1,44100
+wav_mp3,Baltimore_Oriole,306862534,1606899,https://static.inaturalist.org/sounds/1606899.wav?1755385769,cc-by-nc,katleigh,2025-08-16,"Lucas County, US-OH, US",33.4,44100
+wav_mp3,Baltimore_Oriole,24676261,38019,https://static.inaturalist.org/sounds/38019.wav?1557163530,cc-by-nc,mschenck,2019-05-06,"Coventry, RI, USA",19.0,44100
+wav_mp3,Red-tailed_Hawk,157188995,660816,https://static.inaturalist.org/sounds/660816.wav?1682700103,cc-by-nc,hr_dragonfly,2023-04-28,"Little Rock, AR 72206, USA",8.5,44100
+wav_mp3,Red-tailed_Hawk,55318292,127364,https://static.inaturalist.org/sounds/127364.wav?1596486742,cc-by-nc,rwp84,2020-08-01,"Ghost Hollow Road, West Haven, VT 05743, USA",71.9,44100
+wav_mp3,Baltimore_Oriole,286405806,1519203,https://static.inaturalist.org/sounds/1519203.wav?1749692300,cc-by,liren,2025-05-31,"Wabasha County, MN, USA",22.2,44100
+wav_mp3,Red-tailed_Hawk,20353590,31233,https://static.inaturalist.org/sounds/31233.wav?1550191204,cc-by,tkoffel,2019-02-14,"Kalamazoo County, MI, USA",3.6,48000
+wav_mp3,Red-tailed_Hawk,89103202,284079,https://static.inaturalist.org/sounds/284079.wav?1627587530,cc-by-nc,dezclar,2021-07-28,"Boyd Hall, Oxford, OH 45056, USA",4.2,48000
+wav_mp3,Red-tailed_Hawk,413073872,2220880,https://static.inaturalist.org/sounds/2220880.mp3?1793925289,cc-by-nc,luxy_05,2026-11-05,"Quintara St & 22nd Ave, San Francisco, CA 94116, USA",32.2,44100
+wav_mp3,Baltimore_Oriole,362572374,1958923,https://static.inaturalist.org/sounds/1958923.wav?1779060353,cc-by-nc,lango9599,2026-05-17,"Puslinch, ON N0B 2J0, Canada",12.2,44100
+wav_mp3,Red-tailed_Hawk,251590201,1250365,https://static.inaturalist.org/sounds/1250365.wav?1731529841,cc-by,connorsb,2024-11-13,"Troy Hill, Pittsburgh, PA 15212, USA",37.7,44100
+wav_mp3,Baltimore_Oriole,46929866,94213,https://static.inaturalist.org/sounds/94213.mp3?1590209202,cc-by,juan_sphex,2020-05-16," Wharton, NJ",22.4,44100
+wav_mp3,Red-tailed_Hawk,89660783,286256,https://static.inaturalist.org/sounds/286256.wav?1627923817,cc-by-nc,skuruvil,2021-08-02,"Ontario, CA",74.3,44100
+wav_mp3,Baltimore_Oriole,356910564,1915397,https://static.inaturalist.org/sounds/1915397.wav?1777571251,cc-by-nc,paul_newlt,2026-04-30,"N Bluemound Dr, Appleton, WI, US",4.0,44100
+wav_mp3,Red-tailed_Hawk,325215970,1687713,https://static.inaturalist.org/sounds/1687713.mp3?1762452278,cc-by-nc,natureenjoyer3214,2025-11-06,"Prides Crossing, Beverly, MA 01915, USA",23.3,48000
+wav_mp3,Red-tailed_Hawk,131542240,523361,https://static.inaturalist.org/sounds/523361.wav?1660970068,cc-by-nc,yelloweyedjunco,2022-08-19,"Catalina Foothills, AZ, USA",120.8,44100
+wav_mp3,Baltimore_Oriole,215544034,1036646,https://static.inaturalist.org/sounds/1036646.wav?1715624248,cc-by-nc,wjo,2024-05-13,"Acton, MA 01720, USA",14.4,44100
+wav_mp3,Red-tailed_Hawk,57940624,133325,https://static.inaturalist.org/sounds/133325.wav?1598722602,cc-by-nc,saxtonine,2020-08-29,"Lancaster County, PA, USA",106.3,48000
+wav_mp3,Baltimore_Oriole,116772333,436057,https://static.inaturalist.org/sounds/436057.wav?1652409065,cc-by-nc,ktgoplerud,2022-05-12,"Westside Connection, Grand Rapids, MI, USA",19.7,44100
+wav_mp3,Red-tailed_Hawk,57025155,131506,https://static.inaturalist.org/sounds/131506.mp3?1597938381,cc-by-nc,hmcook,2020-08-20,"W Pleasant Grove Rd, Rogers, AR, US",8.1,44100
+wav_mp3,Baltimore_Oriole,161193699,693266,https://static.inaturalist.org/sounds/693266.wav?1683872619,cc-by-nc-sa,dziomber,2023-05-10,"Caldwell & Tonty, Chicago, IL 60646, USA",29.0,44100
+wav_mp3,Red-tailed_Hawk,399846928,2157297,https://static.inaturalist.org/sounds/2157297.wav?1789299950,cc-by-nc,carl80,2026-08-05,"Jefferson County, WV, USA",5.0,48000
+wav_mp3,Baltimore_Oriole,79141414,224107,https://static.inaturalist.org/sounds/224107.wav?1621255946,cc0,mattmctaggart,2021-05-17,"Glenburnie, ON K0H 1S0, Canada",3.8,48000
+wav_mp3,Baltimore_Oriole,366530494,1988969,https://static.inaturalist.org/sounds/1988969.mp3?1780108960,cc-by-nc,staceyg13,2026-05-28,"DuPage County, IL, USA",3.6,44100
+wav_mp3,Red-tailed_Hawk,312707186,1630651,https://static.inaturalist.org/sounds/1630651.wav?1757434676,cc-by-nc,jan45614,2025-09-09,"Westmere, NY, USA",11.6,44100
+wav_mp3,Baltimore_Oriole,44674628,82050,https://static.inaturalist.org/sounds/82050.mp3?1588469088,cc-by,bobvirag,2020-05-02,"Portage Des Sioux, MO 63373, USA",31.4,44100
+wav_mp3,Red-tailed_Hawk,264474445,1326082,https://static.inaturalist.org/sounds/1326082.wav?1741413411,cc-by-nc,mannac,2023-08-12,"Schwengel WPA, Ozaukee, WI",6.7,44100
+wav_mp3,Baltimore_Oriole,47332438,96328,https://static.inaturalist.org/sounds/96328.mp3?1590444609,cc-by,brianwhite,2020-05-25,"New Castle County, DE, USA",4.7,44100
+wav_mp3,Baltimore_Oriole,157959100,667540,https://static.inaturalist.org/sounds/667540.mp3?1682832078,cc-by-nc,andreav636,2023-04-29,5850 Rotary Road,6.6,44100
+wav_mp3,Red-tailed_Hawk,314031422,1636926,https://static.inaturalist.org/sounds/1636926.mp3?1757906363,cc-by-nc,bigdawg5181,2025-09-14,"Philo, CA 95466, USA",8.8,44100
+wav_mp3,Baltimore_Oriole,281797782,1468131,https://static.inaturalist.org/sounds/1468131.wav?1747497673,cc-by-nc,gmlise,2025-05-17,"Rivière-des-Prairies - Pointe-aux-Trembles, Montréal, QC, Ca",30.3,44100
+wav_mp3,Red-tailed_Hawk,191057109,845861,https://static.inaturalist.org/sounds/845861.mp3?1700016592,cc-by-nc,kairune,2023-11-13,"Richmond, BC, Canada",9.9,44100
+wav_mp3,Red-tailed_Hawk,104736395,345393,https://static.inaturalist.org/sounds/345393.wav?1641864076,cc-by-nc,stephen220,2022-01-09,"Parson Pt Trl, Smyrna, DE 19977, USA",72.6,44100
+wav_mp3,Red-tailed_Hawk,309386879,1616758,https://static.inaturalist.org/sounds/1616758.wav?1756257282,cc-by-nc,jhwaters,2025-08-26,"Murphy Rd, Knoxville, TN, US",7.5,44100
+wav_mp3,Red-tailed_Hawk,349657499,1857782,https://static.inaturalist.org/sounds/1857782.wav?1776126089,cc-by-nc,sachisnively,2026-04-13,"Central Kootenay, BC, Canada",17.2,44100
+wav_mp3,Baltimore_Oriole,362106281,1955191,https://static.inaturalist.org/sounds/1955191.wav?1778959077,cc-by-nc,rkluzco,2026-05-15,"195 Quarry Rd, Laurel Run, PA 18706, USA",6.7,44100
+wav_mp3,Red-tailed_Hawk,220360282,1076514,https://static.inaturalist.org/sounds/1076514.mp3?1717457529,cc-by-nc,birdwhisperer,2024-05-11,"North Powder, OR 97867, USA",10.3,44100
+wav_mp3,Red-tailed_Hawk,386976208,2097091,https://static.inaturalist.org/sounds/2097091.mp3?1785528102,cc-by-nc,goodg,2026-07-26,"Missouri, US",9.0,24000
+wav_mp3,Red-tailed_Hawk,142340333,564825,https://static.inaturalist.org/sounds/564825.mp3?1668830814,cc-by-nc,caiawatha,2022-06-10,"Butte, AK 99645, USA",3.7,44100
+wav_mp3,Red-tailed_Hawk,54795135,125687,https://static.inaturalist.org/sounds/125687.wav?1596070631,cc-by-nc,karro_frost,2020-07-29,"Amherst, MA, USA",27.6,44100
+wav_mp3,Baltimore_Oriole,374517234,2038222,https://static.inaturalist.org/sounds/2038222.wav?1782190981,cc-by-nc,dalunaloo27x,2026-06-22,Jarrett Prairie Nature Preserve,12.0,44100
+wav_mp3,Red-tailed_Hawk,170728882,760532,https://static.inaturalist.org/sounds/760532.wav?1688578567,cc-by,austinrkelly,2023-07-02,"Jackson, SC 29831, USA",23.0,44100
+wav_mp3,Red-tailed_Hawk,101743722,331730,https://static.inaturalist.org/sounds/331730.wav?1637640684,cc-by-nc,kris235,2021-07-05,"Bannock County, ID, USA",3.2,24000
+wav_mp3,Baltimore_Oriole,217715116,1054676,https://static.inaturalist.org/sounds/1054676.wav?1716480603,cc-by-nc,flautistbee,2024-05-23,"Warsaw, ON K0L 3A0, Canada",15.0,44100
+wav_mp3,Baltimore_Oriole,151660755,618715,https://static.inaturalist.org/sounds/618715.mp3?1679262913,cc-by-nc,scwilso35,2017-05-29,"Summersville, WV 26651, USA",29.5,44100
+wav_mp3,Red-tailed_Hawk,72409183,179105,https://static.inaturalist.org/sounds/179105.wav?1617064500,cc-by-nc,nsharp,2021-02-13,"Colchester Village, Winooski, VT, USA",4.7,96000
+wav_mp3,Red-tailed_Hawk,335209167,1744245,https://static.inaturalist.org/sounds/1744245.mp3?1768743493,cc-by,guy23,2020-02-02,"Albemarle County, US-VA, US",47.8,48000
+wav_mp3,Baltimore_Oriole,213122759,1014111,https://static.inaturalist.org/sounds/1014111.wav?1714737844,cc-by,bluebellprince,2024-05-02,"Macomb, MI 48044, USA",33.4,44100
+wav_mp3,Baltimore_Oriole,369429698,2008481,https://static.inaturalist.org/sounds/2008481.mp3?1780857794,cc-by-nc,mitchderise,2026-05-31,"Memphis, TN 38103, USA",6.9,48000
+wav_mp3,Red-tailed_Hawk,252766822,1255944,https://static.inaturalist.org/sounds/1255944.wav?1732394365,cc-by-nc,jfield,2024-11-23,"Sunshine Coast Regional District, BC, Canada",24.1,44100
+wav_mp3,Red-tailed_Hawk,265110355,1332300,https://static.inaturalist.org/sounds/1332300.wav?1741823967,cc-by-nc,wanderingeden,2024-04-29,"Monroe, ME 04951, USA",15.7,44100
+wav_mp3,Baltimore_Oriole,164000454,714403,https://static.inaturalist.org/sounds/714403.wav?1685199990,cc-by-nc,allysarebar,2023-05-27,"Fremont, KS, USA",35.9,44100
+wav_mp3,Red-tailed_Hawk,50661228,111028,https://static.inaturalist.org/sounds/111028.wav?1592918191,cc-by-nc,delaspark,2020-06-23,"Kennett Township, PA, USA",5.4,44100
+wav_mp3,Baltimore_Oriole,359355454,1934181,https://static.inaturalist.org/sounds/1934181.mp3?1778194718,cc-by-nc,snailmo,2026-05-07,"Imlay Township, MI, USA",25.0,44100
+wav_mp3,Baltimore_Oriole,360282284,1943612,https://static.inaturalist.org/sounds/1943612.mp3?1778497203,cc-by-nc,greg985,2026-05-10,"Jackson Township, IN, USA",5.8,48000
+wav_mp3,Red-tailed_Hawk,45565446,86683,https://static.inaturalist.org/sounds/86683.mp3?1589172463,cc-by-nc,jim_carretta,2020-05-10,Miramar,53.9,44100
+wav_mp3,Baltimore_Oriole,216880096,1047824,https://static.inaturalist.org/sounds/1047824.wav?1716147514,cc-by,mpelikan,2024-05-19,"West Tisbury, MA, USA",21.4,44100
+wav_mp3,Red-tailed_Hawk,389178164,2109288,https://static.inaturalist.org/sounds/2109288.wav?1786144014,cc-by-nc,frankgolden,2026-08-07,"Olympia, WA, USA",18.0,44100
+wav_mp3,Baltimore_Oriole,6409798,12505,https://static.inaturalist.org/sounds/12505.wav?1502936407,cc-by-nc,krechmer,2017-05-28,Claytor state,62.4,48000
+wav_mp3,Red-tailed_Hawk,264427543,1325728,https://static.inaturalist.org/sounds/1325728.wav?1741393437,cc-by-nc,mcai,2025-03-02,east brunswick,39.3,44100
+wav_mp3,Baltimore_Oriole,166469363,731967,https://static.inaturalist.org/sounds/731967.mp3?1686340795,cc0,wildreturn,2023-04-29,"Carondelet Park, St. Louis, MO, USA",68.2,44100
+wav_mp3,Red-tailed_Hawk,305805375,1602108,https://static.inaturalist.org/sounds/1602108.mp3?1755016599,cc-by-nc,jfpetit,2025-08-12,"Frelighsburg, QC, Canada",10.2,44100
+wav_mp3,Red-tailed_Hawk,235896431,1163141,https://static.inaturalist.org/sounds/1163141.wav?1723726806,cc-by-nc,jugbayjs,2024-07-13,United States,27.3,44100
+wav_mp3,Baltimore_Oriole,77305340,210692,https://static.inaturalist.org/sounds/210692.wav?1620148843,cc-by,ali_interprets,2021-05-04,"College Township, PA, USA",11.6,44100
+wav_mp3,Red-tailed_Hawk,199227822,896789,https://static.inaturalist.org/sounds/896789.mp3?1707862209,cc-by-nc,govegan65,2020-06-28,"Montour Falls, NY, US",20.5,44100
+wav_mp3,Baltimore_Oriole,161602631,696916,https://static.inaturalist.org/sounds/696916.wav?1684074032,cc-by-nc,vernal3,2023-05-14,"Juggler Meadow Rd, Leverett, MA, US",27.6,44100
+wav_mp3,Red-tailed_Hawk,327166515,1697329,https://static.inaturalist.org/sounds/1697329.wav?1763502311,cc-by-nc,njjturner,2025-11-18,"North Arroyo, Pasadena, CA, USA",18.9,44100
+wav_mp3,Baltimore_Oriole,115840922,428091,https://static.inaturalist.org/sounds/428091.wav?1651888917,cc-by-nc,larid_dylan,2022-05-02,"East Sandwich, Sandwich, MA, USA",10.2,44100
+wav_mp3,Red-tailed_Hawk,200596760,908964,https://static.inaturalist.org/sounds/908964.mp3?1709020252,cc-by-nc,kayleenice,2020-12-21,"Virginia, US",35.3,44100
+wav_mp3,Baltimore_Oriole,280898267,1543031,https://static.inaturalist.org/sounds/1543031.wav?1750970448,cc-by,donalddavesne,2025-05-03,"Northside, Ann Arbor, MI, USA",3.7,48000
+wav_mp3,Red-tailed_Hawk,388758013,2107416,https://static.inaturalist.org/sounds/2107416.mp3?1786027227,cc0,cheese_n_quackers,2026-08-06,"North Carolina, US",28.2,44100
+wav_mp3,Red-tailed_Hawk,304598783,1596901,https://static.inaturalist.org/sounds/1596901.wav?1754609830,cc-by-nc,andrewcreese,2025-08-07,"Ch des Prairies, Rigaud, QC, CA",45.3,44100
+wav_mp3,Baltimore_Oriole,305595443,1601228,https://static.inaturalist.org/sounds/1601228.wav?1754939049,cc-by,jlayman,2025-05-06,"Winchester, MA, USA",55.2,44100
+wav_mp3,Red-tailed_Hawk,395853241,2140513,https://static.inaturalist.org/sounds/2140513.wav?1788107678,cc-by-nc,skuidprokuo,2026-08-29,"1523 140th St, Coon Rapids, IA 50058, USA",14.3,44100
+wav_mp3,Red-tailed_Hawk,300501702,1579319,https://static.inaturalist.org/sounds/1579319.wav?1753303830,cc-by-nc,arvande,2025-07-03,"Midway-Hardwick, GA 31061, USA",8.5,44100
+wav_mp3,Red-tailed_Hawk,83928993,258778,https://static.inaturalist.org/sounds/258778.wav?1624282207,cc-by-nc,tomolson,2021-06-21,"Santa Maria, CA, USA",14.5,44100
+wav_mp3,Baltimore_Oriole,119084099,453776,https://static.inaturalist.org/sounds/453776.wav?1653755660,cc-by-nc,stephen220,2022-05-28,"Forest Glen, Silver Spring, MD, USA",35.9,44100
+wav_mp3,Baltimore_Oriole,359360910,1934233,https://static.inaturalist.org/sounds/1934233.wav?1778196229,cc-by-nc,vireohunter,2026-05-07,"Morgan County, AL, USA",4.5,44100
+wav_mp3,Red-tailed_Hawk,113913406,413254,https://static.inaturalist.org/sounds/413254.wav?1651345102,cc-by-nc,georver,2022-04-30,"Sasabe, AZ 85633, USA",11.8,44100
+wav_mp3,Baltimore_Oriole,362901875,1961383,https://static.inaturalist.org/sounds/1961383.wav?1779144281,cc-by,peliken,2026-05-16,"Columbia County, PA, USA",19.4,44100
+wav_mp3,Red-tailed_Hawk,88608135,282163,https://static.inaturalist.org/sounds/282163.wav?1627248845,cc-by,nolandmartin,2021-07-25,"Eugene, OR 97405, USA",2.9,48000
+wav_mp3,Red-tailed_Hawk,246399578,1225194,https://static.inaturalist.org/sounds/1225194.wav?1728432220,cc0,exploreremmanuel,2024-10-08,"Orange County, FL, USA",8.0,44100
+wav_mp3,Red-tailed_Hawk,86874984,274032,https://static.inaturalist.org/sounds/274032.wav?1626196114,cc-by-nc,joeg99,2021-07-13,"The Arboretum at Penn State, E Park Ave & Bigler Rd, State C",6.8,44100
+wav_mp3,Baltimore_Oriole,279098424,1445345,https://static.inaturalist.org/sounds/1445345.wav?1746575442,cc0,jtdavis05,2025-05-05,"80 Zinnia Dr, Cranston, RI 02920, USA",15.0,44100
+wav_mp3,Baltimore_Oriole,369767445,2010484,https://static.inaturalist.org/sounds/2010484.wav?1780940429,cc-by-nc,jdobrint,2026-06-08,"Fort Erie, ON, Canada",177.1,44100
+wav_mp3,Red-tailed_Hawk,347812249,1843910,https://static.inaturalist.org/sounds/1843910.wav?1775485409,cc-by-nc,flytriguy,2025-07-12,"William Head Rd at Sandgate Rd, Metchosin, BC V9C 3Z1, Canad",18.1,44100
+wav_mp3,Red-tailed_Hawk,375353790,2042925,https://static.inaturalist.org/sounds/2042925.wav?1782424867,cc-by-nc,joverogers1,2026-06-25,"Pleasanton, CA 94588, USA",21.0,44100
+wav_mp3,Baltimore_Oriole,192757918,854428,https://static.inaturalist.org/sounds/854428.wav?1701467721,cc-by-nc,pohoro,2023-04-30,"Manasquan Reservoir, Howell, NJ",48.3,44100
+wav_mp3,Red-tailed_Hawk,178244127,792060,https://static.inaturalist.org/sounds/792060.wav?1691956737,cc-by-nc,tminatbe,2023-08-13,"New York, US",11.3,44100
+wav_mp3,Red-tailed_Hawk,175991439,782606,https://static.inaturalist.org/sounds/782606.wav?1690834135,cc-by-nc,aegolius99,2023-07-31,"Scourge Laboratory, Hamilton, ON L8S 3K2, Canada",22.6,44100
+wav_mp3,Red-tailed_Hawk,70825730,170225,https://static.inaturalist.org/sounds/170225.mp3?1615226220,cc-by-nc,finatic,2020-08-01,Pine Valley Creek,15.0,16000
+wav_mp3,Baltimore_Oriole,365147210,1978844,https://static.inaturalist.org/sounds/1978844.mp3?1779735650,cc-by-nc,elytrid,2026-05-20,"Ypsilanti, MI 48198, USA",7.1,48000
+wav_mp3,Baltimore_Oriole,115632862,426648,https://static.inaturalist.org/sounds/426648.wav?1651786135,cc-by-nc,sam-darmstadt,2022-05-05,"Watertown, MA, USA",29.1,44100
+wav_mp3,Red-tailed_Hawk,262903327,1315171,https://static.inaturalist.org/sounds/1315171.mp3?1740371764,cc-by-nc,hunterdahuman,2025-02-23,"Port Coquitlam, BC V3C 5W9, Canada",5.0,44100
+wav_mp3,Baltimore_Oriole,163154760,708393,https://static.inaturalist.org/sounds/708393.wav?1684776191,cc-by-nc,lynn_reuvers,2023-05-22,"Eyota Township, MN, USA",11.2,44100
+wav_mp3,Red-tailed_Hawk,86309764,271351,https://static.inaturalist.org/sounds/271351.mp3?1625856313,cc-by-nc,funnystuff2495,2021-07-09,"Cabarrus County, NC, USA",14.7,48000
+wav_mp3,Baltimore_Oriole,161232358,693662,https://static.inaturalist.org/sounds/693662.wav?1683900342,cc-by-nc,prestonthomas,2023-05-04,"Austin Ln SE, Cleveland, TN, US",8.0,44100
+wav_mp3,Red-tailed_Hawk,62395087,142222,https://static.inaturalist.org/sounds/142222.wav?1602509140,cc-by-nc,mteeter,2020-10-11,"Mustoe  VA, USA",7.3,44100
+wav_mp3,Baltimore_Oriole,25193935,38910,https://static.inaturalist.org/sounds/38910.wav?1557971314,cc-by-nc,ntepper,2019-05-15,"Orleans, MA, USA",24.1,48000
+wav_mp3,Red-tailed_Hawk,17584615,26605,https://static.inaturalist.org/sounds/26605.wav?1539745943,cc-by-nc,carbenoid,2018-06-11,"Medford, NJ, USA",19.0,48000
+wav_mp3,Red-tailed_Hawk,110092684,382825,https://static.inaturalist.org/sounds/382825.wav?1648825455,cc-by-nc,samzanita,2022-03-29,"Marin County, CA, USA",8.6,96000
+wav_mp3,Red-tailed_Hawk,385109271,2088793,https://static.inaturalist.org/sounds/2088793.wav?1785030889,cc-by,sofiv,2026-07-25,"Wisconsin, US",17.5,48000
+wav_mp3,Baltimore_Oriole,7714622,15238,https://static.inaturalist.org/sounds/15238.mp3?1504106214,cc-by-nc,dgmiller,2017-05-17,"Pomfret, CT, USA",140.6,44100
+wav_mp3,Red-tailed_Hawk,180365742,800690,https://static.inaturalist.org/sounds/800690.mp3?1693097707,cc-by-nc,megh_nn,2023-08-26,"Boone, NC, USA",3.5,44100
+wav_mp3,Baltimore_Oriole,118106050,446511,https://static.inaturalist.org/sounds/446511.mp3?1653181688,cc-by-nc,dbeadle,2022-05-20,"High Park-Swansea, Toronto, ON, Canada",46.2,48000
+wav_mp3,Red-tailed_Hawk,406185778,2186320,https://static.inaturalist.org/sounds/2186320.mp3?1791238743,cc-by-nc,inaturyllis,2026-06-30,"Rolling Hill Rd, Durham, NC, US",41.5,48000
+wav_mp3,Red-tailed_Hawk,299180989,1574231,https://static.inaturalist.org/sounds/1574231.wav?1752936096,cc-by-nc,diatomcat,2025-07-19,"MQ45+47, Roselle, NJ 07203, USA",8.9,44100
+wav_mp3,Red-tailed_Hawk,90162793,288323,https://static.inaturalist.org/sounds/288323.wav?1628270044,cc-by-nc,hmhendrix,2021-08-06,"Tennessee, US",33.6,44100
+wav_mp3,Baltimore_Oriole,47425423,96790,https://static.inaturalist.org/sounds/96790.wav?1590517147,cc-by-nc,ashley_bradford,2020-05-25,"Cromwell Valley, Hampton, MD, USA",47.5,48000
+wav_mp3,Red-tailed_Hawk,137452200,544647,https://static.inaturalist.org/sounds/544647.mp3?1664826124,cc-by-nc,trinityj,2022-09-26,"New Brighton State Beach, Santa Cruz, California, United Sta",15.1,44100
+wav_mp3,Baltimore_Oriole,80807639,238788,https://static.inaturalist.org/sounds/238788.wav?1622330887,cc-by-nc,tsample,2021-05-29,"Lumsden, SK S0G 3C0, Canada",11.0,48000
+wav_mp3,Red-tailed_Hawk,104638442,344854,https://static.inaturalist.org/sounds/344854.wav?1641733372,cc-by-nc,greener_pastures,2022-01-08,"Buxton, ME, USA",25.3,44100
+wav_mp3,Baltimore_Oriole,161601130,696894,https://static.inaturalist.org/sounds/696894.wav?1684073648,cc-by-nc,gittelis,2023-05-14,"Northside, Cincinnati, OH, USA",34.5,44100
+wav_mp3,Red-tailed_Hawk,245865680,1223118,https://static.inaturalist.org/sounds/1223118.wav?1728179547,cc-by-nc,rockeater,2024-09-29,"Ocala Wetland Recharge Park, 2105 NW 21st St, Ocala, FL 3447",34.0,44100
+wav_mp3,Red-tailed_Hawk,241007593,1198187,https://static.inaturalist.org/sounds/1198187.wav?1726004724,cc-by-nc,grimmoire,2024-09-10,"Branford Center, Branford, CT 06405, USA",3.3,44100
+wav_mp3,Red-tailed_Hawk,125162804,493397,https://static.inaturalist.org/sounds/493397.wav?1657201671,cc-by-nc,taday,2022-07-06,"Carbon County, WY, USA",7.4,44100
+wav_mp3,Baltimore_Oriole,94963020,305798,https://static.inaturalist.org/sounds/305798.wav?1631735935,cc-by-nc,sapayoa,2021-05-14,"Lambton County, ON, Canada",44.9,44100
+wav_mp3,Baltimore_Oriole,47512888,97234,https://static.inaturalist.org/sounds/97234.mp3?1590589305,cc-by-nc,adamkehl,2020-05-24,"Vilas County, WI, USA",28.8,44100
+wav_mp3,Red-tailed_Hawk,222127548,1089706,https://static.inaturalist.org/sounds/1089706.wav?1718145452,cc-by-nc,rollybeetle,2024-06-11,"Santa Cruz, CA, USA",11.8,44100
+wav_mp3,Baltimore_Oriole,354495381,1896291,https://static.inaturalist.org/sounds/1896291.mp3?1777220030,cc-by-nc,jonathan2,2026-04-26,"Hudson, OH, USA",11.2,44100
+wav_mp3,Red-tailed_Hawk,87725466,277989,https://static.inaturalist.org/sounds/277989.wav?1626709755,cc-by-nc,birdoku17,2021-07-19,"Creekside, St Louis Park, MN, USA",10.6,44100
+wav_mp3,Red-tailed_Hawk,176975005,820404,https://static.inaturalist.org/sounds/820404.wav?1695860298,cc-by-nc,postingtolearn,2023-08-06,"Prince Edward, Prince Edward County, ON, CA",6.9,44100
+wav_mp3,Red-tailed_Hawk,376329730,2047896,https://static.inaturalist.org/sounds/2047896.wav?1782686176,cc-by-nc,jmole,2026-06-28,"Oldmans Township, NJ, USA",56.6,44100
+wav_mp3,Baltimore_Oriole,117185815,439735,https://static.inaturalist.org/sounds/439735.mp3?1652640581,cc-by-nc,adam_kalab,2022-05-15,"Katimavik-Hazeldean, Ottawa, ON, Canada",13.1,44100
+wav_mp3,Red-tailed_Hawk,373921747,2034705,https://static.inaturalist.org/sounds/2034705.mp3?1782048943,cc-by-nc,rroutledge,2026-06-19,"Sault Ste. Marie, ON P6A 5K8, Canada",50.1,44100
+wav_mp3,Red-tailed_Hawk,220521376,1077996,https://static.inaturalist.org/sounds/1077996.wav?1717525408,cc-by-nc,naness,2024-06-04,"Los Angeles, CA 90041, USA",14.9,44100
+wav_mp3,Baltimore_Oriole,47074239,94954,https://static.inaturalist.org/sounds/94954.mp3?1590296525,cc-by-nc,bert_raccoon,2020-05-23,"Lanark County, ON, Canada",27.5,44100
+wav_mp3,Baltimore_Oriole,78705990,220804,https://static.inaturalist.org/sounds/220804.wav?1621006097,cc0,pobrito,2021-05-14,"Elgin Township, IL, USA",13.7,48000
+wav_mp3,Baltimore_Oriole,77988607,215312,https://static.inaturalist.org/sounds/215312.mp3?1620519543,cc-by-nc,wormwellv,2021-05-08,"Niagara-on-the-Lake, ON, Canada",15.8,44100
+wav_mp3,Red-tailed_Hawk,169495879,751506,https://static.inaturalist.org/sounds/751506.wav?1687736937,cc-by-nc,texaskingbird,2023-06-19,"US90A west of East Bernard, Wharton County, TX, USA",34.4,44100
+wav_mp3,Red-tailed_Hawk,93376079,300571,https://static.inaturalist.org/sounds/300571.wav?1630600175,cc-by-nc,genv,2021-09-02,"Massachusetts, US",34.9,44100
+wav_mp3,Baltimore_Oriole,217195303,1050427,https://static.inaturalist.org/sounds/1050427.wav?1716253708,cc-by-nc,wildontario,2024-05-20,"Whitestown, WI, USA",16.7,44100
+wav_mp3,Red-tailed_Hawk,193074842,855987,https://static.inaturalist.org/sounds/855987.wav?1701730438,cc-by-nc,yoshieslunchbox,2023-12-04,"Edmond, OK 73034, USA",11.1,44100
+wav_mp3,Baltimore_Oriole,47000098,94605,https://static.inaturalist.org/sounds/94605.mpga?1590257444,cc-by-nc,rpt253,2020-05-23,"North Omaha, Omaha, NE, USA",35.4,44100
+wav_mp3,Red-tailed_Hawk,380422673,2067535,https://static.inaturalist.org/sounds/2067535.wav?1783798219,cc-by-nc,katleigh,2026-07-11,"Upper Montclair, Montclair, NJ, USA",16.1,44100
+wav_mp3,Baltimore_Oriole,71310862,172803,https://static.inaturalist.org/sounds/172803.wav?1615830706,cc-by-nc,mangoverde,2019-05-05,"Madisonville, Cincinnati, OH 45227, USA",35.0,48000
+wav_mp3,Baltimore_Oriole,367061072,1993013,https://static.inaturalist.org/sounds/1993013.wav?1780240092,cc-by-nc,alhooks13,2026-05-22,"Monroe County, PA, USA",12.3,44100
+wav_mp3,Baltimore_Oriole,219340452,1069050,https://static.inaturalist.org/sounds/1069050.wav?1717083720,cc-by-nc,regina13,2024-05-30,"Rockland County, US-NY, US",38.4,44100
+wav_mp3,Red-tailed_Hawk,327765993,1700160,https://static.inaturalist.org/sounds/1700160.wav?1763859516,cc-by-nc,zachleeper,2025-11-22,"Waterloo, IA, USA",8.7,44100
+wav_mp3,Red-tailed_Hawk,16224259,47694,https://static.inaturalist.org/sounds/47694.wav?1569660432,cc-by-nc,georgenaturephotos,2017-03-04,"3535 War Memorial Drive, Houston, TX 77084, USA",5.2,44100
+wav_mp3,Red-tailed_Hawk,324907168,1686299,https://static.inaturalist.org/sounds/1686299.wav?1762281871,cc-by-nc,nature-nook,2025-11-04,"Columbus Township, MI 48063, USA",38.2,44100
+wav_mp3,Baltimore_Oriole,367464438,1995556,https://static.inaturalist.org/sounds/1995556.wav?1780333080,cc-by-nc,sp4rrows,2026-05-18,"Moose Lake, MN 55767, USA",23.0,44100
+wav_mp3,Baltimore_Oriole,363622382,1967486,https://static.inaturalist.org/sounds/1967486.wav?1779364035,cc-by-nc,seanhh,2026-05-21,"Williamson Rd at Southwood Dr, Toronto, ON M4E 1K6, Canada",17.5,44100
+wav_mp3,Red-tailed_Hawk,384060194,2083606,https://static.inaturalist.org/sounds/2083606.wav?1784756035,cc-by-nc,amyfrostwicks,2026-07-22,"Cedar Hill X Rd at Iona Dr, Saanich, BC V8P 2P8, Canada",18.6,44100
+wav_mp3,Baltimore_Oriole,287163007,1507341,https://static.inaturalist.org/sounds/1507341.wav?1749162393,cc-by,sarahduhon,2025-05-30,"Oakdale, IA 52241, USA",3.9,48000
+wav_mp3,Red-tailed_Hawk,121316275,468461,https://static.inaturalist.org/sounds/468461.mp3?1654985410,cc-by-nc,willem9,2022-06-10,"Boulder County, CO, USA",16.6,44100
+wav_mp3,Red-tailed_Hawk,341295892,1791785,https://static.inaturalist.org/sounds/1791785.wav?1772664390,cc-by-nc,nixian,2026-03-04,Newberry,10.1,44100
+wav_mp3,Baltimore_Oriole,289614520,1523603,https://static.inaturalist.org/sounds/1523603.mp3?1749916755,cc-by-nc,quyksilver,2025-06-02,"Iowa, US",3.0,48000
+wav_mp3,Red-tailed_Hawk,297472290,1566145,https://static.inaturalist.org/sounds/1566145.mp3?1752358585,cc-by-nc,custudios,2025-07-04,"Alameda County, US-CA, US",4.6,44100
+wav_mp3,Baltimore_Oriole,228683941,1128855,https://static.inaturalist.org/sounds/1128855.mp3?1720725361,cc-by-nc,indiaeyelash,2024-06-11,"Ohio, US",4.9,44100
+wav_mp3,Red-tailed_Hawk,403072624,2171069,https://static.inaturalist.org/sounds/2171069.wav?1790275423,cc-by-nc,thomastaps,2026-09-24,"Westchester County, NY, USA",72.5,44100
+wav_mp3,Baltimore_Oriole,45269159,85084,https://static.inaturalist.org/sounds/85084.wav?1588949934,cc-by-nc,nsharp,2020-05-05,"Falmouth, MA, USA",30.7,96000
+wav_mp3,Red-tailed_Hawk,164355659,717001,https://static.inaturalist.org/sounds/717001.wav?1685331444,cc-by,eric-schmitty,2023-05-22,"Point Comfort Okauchee, Okauchee Lake, WI, USA",15.4,44100
+wav_mp3,Baltimore_Oriole,80152912,232139,https://static.inaturalist.org/sounds/232139.mp3?1621887629,cc-by-nc,fallriver22,2021-05-24,Gideon Adams Park,2.9,44100
+wav_mp3,Baltimore_Oriole,364922044,1977108,https://static.inaturalist.org/sounds/1977108.wav?1779679001,cc-by-nc,jjlisowski,2026-05-22,"Wayne County, PA, USA",8.7,48000
+wav_mp3,Red-tailed_Hawk,70966232,170937,https://static.inaturalist.org/sounds/170937.wav?1615416022,cc-by-nc,susanelliott,2021-03-10,"Lake Rd, Benson, VT, USA",20.1,44100
+wav_mp3,Baltimore_Oriole,210833014,996214,https://static.inaturalist.org/sounds/996214.wav?1714313830,cc-by-nc,kathythornton,2024-04-28,"Chestertown, MD 21620, USA",10.6,44100
+wav_mp3,Red-tailed_Hawk,254162168,1262415,https://static.inaturalist.org/sounds/1262415.wav?1733360650,cc-by,knightericm,2024-12-03,"California, US",9.1,44100
+wav_mp3,Baltimore_Oriole,215930198,1039833,https://static.inaturalist.org/sounds/1039833.wav?1715788733,cc-by-nc,susanelliott,2024-05-15,"Lefferts Pond, Chittenden, VT, USA",90.5,44100
+wav_mp3,Red-tailed_Hawk,176326386,784149,https://static.inaturalist.org/sounds/784149.wav?1691006835,cc-by,calebcatto,2023-07-31,"Ardrossan, AB T8G 2A6, Canada",17.3,44100
+wav_mp3,Red-tailed_Hawk,319393445,1660740,https://static.inaturalist.org/sounds/1660740.wav?1759856127,cc0,dillon_alexander,2025-10-07,"Taos County, US-NM, US",14.7,44100
+wav_mp3,Red-tailed_Hawk,208334948,975844,https://static.inaturalist.org/sounds/975844.mp3?1713641587,cc-by-nc,danicamwm,2024-04-20,"Maryland, US",9.3,48000
+wav_mp3,Baltimore_Oriole,45903507,88457,https://static.inaturalist.org/sounds/88457.wav?1589486707,cc-by-nc,gheisler,2020-05-14,"Jamesville, NY 13078, USA",31.8,44100
+wav_mp3,Red-tailed_Hawk,21040655,31980,https://static.inaturalist.org/sounds/31980.mp3?1552013941,cc-by,hamiltonbioacoustics,2019-03-01,"Pelham, ON, Canada",39.2,44100
+wav_mp3,Baltimore_Oriole,49395455,106439,https://static.inaturalist.org/sounds/106439.wav?1592013414,cc-by,isaacwinkler,2020-06-12,"Mt Vernon, IA 52314, USA",3.6,48000
+wav_mp3,Red-tailed_Hawk,124612620,489909,https://static.inaturalist.org/sounds/489909.wav?1656877908,cc-by-nc,inretrospect,2022-07-03,"New York, US",8.9,44100
+wav_mp3,Red-tailed_Hawk,217820836,1055495,https://static.inaturalist.org/sounds/1055495.mp3?1716519570,cc-by-nc,joerich,2024-05-23,"Lincoln, CA, USA",47.6,48000
+wav_mp3,Baltimore_Oriole,282104766,1470396,https://static.inaturalist.org/sounds/1470396.wav?1747584820,cc-by-nc,stoycho,2025-05-18,"Centerport, NY, USA",21.4,44100
+wav_mp3,Red-tailed_Hawk,96982871,312257,https://static.inaturalist.org/sounds/312257.mp3?1633235835,cc-by-nc,dionysus240,2021-10-02,"Brookville Lake Recreation Areas, Franklin County, IN, USA",4.1,44100
+wav_mp3,Red-tailed_Hawk,70430436,168111,https://static.inaturalist.org/sounds/168111.mp3?1614656969,cc-by,jonaskat,2021-02-15,"Canyon Country, Santa Clarita, CA, USA",4.2,48000
+wav_mp3,Red-tailed_Hawk,182484460,809211,https://static.inaturalist.org/sounds/809211.wav?1694275739,cc-by-nc,sbuteyn,2023-09-09,"Wisconsin, US",3.7,44100
+wav_mp3,Red-tailed_Hawk,244314959,1215122,https://static.inaturalist.org/sounds/1215122.wav?1727488371,cc-by,dualluc,2024-09-26,"University of Wisconsin, Shorewood Hills, WI, US",25.4,44100
+wav_mp3,Baltimore_Oriole,48819552,103882,https://static.inaturalist.org/sounds/103882.wav?1591557020,cc-by,richardlitt,2020-05-24,"Bradford, VT 05033, USA",17.4,22050
+wav_mp3,Baltimore_Oriole,220377576,1076755,https://static.inaturalist.org/sounds/1076755.wav?1717464118,cc-by,spoor,2024-06-03,"Angell, Ann Arbor, MI, USA",46.8,44100
+wav_mp3,Red-tailed_Hawk,129718560,515758,https://static.inaturalist.org/sounds/515758.mp3?1659813979,cc-by-nc,wonderful_world,2022-08-06,"Forest Hills, MI, USA",2.6,48000
+wav_mp3,Baltimore_Oriole,163346583,709746,https://static.inaturalist.org/sounds/709746.wav?1684864868,cc-by,plantarum,2023-05-23,"Ottawa, ON K0A 1K0, Canada",13.5,44100
+wav_mp3,Baltimore_Oriole,357676365,1921562,https://static.inaturalist.org/sounds/1921562.wav?1777757176,cc-by,stevecollins,2026-05-02,"Bernards, NJ, USA",11.9,44100
+wav_mp3,Baltimore_Oriole,25424481,39282,https://static.inaturalist.org/sounds/39282.mp3?1558322083,cc-by-nc,marknenadov,2019-05-19,"182 Forest Ave, Essex, ON N8M 2G6, Canada",2.2,44100
+wav_mp3,Red-tailed_Hawk,126518442,500642,https://static.inaturalist.org/sounds/500642.mp3?1657996437,cc-by-nc,jonathan_mack,2022-07-15,"Clarence-Rockland, ON, Canada",15.7,48000
+wav_mp3,Red-tailed_Hawk,405065310,2181009,https://static.inaturalist.org/sounds/2181009.wav?1790885856,cc0,spencerrzepka,2026-10-01,"Bentleyville, OH, USA",28.5,48000
+wav_mp3,Baltimore_Oriole,282396149,1472416,https://static.inaturalist.org/sounds/1472416.wav?1747669821,cc-by-nc,meganmaye,2025-05-18,"East Gull Lake, MN 56401, USA",9.6,44100
+wav_mp3,Red-tailed_Hawk,136596673,541581,https://static.inaturalist.org/sounds/541581.wav?1664215321,cc-by-nc,tristonli,2022-09-26,"New York, US",3.7,48000
+wav_mp3,Red-tailed_Hawk,378032660,2056158,https://static.inaturalist.org/sounds/2056158.mp3?1783169448,cc-by-nc,jaredmanninen,2026-07-03,"El Dorado County, CA, USA",18.9,44100
+wav_mp3,Red-tailed_Hawk,242541307,1204416,https://static.inaturalist.org/sounds/1204416.mp3?1726684507,cc-by-nc,emmaslates,2024-09-07,"The Wilderness Center, 9877 Alabama Ave SW, Wilmot, OH 44689",1.9,44100
+wav_mp3,Baltimore_Oriole,78232858,217360,https://static.inaturalist.org/sounds/217360.wav?1620660858,cc-by-nc,rachaelgen,2021-05-10,"Stevens Point, WI, USA",8.5,44100
+wav_mp3,Red-tailed_Hawk,211556265,998760,https://static.inaturalist.org/sounds/998760.wav?1714337614,cc-by-nc,bcbolster,2024-04-27,"Sacramento County, CA, USA",10.5,44100
+wav_mp3,Baltimore_Oriole,117485537,442062,https://static.inaturalist.org/sounds/442062.wav?1652813398,cc-by-nc,ebspeciesfishing,2022-05-16,"Newport, VA 24128, USA",11.0,48000
+wav_mp3,Red-tailed_Hawk,393805221,2131013,https://static.inaturalist.org/sounds/2131013.mp3?1787496119,cc-by,sjmaddux,2026-08-22,"Roger Mills County, US-OK, US",3.0,48000
+wav_mp3,Red-tailed_Hawk,337247552,1757522,https://static.inaturalist.org/sounds/1757522.wav?1770152330,cc-by-nc,milos-sretenovic,2026-02-03,"Lake County, IL, USA",2.0,48000
+wav_mp3,Red-tailed_Hawk,130449269,518788,https://static.inaturalist.org/sounds/518788.wav?1660266280,cc-by-nc,steelbirder,2022-08-11,"Hazelwood, MO 63044, USA",12.0,48000
+wav_mp3,Red-tailed_Hawk,167642010,740108,https://static.inaturalist.org/sounds/740108.wav?1686884905,cc-by,savoieju,2023-06-14,"Côte-Nord, QC, Canada",2.4,48000
+wav_mp3,Red-tailed_Hawk,52886132,120167,https://static.inaturalist.org/sounds/120167.wav?1594600654,cc-by-nc-sa,botanylicious,2020-07-12,"East Point, GA 30344, USA",11.4,48000
+wav_mp3,Red-tailed_Hawk,249109911,1238085,https://static.inaturalist.org/sounds/1238085.wav?1729910649,cc-by,liamsteele,2024-10-06,"Ladysmith, BC, Canada",13.4,44100
+wav_mp3,Red-tailed_Hawk,364700815,1975719,https://static.inaturalist.org/sounds/1975719.wav?1779637040,cc-by-nc,jferrari444,2026-05-20,"Jones County, GA, USA",18.8,22050
+wav_mp3,Red-tailed_Hawk,67126905,199838,https://static.inaturalist.org/sounds/199838.mp3?1619799617,cc-by-nc,brnhn,2020-12-26,"Crawford Rd, Clatskanie, OR, US",19.3,44100
+wav_mp3,Red-tailed_Hawk,389157646,2109203,https://static.inaturalist.org/sounds/2109203.wav?1786138650,cc-by-nc,reidhwang,2026-08-07,"Thompson-Nicola, CA-BC, CA",12.8,44100
+wav_mp3,Red-tailed_Hawk,235718411,1162282,https://static.inaturalist.org/sounds/1162282.wav?1723643028,cc-by-nc,harlandalpaugh,2024-08-14,"Wilmington, MA 01887, USA",34.4,44100
+wav_mp3,Red-tailed_Hawk,345928979,1828789,https://static.inaturalist.org/sounds/1828789.mp3?1774799475,cc-by-nc,jmgconsult,2026-03-27,"Hugg-Thomas Wildlife Management Area, 13200 Forsythe Rd, Syk",23.4,44100
+wav_mp3,Red-tailed_Hawk,389765944,2112045,https://static.inaturalist.org/sounds/2112045.wav?1786304074,cc-by-nc,mcnugget240,2026-08-09,"Nantucket, MA 02554, USA",9.0,44100
+wav_mp3,Red-tailed_Hawk,169948874,754079,https://static.inaturalist.org/sounds/754079.wav?1687963632,cc-by-nc,acpv92019,2023-06-28,"Bent Mountain, VA 24059, USA",33.7,44100
+wav_mp3,Red-tailed_Hawk,217939150,1056536,https://static.inaturalist.org/sounds/1056536.wav?1716573218,cc-by-nc,thomasabenson,2024-05-24,"Yucaipa Regional Park, CA, USA",17.2,44100
+wav_mp3,Red-tailed_Hawk,292802186,1542136,https://static.inaturalist.org/sounds/1542136.wav?1750916250,cc-by-nc,sruffner,2025-06-21,"Lake County, OR, USA",15.5,44100
+wav_mp3,Red-tailed_Hawk,22682075,35033,https://static.inaturalist.org/sounds/35033.wav?1555630624,cc-by-nc,josephthebirder,2019-04-18,"Lindenwold, NJ, USA",54.0,44100
+m4a,Baltimore_Oriole,162029147,700170,https://static.inaturalist.org/sounds/700170.m4a?1684268316,cc-by-nc,raysnook,2023-05-16,"Findlay Creek Stormwater Ponds, ON",36.2,44100
+m4a,Baltimore_Oriole,279796615,1451287,https://static.inaturalist.org/sounds/1451287.m4a?1746825779,cc-by-nc,isaacnewtlist,2025-05-09,"Wisconsin River, Stevens Point, WI, US",9.9,44100
+m4a,Baltimore_Oriole,215972778,1040180,https://static.inaturalist.org/sounds/1040180.m4a?1715802340,cc-by-nc,genevrearsovsky,2024-05-15,"Niagara, CA-ON, CA",15.4,44100
+m4a,Baltimore_Oriole,282211899,1471045,https://static.inaturalist.org/sounds/1471045.m4a?1747605438,cc-by-nc,kylealdinger,2025-05-18,"Zinn Chapel Rd, Reedsville, WV, US",21.3,44100
+m4a,Baltimore_Oriole,212604803,1010191,https://static.inaturalist.org/sounds/1010191.m4a?1714574625,cc-by-nc,coopermike,2024-05-01,"111th Ave, Fennville, MI, US",11.6,44100
+m4a,Baltimore_Oriole,117012373,438169,https://static.inaturalist.org/sounds/438169.m4a?1652553050,cc-by-sa,ovanantw,2022-05-13,"Black Lake Park, Norton Shores, MI, US",29.0,44100
+m4a,Baltimore_Oriole,215595049,1037029,https://static.inaturalist.org/sounds/1037029.m4a?1715640017,cc-by-nc,carnegiecoop,2024-05-13,"Richmond St, Pittsburgh, PA, US",28.4,44100
+m4a,Baltimore_Oriole,363814602,1968664,https://static.inaturalist.org/sounds/1968664.m4a?1779408942,cc-by-nc,bruzzone,2026-05-21,"W Lake Dr, New York, NY, US",15.7,44100
+m4a,Baltimore_Oriole,380139045,2066112,https://static.inaturalist.org/sounds/2066112.m4a?1783723233,cc-by-nc,jim_sweeney,2026-05-14,"West Bridgewater, MA, USA",24.8,48000
+m4a,Baltimore_Oriole,116545959,434020,https://static.inaturalist.org/sounds/434020.m4a?1652271476,cc-by-nc,bonniekd,2022-05-11,"Girard Ave S, Minneapolis, MN, US",13.4,44100
+m4a,Baltimore_Oriole,160320870,685901,https://static.inaturalist.org/sounds/685901.m4a?1683470059,cc-by-nc,slackerb,2023-05-07,"Institute for Advanced Study, Princeton, NJ, US",14.0,44100
+m4a,Baltimore_Oriole,211712756,1003701,https://static.inaturalist.org/sounds/1003701.m4a?1714412505,cc-by-nc,izafarr,2024-04-29,"Potomac Heritage National Scenic Trail, McLean, VA, US",8.7,44100
+m4a,Baltimore_Oriole,122092460,474046,https://static.inaturalist.org/sounds/474046.m4a?1655423679,cc-by-nc,caterpillerlover,2022-06-12,"Parkland County, AB, CA",15.6,44100
+m4a,Baltimore_Oriole,273081827,1396831,https://static.inaturalist.org/sounds/1396831.m4a?1745587937,cc-by,mattyfelp,2025-04-25,"Algonkian Regional Park, Sterling, VA, US",14.7,44100
+m4a,Baltimore_Oriole,163040736,707604,https://static.inaturalist.org/sounds/707604.m4a?1684719704,cc-by-nc,susanhewitt,2023-05-21,"Roosevelt Island, New York, NY, US",23.4,44100
+m4a,Baltimore_Oriole,361997317,1954250,https://static.inaturalist.org/sounds/1954250.m4a?1778939254,cc-by-nc-sa,mclough,2026-05-16,"Marlboro, VT, USA",5.6,48000
+m4a,Baltimore_Oriole,80567069,236374,https://static.inaturalist.org/sounds/236374.m4a?1622180510,cc0,elacroix-carignan,2021-05-20,"Laval, QC, Canada",7.6,44100
+m4a,Baltimore_Oriole,215300771,1034513,https://static.inaturalist.org/sounds/1034513.m4a?1715535742,cc-by-nc,cporter,2024-05-12,"Skunk River Greenbelt Trail, Story City, IA, US",18.7,44100
+m4a,Baltimore_Oriole,80181604,232425,https://static.inaturalist.org/sounds/232425.m4a?1621901689,cc0,gsexauer,2021-05-24,"Burlington, VT 05401, USA",30.6,44100
+m4a,Baltimore_Oriole,360849934,1945743,https://static.inaturalist.org/sounds/1945743.m4a?1778587325,cc-by-nc,frisbeenose61,2026-05-12,"Scottswood Rd, Riverside, IL, US",35.0,44100
+m4a,Baltimore_Oriole,286271634,1501169,https://static.inaturalist.org/sounds/1501169.m4a?1748872952,cc0,drew_baxter,2025-06-01,"Hillman Marsh Conservation Area, Essex County, ON, Canada",7.9,44100
+m4a,Baltimore_Oriole,79932824,230481,https://static.inaturalist.org/sounds/230481.m4a?1621775333,cc-by-nc,natalie_barber,2021-05-23,"Pipestone National Monument, Pipestone, MN, US",15.2,44100
+m4a,Baltimore_Oriole,118167720,447002,https://static.inaturalist.org/sounds/447002.m4a?1653221137,cc-by,erikamitchell,2022-05-22,"Plymouth County, US-MA, US",4.1,44100
+m4a,Baltimore_Oriole,280349263,1457475,https://static.inaturalist.org/sounds/1457475.m4a?1747061220,cc-by,ladybea,2025-05-11,"Merrickville-Wolford, ON, Canada",8.6,48000
+m4a,Baltimore_Oriole,360776802,1945220,https://static.inaturalist.org/sounds/1945220.m4a?1778553803,cc-by-nc,bumblerhi,2026-05-11,"Schenectady County, US-NY, US",22.0,44100
+m4a,Baltimore_Oriole,277871519,1435586,https://static.inaturalist.org/sounds/1435586.m4a?1746227468,cc-by-nc,dwiebe,2025-05-02,"Nichols Arboretum, Ann Arbor, MI, US",21.9,44100
+m4a,Baltimore_Oriole,211689493,1003499,https://static.inaturalist.org/sounds/1003499.m4a?1714410435,cc-by-nc,qazoner,2024-04-29,"James Gardens, Toronto, ON, CA",26.6,44100
+m4a,Baltimore_Oriole,279836922,1451534,https://static.inaturalist.org/sounds/1451534.m4a?1746839581,cc-by-nc,kentb,2025-05-09,"Matthaei Botanical Gardens, Ann Arbor, MI, US",14.1,44100
+m4a,Baltimore_Oriole,117908089,445052,https://static.inaturalist.org/sounds/445052.m4a?1653076023,cc-by-nc,kitalbrecht,2022-05-20,"The Arnold Arboretum of Harvard University, Boston, MA, US",9.5,44100
+m4a,Baltimore_Oriole,78831227,221674,https://static.inaturalist.org/sounds/221674.m4a?1621087351,cc-by-nc,michellesmith500,2021-05-15,"Reservoir Rd, Cornwall, NY, US",12.8,44100
+m4a,Baltimore_Oriole,277068737,1428865,https://static.inaturalist.org/sounds/1428865.m4a?1746032900,cc-by-nc,octobertraveler,2025-04-30,"Rockford Park, Wilmington, DE, US",39.9,44100
+m4a,Baltimore_Oriole,76557889,205212,https://static.inaturalist.org/sounds/205212.m4a?1619968130,cc-by-nc,smrozak,2021-05-02,"Franklin Field North, Boston, MA, US",28.7,44100
+m4a,Baltimore_Oriole,362226906,1956116,https://static.inaturalist.org/sounds/1956116.m4a?1778985310,cc-by-nc,jimmyandtony,2026-05-13,"George Mason University, Fairfax, VA, US",6.8,44100
+m4a,Baltimore_Oriole,358257281,1926301,https://static.inaturalist.org/sounds/1926301.m4a?1777895255,cc-by,robertbrewer2,2026-05-04,"High Bar Harbor, Long Beach, NJ 08008, USA",23.2,44100
+m4a,Baltimore_Oriole,117113166,439030,https://static.inaturalist.org/sounds/439030.m4a?1652610746,cc-by-nc,elmslie,2022-05-15,"Arcadia Cres, London, ON, CA",60.6,44100
+m4a,Baltimore_Oriole,12468357,21655,https://static.inaturalist.org/sounds/21655.m4a?1648688725,cc-by-nc,akulungian,2018-05-14,"Betty Allen Twin Ponds Nature Park, Centerport, NY 11721, US",12.1,44100
+m4a,Baltimore_Oriole,127732124,506483,https://static.inaturalist.org/sounds/506483.m4a?1658692286,cc-by-nc,dillyt,2022-06-10,"Maryland, US",22.7,44100
+m4a,Baltimore_Oriole,216596663,1045247,https://static.inaturalist.org/sounds/1045247.m4a?1716057995,cc-by-nc,amyh55,2024-05-18,"Canton, OH, US",6.9,44100
+m4a,Baltimore_Oriole,114158169,415524,https://static.inaturalist.org/sounds/415524.m4a?1651399698,cc-by-nc,ohharewego,2022-05-01,"Circuit Ave, Weymouth, MA, US",17.9,44100
+m4a,Baltimore_Oriole,278171951,1438259,https://static.inaturalist.org/sounds/1438259.m4a?1746304907,cc-by-nc,lissa_d,2025-05-03,"South Glengarry, ON, CA",9.5,44100
+m4a,Baltimore_Oriole,116965007,437721,https://static.inaturalist.org/sounds/437721.m4a?1652534505,cc-by-nc,sammakler,2022-05-14,"Pennsylvania, US",6.3,44100
+m4a,Baltimore_Oriole,215710717,1038098,https://static.inaturalist.org/sounds/1038098.m4a?1715696824,cc-by-nc,jjptacek683,2024-05-14,"Cleveland Ave S, Saint Paul, MN, US",17.4,44100
+m4a,Baltimore_Oriole,355538364,1904692,https://static.inaturalist.org/sounds/1904692.m4a?1777313074,cc-by-nc,keara_giannotti,2026-04-27,"Route 70 E, Marlton, NJ, US",36.2,44100
+m4a,Baltimore_Oriole,321916637,1672315,https://static.inaturalist.org/sounds/1672315.m4a?1760906014,cc0,kcthetc1,2025-10-19,"St. Nicholas, Jacksonville, FL 32207, USA",31.5,48000
+m4a,Baltimore_Oriole,216145608,1041592,https://static.inaturalist.org/sounds/1041592.m4a?1715879812,cc-by-nc,mwest,2024-05-16,"Williamson Rd, Templeton, PA, US",24.4,44100
+m4a,Baltimore_Oriole,358250441,1926206,https://static.inaturalist.org/sounds/1926206.m4a?1777892812,cc-by-nc,markinmd,2026-05-04,"Dudley Ct, Centreville, MD, US",32.8,44100
+m4a,Baltimore_Oriole,162962072,707104,https://static.inaturalist.org/sounds/707104.m4a?1684697271,cc-by-nc,brady_obrien,2023-05-21,United States,7.6,44100
+m4a,Baltimore_Oriole,361017275,1946938,https://static.inaturalist.org/sounds/1946938.m4a?1778629341,cc-by-nc,jrw23,2026-05-12,"Cootes Paradise B, Hamilton, ON, Canada",10.1,48000
+m4a,Baltimore_Oriole,117920864,445158,https://static.inaturalist.org/sounds/445158.m4a?1653082772,cc-by-nc,lo-am,2022-05-20,"Pleasantview Dr, Athens, OH, US",19.0,44100
+m4a,Baltimore_Oriole,117218872,440023,https://static.inaturalist.org/sounds/440023.m4a?1652652440,cc-by-nc,rynchaf,2022-05-15,"Braemer Hills, Edina, MN, US",9.3,44100
+m4a,Baltimore_Oriole,216341057,1043126,https://static.inaturalist.org/sounds/1043126.m4a?1715965551,cc-by-nc,winuna4,2024-05-17,"Chippewa County, US-MN, US",17.0,44100
+m4a,Baltimore_Oriole,76980418,208341,https://static.inaturalist.org/sounds/208341.m4a?1620058467,cc-by-nc,nikolett6ttn,2021-05-03,"King's Forest Lower C, Hamilton, ON, Canada",8.1,44100
+m4a,Baltimore_Oriole,118251582,447606,https://static.inaturalist.org/sounds/447606.m4a?1653249030,cc-by-nc,sylvatic,2022-05-22,"Kains Woods, London, ON N6K, Canada",12.7,44100
+m4a,Baltimore_Oriole,362492688,1958533,https://static.inaturalist.org/sounds/1958533.m4a?1779045937,cc-by-nc,pipsissewa1,2026-05-17,"Arlington Ave, Toronto, ON, CA",25.1,44100
+m4a,Baltimore_Oriole,212858046,1012175,https://static.inaturalist.org/sounds/1012175.m4a?1714649206,cc-by-nc,ckjannabirds,2024-05-02,"Etna Rd, Ithaca, NY, US",40.9,44100
+m4a,Baltimore_Oriole,161694171,697600,https://static.inaturalist.org/sounds/697600.m4a?1684101645,cc-by-nc-sa,raneedunc,2023-05-14,"Westborough, MA, US",22.5,44100
+m4a,Baltimore_Oriole,47133419,95277,https://static.inaturalist.org/sounds/95277.m4a?1590337203,cc0,rsety,2020-05-24,"Peterborough, ON K9H 7M9, Canada",10.8,44100
+m4a,Baltimore_Oriole,166695624,733442,https://static.inaturalist.org/sounds/733442.m4a?1686439990,cc-by-nc,emilyscantor,2023-06-10,"Lowland Rd, Hamburg, PA, US",6.1,44100
+m4a,Baltimore_Oriole,360340443,1941809,https://static.inaturalist.org/sounds/1941809.m4a?1778440899,cc-by-nc,kaskiing,2026-05-10,"Boone Ave, St Louis Park, MN, US",22.7,44100
+m4a,Baltimore_Oriole,358624634,1928865,https://static.inaturalist.org/sounds/1928865.m4a?1777993058,cc-by-nc,chaisgalore,2026-05-05,"Worcester St, West Boylston, MA, US",14.3,44100
+m4a,Baltimore_Oriole,362912475,1961557,https://static.inaturalist.org/sounds/1961557.m4a?1779150339,cc-by-nc,peacelovetrees,2026-05-18,"Hamburg, PA, US",27.6,44100
+m4a,Baltimore_Oriole,162377916,702849,https://static.inaturalist.org/sounds/702849.m4a?1684446480,cc-by-nc,diggerm,2023-05-11,"N Prospect St, Rockford, IL, US",13.2,44100
+m4a,Baltimore_Oriole,360607281,1944044,https://static.inaturalist.org/sounds/1944044.m4a?1778511491,cc-by-nc,cathyph,2026-05-11,"IL-53, Long Grove, IL, US",6.6,44100
+m4a,Baltimore_Oriole,273408678,1399824,https://static.inaturalist.org/sounds/1399824.m4a?1745618840,cc-by,jakrupka,2025-04-25,"Window On The Waterfront, Holland, MI, US",4.6,44100
+m4a,Baltimore_Oriole,46889093,93939,https://static.inaturalist.org/sounds/93939.m4a?1590179386,cc-by-nc,cliazos,2020-05-22,"Westborough, MA, USA",7.7,48000
+m4a,Baltimore_Oriole,163341559,709718,https://static.inaturalist.org/sounds/709718.m4a?1684862979,cc-by-nc,stefisunshines,2023-05-23,"Owl Ln, Whitewater Region, ON, CA",14.8,44100
+m4a,Baltimore_Oriole,217259337,1051039,https://static.inaturalist.org/sounds/1051039.m4a?1716287815,cc-by-nc,pierlucmv,2024-05-21,"Val-Joli, QC J1S 0E5, Canada",22.8,44100
+m4a,Baltimore_Oriole,79172093,247602,https://static.inaturalist.org/sounds/247602.m4a?1623086498,cc-by-nc,saraclose,2021-05-17,"Bear Ridge Rd, Lockport, NY, US",4.3,44100
+m4a,Baltimore_Oriole,359255234,1933464,https://static.inaturalist.org/sounds/1933464.m4a?1778171899,cc-by-nc,brock,2026-05-07,"Wooded Island, Chicago, IL, US",17.3,44100
+m4a,Baltimore_Oriole,366360611,1987627,https://static.inaturalist.org/sounds/1987627.m4a?1780068953,cc-by-nc,sastadler,2026-05-29,"Minnesota, US",19.3,44100
+m4a,Baltimore_Oriole,361149394,1948461,https://static.inaturalist.org/sounds/1948461.m4a?1778691206,cc0,joy4birds,2026-05-13,"Country Club Rd, Woburn, MA, US",3.9,44100
+m4a,Baltimore_Oriole,359353603,1934190,https://static.inaturalist.org/sounds/1934190.m4a?1778195007,cc0,koskitam,2026-05-07,"Lambton, CA-ON, CA",24.3,48000
+m4a,Baltimore_Oriole,310460148,1620948,https://static.inaturalist.org/sounds/1620948.m4a?1756644277,cc-by-nc,terriblereptiles77,2025-08-31,"Windham Rd 7, Norfolk County, ON, CA",17.3,44100
+m4a,Baltimore_Oriole,117005333,438090,https://static.inaturalist.org/sounds/438090.m4a?1652550401,cc-by-nc,dotdebm,2022-05-14,"Wiley Park, Eastham, MA, US",2.5,44100
+m4a,Baltimore_Oriole,76850982,207346,https://static.inaturalist.org/sounds/207346.m4a?1620020444,cc-by-sa,jacobogre,2021-05-02,"South Fork Shenandoah River, Bentonville, VA, US",12.7,44100
+m4a,Baltimore_Oriole,162921412,706799,https://static.inaturalist.org/sounds/706799.m4a?1684687389,cc-by-nc,tgalban2,2023-05-21,"LaBagh Woods, Chicago, IL, US",14.3,44100
+m4a,Baltimore_Oriole,161305691,694375,https://static.inaturalist.org/sounds/694375.m4a?1683929824,cc-by-nc,medium_iced_regulah,2023-05-12,"John Wise Ave, Essex, MA, US",28.1,44100
+m4a,Baltimore_Oriole,78085192,216297,https://static.inaturalist.org/sounds/216297.m4a?1620578941,cc-by-nc,rogerb64,2021-05-09,"Wright County, US-MN, US",5.4,44100
+m4a,Baltimore_Oriole,163359904,709808,https://static.inaturalist.org/sounds/709808.m4a?1684869509,cc-by-nc,spittlebug,2023-05-23,"Presqu'ile Provincial Park, Brighton, ON, CA",34.5,44100
+m4a,Baltimore_Oriole,280268026,1455423,https://static.inaturalist.org/sounds/1455423.m4a?1746980795,cc-by-nc,tylermahard,2025-05-11,"East Rock Park, New Haven, CT, US",11.2,44100
+m4a,Baltimore_Oriole,273336507,1399281,https://static.inaturalist.org/sounds/1399281.m4a?1745611536,cc-by,conboy,2025-04-25,"Norristown Farm Park, Norristown, PA, US",8.8,44100
+m4a,Baltimore_Oriole,359799754,1937461,https://static.inaturalist.org/sounds/1937461.m4a?1778325067,cc-by-nc-sa,thunderhead,2026-05-09,"Michigan, US",12.4,44100
+m4a,Baltimore_Oriole,214244717,1024404,https://static.inaturalist.org/sounds/1024404.m4a?1715109295,cc-by,eml23,2024-05-07,"Van Cortlandt Park, New York, NY, US",15.9,44100
+m4a,Baltimore_Oriole,280346899,1456161,https://static.inaturalist.org/sounds/1456161.m4a?1747000797,cc-by-nc-sa,tigerswallowtail,2025-05-11,"Old Links Bridge Rd, Thurmont, MD, US",42.5,44100
+m4a,Baltimore_Oriole,287103696,1507028,https://static.inaturalist.org/sounds/1507028.m4a?1749146942,cc-by-nc,i_henderson_404,2025-06-05,"Manitoba, CA",4.1,44100
+m4a,Baltimore_Oriole,214830193,1029841,https://static.inaturalist.org/sounds/1029841.m4a?1715363467,cc-by-nc,jynnyking,2024-05-10,"York University, Toronto, ON, CA",6.3,44100
+m4a,Baltimore_Oriole,125107441,492987,https://static.inaturalist.org/sounds/492987.m4a?1657156203,cc0,wewantashrubbery,2022-05-20,"Dunstan Landing Rd, Scarborough, ME, US",3.7,48000
+m4a,Baltimore_Oriole,117389395,441364,https://static.inaturalist.org/sounds/441364.m4a?1652748539,cc-by-nc,chiforager,2022-05-16,"West Ridge Nature Preserve, Chicago, IL, US",32.2,44100
+m4a,Baltimore_Oriole,280039458,1453288,https://static.inaturalist.org/sounds/1453288.m4a?1746907830,cc-by-nc,minerality,2025-05-10,"Ft Hill Rd, Oxford, MA, US",19.2,44100
+m4a,Baltimore_Oriole,283711390,1482032,https://static.inaturalist.org/sounds/1482032.m4a?1748112302,cc-by-nc,duncancp,2025-05-24,"Spartan Arrow Rd, Littleton, MA, US",21.4,44100
+m4a,Baltimore_Oriole,163037321,707574,https://static.inaturalist.org/sounds/707574.m4a?1684718289,cc-by,sadawolk,2023-05-21,"Andover Terr, Ridgewood, NJ, US",17.0,44100
+m4a,Baltimore_Oriole,279003512,1444707,https://static.inaturalist.org/sounds/1444707.m4a?1746548845,cc-by-nc,serendipitree,2025-05-06,"Belvidere Rd, Roscoe, IL, US",6.4,44100
+m4a,Baltimore_Oriole,359505553,1935333,https://static.inaturalist.org/sounds/1935333.m4a?1778246860,cc-by-nc,apryz512,2026-05-08,"Malden St, Worcester, MA, US",21.6,44100
+m4a,Baltimore_Oriole,276537088,1425307,https://static.inaturalist.org/sounds/1425307.m4a?1745927377,cc-by-nc,phusiologos,2025-04-29,"Idlewild Park, New York, NY, US",3.6,44100
+m4a,Baltimore_Oriole,119235118,454932,https://static.inaturalist.org/sounds/454932.m4a?1653831598,cc-by-nc,annschunior,2022-05-29,"Bertha Soule Memorial Park, Randolph, MA, US",16.4,44100
+m4a,Baltimore_Oriole,371114538,2005535,https://static.inaturalist.org/sounds/2005535.m4a?1780759415,cc-by-nc,sasksurely,2026-06-06,"Pike Lake Provincial Park, Vanscoy No. 345, SK, CA",29.7,44100
+m4a,Baltimore_Oriole,358656777,1929305,https://static.inaturalist.org/sounds/1929305.m4a?1778007332,cc-by-nc,tamara1974,2026-05-05,"Union Township, MI, USA",38.8,48000
+m4a,Baltimore_Oriole,46003543,88917,https://static.inaturalist.org/sounds/88917.m4a?1589571442,cc-by-nc,naidurra,2020-05-15,"Northwest Omaha, Omaha, NE 68164, USA",39.8,32000
+m4a,Baltimore_Oriole,368100924,1999723,https://static.inaturalist.org/sounds/1999723.m4a?1780509378,cc-by-nc-sa,aehamm,2026-06-03,"Leicester, MA 01524, USA",11.2,48000
+m4a,Baltimore_Oriole,80515381,235792,https://static.inaturalist.org/sounds/235792.m4a?1622143620,cc-by-nc,gracey4,2021-05-27,Macrae Farm Park,18.3,48000
+m4a,Baltimore_Oriole,48406342,101783,https://static.inaturalist.org/sounds/101783.m4a?1591240329,cc-by-nc,mdmclachlan,2020-06-03,"Police Outpost, CA-AB-TR, CA-AB, CA",46.8,44100
+m4a,Baltimore_Oriole,279503960,1448905,https://static.inaturalist.org/sounds/1448905.m4a?1746723359,cc-by-nc,kadeemgilbert,2025-05-08,"E Gull Lake Dr, Hickory Corners, MI, US",18.8,44100
+m4a,Baltimore_Oriole,216891727,1047900,https://static.inaturalist.org/sounds/1047900.m4a?1716150289,cc-by-nc,hopescal,2024-05-19,"Roaring Brook Rd, Cheshire, CT, US",30.8,44100
+m4a,Baltimore_Oriole,78370561,218309,https://static.inaturalist.org/sounds/218309.m4a?1620755795,cc-by-nc,rebelgirl73,2021-05-11,"New Haven, VT, US",17.6,44100
+m4a,Baltimore_Oriole,161711586,697708,https://static.inaturalist.org/sounds/697708.m4a?1684108004,cc-by-nc,maria_schmidt,2023-05-14,"Preston, WI 53934, USA",9.3,44100
+m4a,Baltimore_Oriole,213732733,1019671,https://static.inaturalist.org/sounds/1019671.m4a?1714927569,cc-by-nc,alsimmons125,2024-05-05,"Illinois and Michigan Canal National Heritage Corridor, US-I",5.9,44100
+m4a,Baltimore_Oriole,161381919,695052,https://static.inaturalist.org/sounds/695052.m4a?1683978313,cc-by-nc,pattissmith,2023-05-13,"Mack Island Rd, Grass Lake, MI, US",11.3,44100
+m4a,Baltimore_Oriole,280009379,1453003,https://static.inaturalist.org/sounds/1453003.m4a?1746901200,cc-by-nc,ronanisntreal,2025-05-10,"Marshfield, WI, US",8.7,44100
+m4a,Baltimore_Oriole,221954186,1088332,https://static.inaturalist.org/sounds/1088332.m4a?1718072938,cc-by-nc,susanfawcett,2024-06-10,"Barry County, US-MI, US",32.8,44100
+m4a,Baltimore_Oriole,46765973,93314,https://static.inaturalist.org/sounds/93314.m4a?1590094820,cc-by-nc,mnwaterman,2020-05-21,Mac's Bend Missisquoi VT,3.0,48000
+m4a,Baltimore_Oriole,81315993,242503,https://static.inaturalist.org/sounds/242503.m4a?1622650271,cc-by-nc,sglanville,2021-06-02,"Road 28 E, East Selkirk, MB, CA",18.3,44100
+m4a,Baltimore_Oriole,357488737,1920233,https://static.inaturalist.org/sounds/1920233.m4a?1777724008,cc-by-nc,brandonmcwalters,2026-05-02,"Vale Cres, Ajax, ON, CA",7.3,44100
+m4a,Baltimore_Oriole,161807602,698405,https://static.inaturalist.org/sounds/698405.m4a?1684161947,cc-by-nc,mgosselin,2023-05-15,"Île Tekakwitha, Kahnawake, QC, CA",10.0,44100
+m4a,Baltimore_Oriole,279286273,1446988,https://static.inaturalist.org/sounds/1446988.m4a?1746643186,cc-by-nc,hillbillywithcamera,2025-05-07,"1332 Marker Rd, Middletown, MD 21769, USA",15.3,44100
+m4a,Baltimore_Oriole,214169857,1023609,https://static.inaturalist.org/sounds/1023609.m4a?1715083032,cc-by-nc,karenmcdonald,2024-05-07,"Edgewater, MD 21037, USA",45.8,48000
+m4a,Baltimore_Oriole,358788920,1929893,https://static.inaturalist.org/sounds/1929893.m4a?1778031500,cc-by-nc,dillchronicler,2026-05-05,"Farnam St, Omaha, NE, US",11.4,44100
+m4a,Baltimore_Oriole,118190194,447192,https://static.inaturalist.org/sounds/447192.m4a?1653230295,cc-by-nc,feathered,2022-05-16,"Riverton, Portland, ME, USA",17.9,48000
+m4a,Baltimore_Oriole,161302348,694357,https://static.inaturalist.org/sounds/694357.m4a?1683928314,cc-by-nc,kenneth_g,2023-05-12,"University of Delaware, Newark, DE, US",20.3,44100
+m4a,Baltimore_Oriole,162927299,706832,https://static.inaturalist.org/sounds/706832.m4a?1684688827,cc-by-nc,freebugzone,2023-05-21,"Cambridge Butterfly Conservatory, Cambridge, ON, CA",2.7,44100
+m4a,Baltimore_Oriole,283908782,1483522,https://static.inaturalist.org/sounds/1483522.m4a?1748172025,cc-by-nc,jamesbarry007,2025-05-25,"Lake Taghkanic, Elizaville, NY, US",21.5,44100
+m4a,Baltimore_Oriole,365863373,1984009,https://static.inaturalist.org/sounds/1984009.m4a?1779919945,cc-by-nc,bte0601,2026-05-27,"Lake Shore & Hawthorne, Chicago, IL 60657, USA",16.0,48000
+m4a,Baltimore_Oriole,216103886,1041313,https://static.inaturalist.org/sounds/1041313.m4a?1715866078,cc-by-nc,gonature1,2024-05-16,"Parc De La Gatineau, Chelsea, QC, CA",12.9,44100
+m4a,Baltimore_Oriole,50509621,110567,https://static.inaturalist.org/sounds/110567.m4a?1592795546,cc-by-nc,maureenclare,2020-05-15,"North Park, Chicago, IL, USA",19.2,48000
+m4a,Baltimore_Oriole,78970755,222803,https://static.inaturalist.org/sounds/222803.m4a?1621165036,cc-by-nc,mabeuf,2021-05-13,"Garfield Ave, Cranston, RI, US",26.0,44100
+m4a,Baltimore_Oriole,214595953,1027674,https://static.inaturalist.org/sounds/1027674.m4a?1715267059,cc-by-nc,lillianamcphee,2024-05-09,"Woodlawn Rd, Welland, ON, CA",6.6,44100
+m4a,Baltimore_Oriole,117300491,440733,https://static.inaturalist.org/sounds/440733.m4a?1652705370,cc-by-nc,edkorda,2022-05-14,"Cook County, IL, USA",20.1,48000
+m4a,Baltimore_Oriole,278389361,1440010,https://static.inaturalist.org/sounds/1440010.m4a?1746365863,cc-by-nc,explore413,2025-05-04,"Brewster, MA 02631, USA",3.1,44100
+m4a,Baltimore_Oriole,161252323,693891,https://static.inaturalist.org/sounds/693891.m4a?1683908652,cc-by-nc,dpdawes,2023-05-12,"Firestone Metro Park, Akron, OH, US",13.3,44100
+m4a,Baltimore_Oriole,161507663,696017,https://static.inaturalist.org/sounds/696017.m4a?1684020732,cc-by-nc,froggoddess1,2023-05-13,"Taylor Creek Park, Toronto, ON, CA",7.0,44100
+m4a,Baltimore_Oriole,289990191,1526019,https://static.inaturalist.org/sounds/1526019.m4a?1750029554,cc-by-nc,ecothat,2025-06-15,"Bridgewater Township, PA, USA",19.5,48000
+m4a,Baltimore_Oriole,24129321,36709,https://static.inaturalist.org/sounds/36709.m4a?1556595307,cc-by-nc,davidjb,2019-04-29,"St Charles County, MO, USA",20.7,22050
+m4a,Baltimore_Oriole,216409413,1045338,https://static.inaturalist.org/sounds/1045338.m4a?1716061373,cc-by-nc,kayla_a101,2024-05-17,"Long Island, East Quogue, NY, US",6.8,44100
+m4a,Baltimore_Oriole,211850999,1004747,https://static.inaturalist.org/sounds/1004747.m4a?1714424532,cc-by-nc,mightyherpules,2024-04-29,"I-196 E, Grand Rapids, MI, US",19.3,44100
+m4a,Baltimore_Oriole,80230504,232930,https://static.inaturalist.org/sounds/232930.m4a?1621948093,cc-by-nc,meanteenbirder,2021-05-25,"Intervale Rd, Burlington, VT, US",3.3,44100
+m4a,Baltimore_Oriole,357486262,1920207,https://static.inaturalist.org/sounds/1920207.m4a?1777723327,cc-by-nc,el_was_here,2026-05-02,"Puddintown Rd, State College, PA, US",14.5,44100
+m4a,Baltimore_Oriole,364700897,1975720,https://static.inaturalist.org/sounds/1975720.m4a?1779637080,cc-by-nc,scissors2kil,2026-05-24,"Nichols Arboretum, Ann Arbor, MI, US",9.7,44100
+m4a,Baltimore_Oriole,355517923,1904366,https://static.inaturalist.org/sounds/1904366.m4a?1777311615,cc-by-nc,mbourn1016,2026-04-27,"Michigan, US",19.5,48000
+m4a,Baltimore_Oriole,286256267,1501059,https://static.inaturalist.org/sounds/1501059.m4a?1748868396,cc-by-nc,mnboyle,2025-06-02,"Marsh Creek State Park, Downingtown, PA, US",9.6,44100
+m4a,Baltimore_Oriole,216164176,1041768,https://static.inaturalist.org/sounds/1041768.m4a?1715885849,cc-by-nc,the_danknight,2024-05-16,"Waterloo, ON N2L, Canada",12.6,32000
+m4a,Baltimore_Oriole,166528183,732323,https://static.inaturalist.org/sounds/732323.m4a?1686368546,cc-by,sambiology,2023-06-09,"Bear Island, Potomac, MD, US",21.9,44100
+m4a,Baltimore_Oriole,46008688,88943,https://static.inaturalist.org/sounds/88943.m4a?1589574465,cc-by-nc,bborgmannwinter,2020-05-13,"Lee, NH, USA",12.6,44100
+m4a,Baltimore_Oriole,282213123,1472165,https://static.inaturalist.org/sounds/1472165.m4a?1747661163,cc0,garthe,2025-05-18,"Wilson & Courtland, Whitefish Bay, WI 53211, USA",11.4,48000
+m4a,Baltimore_Oriole,364677476,1975577,https://static.inaturalist.org/sounds/1975577.m4a?1779633112,cc-by-nc,jrranger,2026-05-24,"Duck Lake Rd, Park Rapids, MN, US",6.7,44100
+m4a,Baltimore_Oriole,360952329,1946490,https://static.inaturalist.org/sounds/1946490.m4a?1778612819,cc0,bayathread,2026-05-12,"MN-55 W, Mendota Heights, MN, US",19.9,44100
+m4a,Baltimore_Oriole,275872860,1421121,https://static.inaturalist.org/sounds/1421121.m4a?1745861323,cc-by-nc,lsjoquist,2025-04-28,"Winnebago Township, IL, USA",17.4,48000
+m4a,Baltimore_Oriole,76649059,205906,https://static.inaturalist.org/sounds/205906.m4a?1619982239,cc-by-nc,pbartels,2021-05-02,"Buncombe County, NC, USA",9.0,48000
+m4a,Baltimore_Oriole,303293393,1591367,https://static.inaturalist.org/sounds/1591367.m4a?1754182959,cc-by-nc,steeljef,2025-08-02,"South Central Side, Madison, WI, US",10.2,44100
+m4a,Baltimore_Oriole,365590115,1981977,https://static.inaturalist.org/sounds/1981977.m4a?1779843536,cc-by-nc,setophagablue,2026-05-26,"Essex Town, Jericho, VT, USA",9.6,48000
+m4a,Baltimore_Oriole,78585987,219870,https://static.inaturalist.org/sounds/219870.m4a?1620920715,cc-by-nc,caroline60,2021-05-12,"Leeds and Grenville United Counties, ON, Canada",21.2,32000
+m4a,Baltimore_Oriole,78841905,221788,https://static.inaturalist.org/sounds/221788.m4a?1621092140,cc-by-nc,jongelhaus,2021-05-15,"Round Hill Rd, Voorhees, NJ, US",36.8,44100
+m4a,Baltimore_Oriole,78118793,216515,https://static.inaturalist.org/sounds/216515.m4a?1620590343,cc-by-nc,clreuss28,2021-05-09,"Green Country Rd, Waukesha, WI, US",14.4,44100
+m4a,Baltimore_Oriole,78999088,223052,https://static.inaturalist.org/sounds/223052.m4a?1621178194,cc-by-nc,lily_rubybvs,2021-05-16,"County Rd 509, McDonald's Corners, ON, CA",2.4,44100
+m4a,Baltimore_Oriole,214186933,1023794,https://static.inaturalist.org/sounds/1023794.m4a?1715090237,cc-by-nc,bpjenkins,2024-05-07,"Massachusetts, US",11.4,44100
+m4a,Baltimore_Oriole,163725984,712312,https://static.inaturalist.org/sounds/712312.m4a?1685055599,cc-by-nc,bkatzenberg,2023-05-25,"Moon Hill Rd, Lexington, MA, US",13.7,44100
+m4a,Baltimore_Oriole,287420273,1509126,https://static.inaturalist.org/sounds/1509126.m4a?1749248420,cc-by-nc,krmartin,2025-06-06,"Stand Rock Rd, Wisconsin Dells, WI, US",36.3,44100
+m4a,Baltimore_Oriole,210876654,996674,https://static.inaturalist.org/sounds/996674.m4a?1714317748,cc-by-nc,greengirrl,2024-04-28,"United States Capitol, Washington, DC, US",35.3,44100
+m4a,Baltimore_Oriole,163797598,712800,https://static.inaturalist.org/sounds/712800.m4a?1685102657,cc-by-nc,kvanosch,2023-05-26,"Concession Rd 5, Kawartha Lakes, ON, CA",17.7,44100
+m4a,Baltimore_Oriole,116809940,436290,https://static.inaturalist.org/sounds/436290.m4a?1652436119,cc-by-nc,sanchoaz5,2022-05-13,"Brooks St, Medford, MA, US",34.8,44100
+m4a,Baltimore_Oriole,117295196,440687,https://static.inaturalist.org/sounds/440687.m4a?1652702304,cc-by-nc,telusflp,2022-05-16,"La Prairie, QC J5R 6N6, Canada",8.3,44100
+m4a,Baltimore_Oriole,362133526,1955415,https://static.inaturalist.org/sounds/1955415.m4a?1778964480,cc-by-nc,mgambs,2026-05-16,"Starved Rock State Park, Ottawa, IL, US",14.8,44100
+m4a,Baltimore_Oriole,216192373,1041970,https://static.inaturalist.org/sounds/1041970.m4a?1715895433,cc-by-nc,sophiasperd,2024-05-16,"Schmeeckle Reserve, Stevens Point, WI, US",45.1,44100
+m4a,Baltimore_Oriole,79945822,230569,https://static.inaturalist.org/sounds/230569.m4a?1621780640,cc-by-nc,ccfisher,2021-05-22,"Wahpeton, IA, USA",20.1,44100
+m4a,Baltimore_Oriole,80430169,235129,https://static.inaturalist.org/sounds/235129.m4a?1622081743,cc-by-nc,ben__simms,2021-05-26,"Shawnee, KS, USA",10.8,48000
+m4a,Baltimore_Oriole,79978032,230842,https://static.inaturalist.org/sounds/230842.m4a?1621791642,cc-by-nc,jimbogecko,2021-05-23,"Burncoat Park/Town Park, Leicester, MA, US",23.8,44100
+m4a,Baltimore_Oriole,80114583,231880,https://static.inaturalist.org/sounds/231880.m4a?1621872606,cc-by-nc,jack_london,2021-05-24,"Club de Golf de la Vallée Des Forts, St-Blaise-sur-Richelieu",18.1,44100
+m4a,Baltimore_Oriole,116322929,432130,https://static.inaturalist.org/sounds/432130.m4a?1652125602,cc-by-nc,liviaantony,2022-05-09,west don parkland,27.5,44100
+m4a,Baltimore_Oriole,117751475,443937,https://static.inaturalist.org/sounds/443937.m4a?1652980030,cc-by-nc,davewood,2022-05-19,"Sligo Creek Pkwy, Silver Spring, MD, US",19.6,44100
+m4a,Baltimore_Oriole,76330817,203403,https://static.inaturalist.org/sounds/203403.m4a?1619910071,cc-by-nc,carlyexplores,2021-05-01,"California Rd, Bronxville, NY, US",7.5,44100
+m4a,Baltimore_Oriole,280972919,1461213,https://static.inaturalist.org/sounds/1461213.m4a?1747214746,cc-by-nc,rbortolus,2025-05-13,"Mississauga, ON L5V 1S3, Canada",12.6,44100
+m4a,Baltimore_Oriole,117917186,445128,https://static.inaturalist.org/sounds/445128.m4a?1653080623,cc-by-nc,analocci,2022-05-20,"Schlather Ln, Rocky River, OH, US",4.1,44100
+m4a,Baltimore_Oriole,162713462,705301,https://static.inaturalist.org/sounds/705301.m4a?1684605904,cc-by-nc,mllekarine,2023-05-20,"Ste-Sabine, QC, CA",17.8,44100
+m4a,Baltimore_Oriole,221387919,1083946,https://static.inaturalist.org/sounds/1083946.m4a?1717875563,cc-by,bathroomstahl,2024-06-08,"1500E, Bath, IL, US",9.6,44100
+m4a,Baltimore_Oriole,360908416,1946200,https://static.inaturalist.org/sounds/1946200.m4a?1778603382,cc-by-nc,blbestari,2026-05-12,"York Rd, Guelph, ON, CA",16.7,44100
+m4a,Baltimore_Oriole,117580050,442701,https://static.inaturalist.org/sounds/442701.m4a?1652876326,cc-by-nc,lisakschnell,2022-05-18,"Hottenstein Rd, Kutztown, PA, US",79.2,44100
+m4a,Baltimore_Oriole,117023787,438267,https://static.inaturalist.org/sounds/438267.m4a?1652557549,cc-by-nc,nikitacoppisetti,2022-05-14,"Bear Mountain State Park, Harriman, NY, US",16.1,44100
+m4a,Baltimore_Oriole,168479972,745470,https://static.inaturalist.org/sounds/745470.m4a?1687267736,cc-by-nc,greenesnake,2023-06-19,"Gibson County, TN, USA",23.9,44100
+m4a,Baltimore_Oriole,80249915,233048,https://static.inaturalist.org/sounds/233048.m4a?1621959090,cc-by-nc,bethanysmith512,2021-05-25,"583 3rd Beach Rd, Middletown, RI 02842, USA",11.3,48000
+m4a,Baltimore_Oriole,161578304,696598,https://static.inaturalist.org/sounds/696598.m4a?1684063496,cc-by-nc,btmoyers,2023-05-14,"Boston, MA 02125, USA",34.2,44100
+m4a,Baltimore_Oriole,215015548,1031793,https://static.inaturalist.org/sounds/1031793.m4a?1715440938,cc-by-nc,audreym25,2024-05-11,"Victoriaville, QC, Canada",20.0,48000
+m4a,Baltimore_Oriole,117198436,439852,https://static.inaturalist.org/sounds/439852.m4a?1652644953,cc-by-nc,julie-c,2022-05-15,"Watertown, MA, USA",9.5,48000
+m4a,Baltimore_Oriole,284383565,1486956,https://static.inaturalist.org/sounds/1486956.m4a?1748295527,cc-by-sa,wildcarrot,2025-05-25,"Big Stone County, US-MN, US",21.6,44100
+m4a,Baltimore_Oriole,79464107,226750,https://static.inaturalist.org/sounds/226750.m4a?1621467910,cc-by-nc,smharris,2021-05-19,"Wascana Centre, Regina, SK, CA",30.7,44100
+m4a,Baltimore_Oriole,219577129,1070652,https://static.inaturalist.org/sounds/1070652.m4a?1717179154,cc-by-nc,josiah_vanegmond,2024-05-31,"Grasslands, CA-SK-TR, CA-SK, CA",28.6,44100
+m4a,Baltimore_Oriole,358940101,1931062,https://static.inaturalist.org/sounds/1931062.m4a?1778081368,cc-by-nc,resfrequencies,2026-05-06,"Margaretta Township, Castalia, OH, US",11.9,44100
+m4a,Baltimore_Oriole,280875768,1460357,https://static.inaturalist.org/sounds/1460357.m4a?1747173116,cc-by-nc,mhbastian,2025-05-13,"Toronto, CA-ON, CA",22.2,44100
+m4a,Baltimore_Oriole,120185624,461186,https://static.inaturalist.org/sounds/461186.m4a?1654362780,cc-by-nc,cschell22,2022-06-04,"Bluff Point Coastal Reserve, New London, CT, US",3.4,44100
+m4a,Baltimore_Oriole,118218022,447377,https://static.inaturalist.org/sounds/447377.m4a?1653239044,cc-by-nc,breanddave,2022-05-22,"Orland Lake, Orland Park, IL, US",10.7,44100
+m4a,Baltimore_Oriole,117649803,443215,https://static.inaturalist.org/sounds/443215.m4a?1652909825,cc-by-nc,wilpersm,2022-05-18,"Wheaton, IL 60189, USA",60.8,32000
+m4a,Baltimore_Oriole,161282367,694195,https://static.inaturalist.org/sounds/694195.m4a?1683920435,cc-by-nc,entzion,2023-05-12,"Crystal Hills Dr, Pelican Rapids, MN, US",17.4,44100
+m4a,Baltimore_Oriole,279952104,1452617,https://static.inaturalist.org/sounds/1452617.m4a?1746888868,cc-by-nc,midwesternjonas,2025-05-10,"Dorchester, WI 54425, USA",17.7,48000
+m4a,Baltimore_Oriole,355446865,1903604,https://static.inaturalist.org/sounds/1903604.m4a?1777306439,cc-by-nc,cmurphy10,2026-04-27,"Woodsboro, MD, US",10.8,44100
+m4a,Baltimore_Oriole,162002513,699947,https://static.inaturalist.org/sounds/699947.m4a?1684257970,cc-by-nc,mrmeyer55,2023-05-16,"Valley Trail Rd, Rockford, IL, US",92.9,44100
+m4a,Baltimore_Oriole,216755897,1046742,https://static.inaturalist.org/sounds/1046742.m4a?1716117599,cc-by-nc,gmwood40,2024-05-19,"E Knight Ave, Collingswood, NJ, US",11.6,44100
+m4a,Baltimore_Oriole,274893995,1414320,https://static.inaturalist.org/sounds/1414320.m4a?1745780384,cc-by,tylt,2025-04-27,"Primrose Dr, Columbia, MO, US",9.9,44100
